@@ -10,6 +10,17 @@ redirect_from:
 
 Leonel Merino is a postdoctoral researcher in the Visualization Research Center in the University of Stuttgart. He completed his B.Sc. in the University of Chile in 2006. He received his M.Sc. from the [École des Mines de Nantes](https://web.imt-atlantique.fr/x-info/emoose/) and [Vrije Universiteit Brussel](http://soft.vub.ac.be/soft/) in 2008. He obtained his PhD in Computer Science from the [University of Bern](http://scg.unibe.ch/) in 2018 under the supervision of Prof. Dr. Oscar Nierstrasz.
 
+Program Chair
+======
+  - VISSOFT 2019 - Artifact Evaluation Committee (7th IEEE Working Conference on Software Visualization — Clevelando, OH, USA, September 30 -- October 1, 2018)
+
+Program Committee
+======
+  - VISSOFT 2019 - Artifact Evaluation Committee (6th IEEE Working Conference on Software Visualization — Madrid, Spain, September 24--25, 2018)
+  - VISSOFT 2018 - Artifact Evaluation Committee (6th IEEE Working Conference on Software Visualization — Madrid, Spain, September 24--25, 2018)
+  - VISSOFT 2017 - NIER/TD (5th IEEE Working Conference on Software Visualization — Shanghai, China, September 18-19, 2017)
+  - VISSOFT 2016 - Artifact Evaluation Committee (4th IEEE Working Conference on Software Visualization — Raleigh, North Carolina, USA, October 3-4, 2016)
+
 A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
