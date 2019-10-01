@@ -68,8 +68,8 @@ for pubsource in publist:
         b = bibdata.entries[bib_id].fields
         
         try:
+            #pub_year = str(b["year"])
             pub_year = f'{b["year"]}'
-
             #todo: this hack for month and day needs some cleanup
             if "month" in b.keys(): 
                 if(len(b["month"])<3):
@@ -153,6 +153,7 @@ for pubsource in publist:
 
             with open("../_publications/" + md_filename, 'w') as f:
                 f.write(md)
+            #print(f"{bib_id}for{bib_id} is a portal for {bib_id}.") 
             print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference
         except KeyError as e:
