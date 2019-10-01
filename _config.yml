@@ -85,7 +85,7 @@ author:
   bio              : "Leonel Merino is a postdoctoral researcher in the Visualization Research Center in the University of Stuttgart. He completed his B.Sc. in the University of Chile in 2006. He received his M.Sc. from the Ecole des Mines de Nantes and Vrije Universiteit Brussel in 2008. He obtained his PhD in Computer Science from the University of Bern in 2018 under the supervision of Prof. Dr. Oscar Nierstrasz."
   location         : "Stuttgart, Germany"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=iPYBpsEAAAAJ&hl=en&oi=ao"
   email            :
   researchgate     :  "https://www.researchgate.net/profile/Leonel_Merino"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "leonelmerino"
+  github           : #"leonelmerino"
   google_plus      :
   keybase          :
   instagram        :
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/channel/UC9epq3bLh-3jyNlFC-oMPCg?view_as=subscriber"
+  youtube          : "leonelmerino"
   wikipedia        :
 
 
