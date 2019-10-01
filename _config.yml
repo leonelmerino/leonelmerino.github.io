@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Leonel Merino"
 title_separator          : "-"
 name                     : &name "Leonel Merino"
-description              : &description "personal description"
+description              : &description "Postdoctoral researcher at University of Stuttgart"
 url                      : https://leonelmerino.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "leonelmerino/leonelmerino.github.io"
+repository               : "leonelmerino.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "leonel_merino"
 facebook:
   username               :
   app_id                 :
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Dr. Leonel Merino"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Leonel Merino is a postdoctoral researcher in the Visualization Research Center in the University of Stuttgart. He completed his B.Sc. in the University of Chile in 2006. He received his M.Sc. from the Ecole des Mines de Nantes and Vrije Universiteit Brussel in 2008. He obtained his PhD in Computer Science from the University of Bern in 2018 under the supervision of Prof. Dr. Oscar Nierstrasz."
+  location         : "Stuttgart, Germany"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=iPYBpsEAAAAJ&hl=en&oi=ao"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :  "https://www.researchgate.net/profile/Leonel_Merino"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "leonelmerino"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-5396-487X"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "https://www.youtube.com/channel/UC9epq3bLh-3jyNlFC-oMPCg?view_as=subscriber"
   wikipedia        :
 
 
