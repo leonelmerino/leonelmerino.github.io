@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Leonel Merino is a postdoctoral researcher in the Visualization Research Center in the University of Stuttgart. He completed his B.Sc. in the University of Chile in 2006. He received his M.Sc. from the [École des Mines de Nantes](https://web.imt-atlantique.fr/x-info/emoose/) and [Vrije Universiteit Brussel](http://soft.vub.ac.be/soft/) in 2008. He obtained his PhD in Computer Science from the [University of Bern](http://scg.unibe.ch/) in 2018 under the supervision of Prof. Dr. Oscar Nierstrasz.
+Leonel Merino is a postdoctoral researcher in the [Visualization Research Center](http://visus.uni-stuttgart.de) in the University of Stuttgart. He completed his B.Sc. in the University of Chile in 2006. He received his M.Sc. from the [École des Mines de Nantes](https://web.imt-atlantique.fr/x-info/emoose/) and [Vrije Universiteit Brussel](http://soft.vub.ac.be/soft/) in 2008. He obtained his PhD in Computer Science from the [University of Bern](http://scg.unibe.ch/) in 2018 under the supervision of Prof. Dr. Oscar Nierstrasz.
 
 Program Chair
 ======
