@@ -206,8 +206,8 @@ gtInspectorViewIn: composite
 			dataset := self methods collect: [ :m | 
 					RSEllipse new
 						size: 5;
-						model: (m pragmas first methodClass new perform:
-							m pragmas first methodSelector) ].
+						model: (m pragmas first methodClass new 
+						perform: m pragmas first methodSelector) ].
 
 			"c is a canvas. This is where we can draw"
 			c := RSCanvas new.
