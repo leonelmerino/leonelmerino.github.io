@@ -222,9 +222,11 @@ gtInspectorViewIn: composite
 ![alt text](../images/tutorial6.png)
 
 ## Resources
-* [https://github.com/ObjectProfile/Roassal3Documentation]
-* [https://github.com/ObjectProfile/Roassal3/wiki]
+* [https://github.com/ObjectProfile/Roassal3Documentation](https://github.com/ObjectProfile/Roassal3Documentation)
+* [https://github.com/ObjectProfile/Roassal3/wiki](https://github.com/ObjectProfile/Roassal3/wiki)
 
 Leonel Merino
-[http://leonelmerino.github.io/]
+
+[http://leonelmerino.github.io/](http://leonelmerino.github.io/)
+
 21-Oct-2020
