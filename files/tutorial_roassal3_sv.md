@@ -17,7 +17,8 @@ Metacello new
 
 ```Smalltalk
 "Each class is represented as a small circle"
-dataset := RSObject withAllSubclasses collect: [ :c | RSEllipse new size: 5; color: Color gray ].
+dataset := RSObject withAllSubclasses 
+	collect: [ :c | RSEllipse new size: 5; color: Color gray ].
 
 "c is a canvas. This is where we can draw"
 c := RSCanvas new.
@@ -203,10 +204,10 @@ gtInspectorViewIn: composite
 			| c dataset |
 			"Each class is represented as a small circle"
 			dataset := self methods collect: [ :m | 
-					           RSEllipse new
-						           size: 5;
-						           model: (m pragmas first methodClass new perform:
-									            m pragmas first methodSelector) ].
+					RSEllipse new
+						size: 5;
+						model: (m pragmas first methodClass new perform:
+							m pragmas first methodSelector) ].
 
 			"c is a canvas. This is where we can draw"
 			c := RSCanvas new.
