@@ -152,7 +152,8 @@ c @ RSCanvasController.
 5. We now only include in the visualization classes that contain examples.
 ```Smalltalk
 "Each class is represented as a small circle"
-dataset := (RSObject withAllSubclasses select: [ :c | ('*Example*' match: c name)]) collect:[:c| RSEllipse new model: c] as: RSGroup.
+dataset := (RSObject withAllSubclasses select: 
+	[ :c | ('*Example*' match: c name)]) collect:[:c| RSEllipse new model: c] as: RSGroup.
 
 "c is a canvas. This is where we can draw"
 c := RSCanvas new.
