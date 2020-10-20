@@ -1,5 +1,10 @@
 # Tutorial - Roassal3 - Software Visualization
-In this tutorial, you will learn how to use Roassal3 to build software visualizations. Roassal3 is already included in Pharo 9. However, if you prefer to use Pharo 8, you can install Roassal3 by executing the following code snippet in a Playground.
+
+## How to Install
+In this tutorial you will learn how to use Roassal3 to build software visualizations. Roassal3 is already included in Pharo 9. However, please install the full version of it (see below). 
+![alt text](../images/tutorial0.png)
+
+Otherwise you can use Pharo 8. You can install Roassal3 by executing the following code snippet in a Playground.
 
 ```Smalltalk
 Metacello new
@@ -7,7 +12,7 @@ Metacello new
     repository: 'github://ObjectProfile/Roassal3:v0.9.5';
     load.
 ```
-
+## Hands-on Session
 1. In our first task, we have to create circles to represent the elements in the dataset. Then, we add the circles to the canvas, set a layout, and define simple interactions.
 
 ```Smalltalk
@@ -215,3 +220,11 @@ gtInspectorViewIn: composite
 			c ]
 ```
 ![alt text](../images/tutorial6.png)
+
+## Resources
+* [https://github.com/ObjectProfile/Roassal3Documentation]
+* [https://github.com/ObjectProfile/Roassal3/wiki]
+
+Leonel Merino
+[http://leonelmerino.github.io/]
+21-Oct-2020
