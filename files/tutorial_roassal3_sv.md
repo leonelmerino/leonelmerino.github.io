@@ -186,15 +186,21 @@ c @ RSCanvasController.
 ```
 ![alt text](../images/tutorial5.png)
 
-6. Next we create a browser of visualization examples. We add the method `RSAbstractExamples>>gtInspectorViewIn`.
+6. Finally, we create a browser of visualization examples. We add the method `RSAbstractExamples>>gtInspectorViewIn`.
 ```Smalltalk
 gtInspectorViewIn: composite
+
 	<gtInspectorPresentationOrder: -10>
 	composite roassal3
 		title: 'View';
-		initializeCanvas: [|c dataset|
+		initializeCanvas: [ 
+			| c dataset |
 			"Each class is represented as a small circle"
-			dataset := self methods collect: [ :m | RSEllipse new size: 5; model: m ].
+			dataset := self methods collect: [ :m | 
+					           RSEllipse new
+						           size: 5;
+						           model: (m pragmas first methodClass new perform:
+									            m pragmas first methodSelector) ].
 
 			"c is a canvas. This is where we can draw"
 			c := RSCanvas new.
@@ -202,12 +208,10 @@ gtInspectorViewIn: composite
 
 			"All classes are displayed using a grid layout"
 			RSGridLayout on: dataset.
-		
+
 			"The canvas can be zoomed in / out using keys I and O"
 			"It can also be navigated using scrollbars"
-			c @ RSCanvasController. 
-			c]
+			c @ RSCanvasController.
+			c ]
 ```
 ![alt text](../images/tutorial6.png)
-
-7. 
