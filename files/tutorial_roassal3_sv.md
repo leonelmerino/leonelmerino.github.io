@@ -1,13 +1,9 @@
-# Tutorial 01 - Adding Simple Nodes, Edges, and Layout
+# Tutorial - Roassal3 - Software Visualization
+In this is tutorial, you will learn how to use Roassal3 to build software visualizations. Roassal3 is included in Pharo 9. If you prefer to use Pharo 8, you can install it by executing the following code snippet in a Playground.
 
-This is a tutorial for Roassal3. In order to go through it, you need to have [Pharo](https://pharo.org) installed, and [Roassal3](https://github.com/ObjectProfile/Roassal3) installed.
-
-This tutorial involves some data manipulation. We will use the dataset of [Les Miserables](https://github.com/bergel/LesMiserables), which can be loaded in Pharo using:
-
-```Smalltalk
-Metacello new
-    baseline: 'LesMiserables';
-    repository: 'github://bergel/LesMiserables';
+```Metacello new
+    baseline: 'Roassal3';
+    repository: 'github://ObjectProfile/Roassal3:v0.9.5';
     load.
 ```
 
