@@ -102,4 +102,112 @@ c @ RSCanvasController.
 ```
 ![alt text](../images/tutorial3.png)
 
-4. 
+4. We now apply a more suitable layout, improve the edges, and limit the size of nodes.
+```Smalltalk
+"Each class is represented as a small circle"
+dataset := RSObject withAllSubclasses collect: [ :c | RSEllipse new model: c] as: RSGroup.
+
+"c is a canvas. This is where we can draw"
+c := RSCanvas new.
+c addAll: dataset.
+
+"We normalize the size of the circles with the number of methods of classes"
+RSNormalizer size
+	shapes: dataset;
+	to: 20;
+	normalize: #numberOfMethods.
+
+"We normalize the size of the circles with the number of lines of code of classes"
+RSNormalizer color
+	shapes: dataset;
+	from: Color veryVeryLightGray;
+	to: Color black;
+	normalize: #numberOfLinesOfCode.
+
+RSEdgeBuilder line
+		color: Color blue;
+		canvas: c;
+		shapes: dataset;
+		width: 0.1;
+		connectFrom: #superclass.
+c edges pushBack.
+		
+"All classes are displayed using a grid layout"
+RSForceBasedLayout new charge: -70; on: dataset.
+
+"Make each element have a popup text and allow it to be dragged"
+dataset @ RSPopup @ RSDraggable.
+
+"The canvas can be zoomed in / out using keys I and O"
+"It can also be navigated using scrollbars"
+c @ RSCanvasController.
+```
+![alt text](../images/tutorial4.png)
+
+5. We now only include in the visualization classes that contain examples.
+```Smalltalk
+"Each class is represented as a small circle"
+dataset := (RSObject withAllSubclasses select: [ :c | ('*Example*' match: c name)]) collect:[:c| RSEllipse new model: c] as: RSGroup.
+
+"c is a canvas. This is where we can draw"
+c := RSCanvas new.
+c addAll: dataset.
+
+"We normalize the size of the circles with the number of methods of classes"
+RSNormalizer size
+	shapes: dataset;
+	to: 20;
+	normalize: #numberOfMethods.
+
+"We normalize the size of the circles with the number of lines of code of classes"
+RSNormalizer color
+	shapes: dataset;
+	from: Color veryVeryLightGray;
+	to: Color black;
+	normalize: #numberOfLinesOfCode.
+
+RSEdgeBuilder line
+		color: Color blue;
+		canvas: c;
+		shapes: dataset;
+		width: 0.1;
+		connectFrom: #superclass.
+c edges pushBack.
+		
+"All classes are displayed using a grid layout"
+RSForceBasedLayout new charge: -70; on: dataset.
+
+"Make each element have a popup text and allow it to be dragged"
+dataset @ RSPopup @ RSDraggable @ (RSLabeled new fontSize: 2) .
+
+"The canvas can be zoomed in / out using keys I and O"
+"It can also be navigated using scrollbars"
+c @ RSCanvasController.
+```
+![alt text](../images/tutorial5.png)
+
+6. Next we create a browser of visualization examples. We add the method `RSAbstractExamples>>gtInspectorViewIn`.
+```Smalltalk
+gtInspectorViewIn: composite
+	<gtInspectorPresentationOrder: -10>
+	composite roassal3
+		title: 'View';
+		initializeCanvas: [|c dataset|
+			"Each class is represented as a small circle"
+			dataset := self methods collect: [ :m | RSEllipse new size: 5; model: m ].
+
+			"c is a canvas. This is where we can draw"
+			c := RSCanvas new.
+			c addAll: dataset.
+
+			"All classes are displayed using a grid layout"
+			RSGridLayout on: dataset.
+		
+			"The canvas can be zoomed in / out using keys I and O"
+			"It can also be navigated using scrollbars"
+			c @ RSCanvasController. 
+			c]
+```
+![alt text](../images/tutorial6.png)
+
+7. 
