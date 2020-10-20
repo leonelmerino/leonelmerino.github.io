@@ -60,3 +60,46 @@ dataset @ RSPopup @ RSDraggable.
 "It can also be navigated using scrollbars"
 c @ RSCanvasController.
 ```
+![alt text](../images/tutorial2.png)
+
+3. Now we add edges to identify class hierarchies.
+```Smalltalk
+"Each class is represented as a small circle"
+dataset := RSObject withAllSubclasses collect: [ :c | RSEllipse new model: c] as: RSGroup.
+
+"c is a canvas. This is where we can draw"
+c := RSCanvas new.
+c addAll: dataset.
+
+"We normalize the size of the circles with the number of methods of classes"
+RSNormalizer size
+	shapes: dataset;
+	normalize: #numberOfMethods.
+
+"We normalize the size of the circles with the number of lines of code of classes"
+RSNormalizer color
+	shapes: dataset;
+	from: Color veryVeryLightGray;
+	to: Color black;
+	normalize: #numberOfLinesOfCode.
+
+RSEdgeBuilder line
+		color: Color gray;
+		canvas: c;
+		shapes: dataset;
+		connectFrom: #superclass.
+c edges pushBack.
+		
+"All classes are displayed using a grid layout"
+RSGridLayout on: dataset.
+
+"Make each element have a popup text and allow it to be dragged"
+dataset @ RSPopup @ RSDraggable.
+
+"The canvas can be zoomed in / out using keys I and O"
+"It can also be navigated using scrollbars"
+c @ RSCanvasController.
+```
+![alt text](../images/tutorial3.png)
+
+4. 
