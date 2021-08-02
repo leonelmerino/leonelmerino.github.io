@@ -8,11 +8,25 @@ redirect_from:
   - /about.html
 ---
 
-Leonel Merino is a postdoctoral researcher in the [Visualization Research Center](http://visus.uni-stuttgart.de) in the University of Stuttgart. He completed his B.Sc. in the University of Chile in 2006. He received his M.Sc. from the [École des Mines de Nantes](https://web.imt-atlantique.fr/x-info/emoose/) and [Vrije Universiteit Brussel](http://soft.vub.ac.be/soft/) in 2008. He obtained his PhD in Computer Science from the [University of Bern](http://scg.unibe.ch/) in 2018 under the supervision of Prof. Dr. Oscar Nierstrasz.
+
+Leonel Merino is an Assistant Professor at the [School of Design](https://diseno.uc.cl) and the [School of Engineering](https://www.ing.puc.cl/) of the Pontificia Universidad Católica de Chile, since 2021.
+
+Since 2020, he is a member of the steering committee of [VISSOFT](https://vissoft.info/), the leading international conference in software visualization. His research interests lie at the intersection of the use of virtual and augmented reality, software engineering, human-computer interaction, data visualization and evaluations with users.
+
+Since 2018 he was a Postdoctoral Research Fellow at the Visualization Research Center ([VISUS](http://visus.uni-stuttgart.de/)), Universitaet Stuttgart.
+
+From 2014 to 2018, he worked as a Research Assistant at the Software Composition Group ([SCG](http://scg.unibe.ch/)) and obtained a PhD degree in Computer Science at Universitaet Bern.
+
+He worked as a Project Engineer at [ENTEL](https://entel.cl/) between 2009 and 2014. Previously, he received a Master's degree in Computer Science, in the EMOOSE program, from the [École des Mines de Nantes](https://web.imt-atlantique.fr/x-info/emoose/) and [Vrije Universiteit Brussel](http://soft.vub.ac.be/soft/), in 2008.
+
+He obtained a B.Sc. degree in Engineering Sciences and the Professional Degree of Civil Engineer in Computer Science from the [University of Chile](https://dcc.uchile.cl/), in 2006.
+
 
 Program Chair
 ======
+  - VISSOFT 2021 - Program Co-Chair (9th IEEE Working Conference on Software Visualization — Luxembourg City, Luxembourg, September 27 -- 28, 2021)
   - VISSOFT 2020 - NIER/Tool Demo Track (8th IEEE Working Conference on Software Visualization — Adelaide, Australia, September 28 -- 29, 2020)
+  - NIP 2020 - (First International Workshop on New Interfaces for Programming — Porto, Portugal, March 24, 2020)
   - VISSOFT 2019 - Artifact Evaluation Committee (7th IEEE Working Conference on Software Visualization — Clevelando, OH, USA, September 30 -- October 1, 2019)
 
 Program Committee
@@ -25,11 +39,11 @@ Program Committee
 
 Reviewer
 ======
-Journal of Software and Systems (2020)
-Transactions of Visualization and Computer Graphics (2019)
+Journal of Software and Systems
+Transactions of Visualization and Computer Graphics
+Information Software Technology
 SEAA (2019, 2020)
 IEEE VR (2018)
-Information Software Technology (2017)
 VISSOFT (2015, 2019)
 VISSOFT NIER/TD (2016-2017)
 SANER (2015-2018)
@@ -40,7 +54,9 @@ SATToSE (2014)
 
 Student Supervision
 ======
-  - Niklas Gärtner. Exploring Interaction Modalities for Situated Visualization. Bachelor's thesis, 2020 (expected).
+  - Sarah Dosdall. On-the-go Authoring Visualizations through Wearable Keyboards. Bachelor's thesis, (expected) 2021.
+  - Till Mayer. Agile Situated Visualization. Bachelor's thesis, (expected) 2021.
+  - Niklas Gärtner. [Exploring Interaction Modalities for Situated Visualization](https://elib.uni-stuttgart.de/handle/11682/11402). Bachelor's thesis, 2020.
   - Mario Hess. [Pervasive Visualization in Augmented Reality for Software Monitoring](http://scg.unibe.ch/wiki/projects/mastersbachelorsprojects/pervasive-visualization-in-ar-for-software-monitoring). Bachelor's thesis, 2018. Alumni prize award. [Presentation](http://scg.unibe.ch/wiki/alumni/MarioHess)
   - Silas David Berger. [Visually Exploring Scientific Communities] -- Extending EggShell's Model and Visualization](http://scg.unibe.ch/archive/projects/Berg17a.pdf). Bachelor's thesis, 2017. [Website](http://vmsc-thesis.blogspot.ch)
   - Dominik Seliner. [EggShell -- A workbench for modeling scientific communities](http://scg.unibe.ch/archive/projects/Seli16a.pdf). Bachelor's thesis, 2016. [Website](https://bachelorprojectblog.wordpress.com)
@@ -59,7 +75,7 @@ Presentation Slides
   - [The Medium of Visualization for Software Comprehension -- PhD dissertation, University of Bern, 2018](https://www.slideshare.net/LeonelMerino/the-medium-of-visualization-for-software-comprehension-229801022)
   - [Overcoming Issues of 3D Software Visualization through Immersive Augmented Reality -- VISSOFT 2018](https://www.slideshare.net/LeonelMerino/overcoming-issues-of-3d-software-visualization-through-immersive-augmented-reality)
   - [The medium of Visualization for Software Comprehension -- DLR, 2018 (invited talk)](http://www.slideshare.net/LeonelMerino/the-medium-of-visualization-for-software-comprehension)
-  - [On the Impact of the Medium in the Effectiveness of 3D Software Visualization -- VISSOFT 2017](https://www.slideshare.net/LeonelMerino/mediavis-vissoft-2017-82154302)
+  - [On the Impact of the Medium in the Effectiveness of 3D Software Visualization -- VISSOFT 2017](https://www.slideshare.net/LeonelMerino/mediavis-vissoft-2017-82154302) 
   - [CityVR: Gameful Software Visualization -- ICSME 2017](https://www.slideshare.net/LeonelMerino/cityvr-icsme-2017-82154388)
   - [Actionable Software Visualization -- VISSOFT 2016](https://www.slideshare.net/LeonelMerino/actionable-software-visualization-vissoft-2016)
   - [Towards Suitable Automatic Software Visualization -- Como 2016](https://www.slideshare.net/secret/K4czFniny3XmeT)
