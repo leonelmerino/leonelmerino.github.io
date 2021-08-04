@@ -9,11 +9,11 @@ redirect_from:
 ---
 
 
-Leonel Merino is Assistant Professor of Engineering Design at the [School of Design](https://diseno.uc.cl) and the [School of Engineering](https://www.ing.puc.cl/) of the Pontificia Universidad Católica de Chile, since 2021. He is part of the Engineering Design Lab-[DILAB](https://dilab-uc.cl/).
+Leonel Merino is Assistant Professor of Engineering Design at the [School of Design](https://diseno.uc.cl) and the [Faculty of Engineering](https://www.ing.puc.cl/) of the Pontifical Catholic University of Chile, since 2021. He is part of the Engineering Design Lab-[DILAB](https://dilab-uc.cl/).
 
-Since 2020, he is a member of the steering committee of [VISSOFT](https://vissoft.info/), the leading international conference in software visualization. His research interests lie at the intersection of the use of virtual and augmented reality, software engineering, human-computer interaction, data visualization, and evaluations with users.
+Between 2018 and 2021, he was a Postdoctoral Research Fellow at the Visualization Research Center ([VISUS](http://visus.uni-stuttgart.de/)), Universitaet Stuttgart.
 
-Since 2018 he was a Postdoctoral Research Fellow at the Visualization Research Center ([VISUS](http://visus.uni-stuttgart.de/)), Universitaet Stuttgart.
+Since 2020, Prof. Merino is a member of the steering committee of [VISSOFT](https://vissoft.info/), the leading international conference in software visualization. His research interests lie at the intersection of the use of virtual and augmented reality, software engineering, human-computer interaction, data visualization, and evaluations with users.
 
 From 2014 to 2018, he worked as a Research Assistant at the Software Composition Group ([SCG](http://scg.unibe.ch/)) and obtained a Ph.D. degree in Computer Science at Universitaet Bern.
 
