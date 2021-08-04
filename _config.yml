@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Leonel Merino"
 title_separator          : "-"
 name                     : &name "Leonel Merino"
-description              : &description "Postdoctoral researcher at University of Stuttgart"
+description              : &description "Assistant Professor at Pontifical Catholic University of Chile"
 url                      : https://leonelmerino.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "leonelmerino.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Dr. Leonel Merino"
   avatar           : "profile.png"
-  bio              : "Leonel Merino is a postdoctoral researcher in the Visualization Research Center in the University of Stuttgart. He completed his B.Sc. in the University of Chile in 2006. He received his M.Sc. from the Ecole des Mines de Nantes and Vrije Universiteit Brussel in 2008. He obtained his PhD in Computer Science from the University of Bern in 2018 under the supervision of Prof. Dr. Oscar Nierstrasz."
-  location         : "Stuttgart, Germany"
-  employer         : University of Stuttgart
+  bio              : "Leonel Merino is Assistant Professor of Engineering Design at the [School of Design](https://diseno.uc.cl) and the [School of Engineering](https://www.ing.puc.cl/) of the Pontifical Catholic University of Chile, since 2021. He is part of the Engineering Design Lab-[DILAB](https://dilab-uc.cl/)."
+  location         : "Santiago, Chile"
+  employer         : "Pontifical Catholic University of Chile"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=iPYBpsEAAAAJ&hl=en&oi=ao"
-  email            : leonel.merino@visus.uni-stuttgart.de
+  email            : leonel.merino@uc.cl
   researchgate     :  "https://www.researchgate.net/profile/Leonel_Merino"
   uri              :
   bitbucket        :
