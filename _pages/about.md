@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Leonel Merino is Assistant Professor of Engineering Design at the [School of Design](https://diseno.uc.cl) and the [Faculty of Engineering](https://www.ing.puc.cl/) of the Pontifical Catholic University of Chile, since 2021. He is part of the [Design Engineering Lab](https://dilab-uc.cl/)).
+Leonel Merino is Assistant Professor of Engineering Design at the [School of Design](https://diseno.uc.cl) and the [Faculty of Engineering](https://www.ing.puc.cl/) of the Pontifical Catholic University of Chile, since 2021. He is part of the [Design Engineering Lab](https://dilab-uc.cl/)). 
 
 Between 2018 and 2021, he was a Postdoctoral Research Fellow at the Visualization Research Center ([VISUS](http://visus.uni-stuttgart.de/)), Universitaet Stuttgart.
 
