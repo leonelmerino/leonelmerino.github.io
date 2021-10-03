@@ -1,0 +1,369 @@
+#,SCG Bibtex,Type,Title,First Author,Second Author,Third Author,Fourth Author,Fifth Author,Sixth Author,Seven Author,Eighth Author,Nineth Author,Tenth Author,Eleventh Author,Twelveth Author,Year,Venue
+155,Purc02a,Paper,UML collaboration diagram syntax: an empirical study of comprehension ,"Purchase, H.C.","Colpoys, L.","McGill, M.","Carrington, D.",,,,,,,,,2002,VISSOFT
+1,Saja03a,Paper,Program animation based on the roles of variables,"Sajaniemi, J.","Kuittinen, M.",,,,,,,,,,,2003,SOFTVIS
+2,Elmq03a,Paper,Growing squares: animated visualization of causal relations,"Elmqvist, N.","Tsigas, P.",,,,,,,,,,,2003,SOFTVIS
+3,Marc03a,Paper,3D representations for software visualization,"Marcus, A.","Feng, L.","Maletic, J.I.",,,,,,,,,,2003,SOFTVIS
+4,Wang03a,Paper,EVolve: an open extensible software visualization framework,"Wang, Q.","Wang, W.","Brown, R.","Driesen, K.","Dufour, B.","Hendren, L.","Verbrugge, C.",,,,,,2003,SOFTVIS
+5,Lint03a,Paper,Plugging-in visualization: experiences integrating a visualization tool with Eclipse,"Lintern, R.","Michaud, J.","Storey, M.-A.","Wu, X.",,,,,,,,,2003,SOFTVIS
+6,Reis03a,Paper,Visualizing Java in action,"Reiss, S.P.",,,,,,,,,,,,2003,SOFTVIS
+7,Orso03a,Paper,Visualization of program-execution data for deployed software,"Orso, A.","Jones, J.","Harrold, M.J.",,,,,,,,,,2003,SOFTVIS
+8,Coll03a,Paper,A system for graph-based visualization of the evolution of software,"Collberg, C.","Kobourov, S.","Nagra, J.","Pitts, J.","Wampler, K.",,,,,,,,2003,SOFTVIS
+9,Griss03a,Paper,Algorithm visualization in CS education: comparing levels of student engagement,"Grissom, S.","McNally, M.F.","Naps, T.",,,,,,,,,,2003,SOFTVIS
+10,Hubs03a,Paper,Dancing hamsters and marble statues: characterizing student visualizations of algorithms,"Hubscher-Younger, T.","Narayanan, N.H.",,,,,,,,,,,2003,SOFTVIS
+11,Tudo03a,Paper,Designing effective program visualization tools for reducing user's cognitive effort,"Tudoreanu, M.E.",,,,,,,,,,,,2003,SOFTVIS
+12,Jaco03a,Paper,Interactive visual debugging with UML,"Jacobs, T.","Musial, B.",,,,,,,,,,,2003,SOFTVIS
+13,Ruth03a,Paper,End-user software visualizations for fault localization,"Ruthruff, J.","Creswick, E.","Burnett, M.","Cook, C.","Prabhakararao, S.","Fisher,II, M.","Main, M.",,,,,,2003,SOFTVIS
+14,Mu03a,Paper,Interactive locality optimization on NUMA architectures,"Mu, T.","Tao, J.","Schulz, M.","McKee, S.A.",,,,,,,,,2003,SOFTVIS
+15,Zhou03a,Paper,Graph visualization for the analysis of the structure and dynamics of extreme-scale supercomputers,"Zhou, C.","Summers, S.L.","Caudell, T.P.",,,,,,,,,,2003,SOFTVIS
+16,Gasn03a,Paper,Visualizing software for telecommunication services,"Gansner, E.R.","Mocenigo, M.M.","North, S.C.",,,,,,,,,,2003,SOFTVIS
+17,Eich03a,Paper,Nice class diagrams admit good design?,"Eichelberger, H.",,,,,,,,,,,,2003,SOFTVIS
+18,Haus03a,Paper,Visualizing model mappings in UML,"Hausmann, J.H.","Kent, S.",,,,,,,,,,,2003,SOFTVIS
+19,Gutw03a,Paper,A new approach for visualizing UML class diagrams,"Gutwenger, C.","Junger, M.","Klein, K.","Kupke, J.","Leipert, S.","Mutzel, P.",,,,,,,2003,SOFTVIS
+20,Eigl03a,Paper, A topology-shape-metrics approach for the automatic layout of UML class diagrams,"Eiglsperger, M.","Kaufmann, M.","Siebenhaller, M.",,,,,,,,,,2003,SOFTVIS
+21,Balo05a,Paper,Algorithm visualization using concept keyboards,"Baloian, N.","Breuer, H.","Luther, W.",,,,,,,,,,2005,SOFTVIS
+22,Joha05a,Paper,Algorithm animation using shape analysis: visualising abstract executions,"Johannes, D.","Seidel, R.","Wilhelm, R.",,,,,,,,,,2005,SOFTVIS
+23,Ghon05a,Paper,Peeking in solver strategies using explanations visualization of dynamic graphs for constraint programming,"Ghoniem, M.","Cambazard, H.","Fekete, J.-D.","Jussien, N.",,,,,,,,,2005,SOFTVIS
+24,Burc05a,Paper,Visual data mining in software archives,"Burch, M.","Diehl, S.","Weissgerber, P.",,,,,,,,,,2005,SOFTVIS
+25,Voin05a,Paper,CVSscan: visualization of code evolution,"Voinea, L.","Telea, A.","van Wijk, J.J.",,,,,,,,,,2005,SOFTVIS
+26,Orei05a,Paper,The war room command console: shared visualizations for inclusive team coordination,"O'Reilly, C.","Bustard, D.","Morrow, P.",,,,,,,,,,2005,SOFTVIS
+27,Pinz05a,Paper,Visualizing multiple evolution metrics,"Pinzger, M.","Gall, H.","Fischer, M.","Lanza, M.",,,,,,,,,2005,SOFTVIS
+28,Khol05a,Paper,Visual specification and analysis of use cases,"Kholkar, D.","Krishna, K.M.","Shrotri, U.","Venkatesh, R.",,,,,,,,,2005,SOFTVIS
+29,Berg05a,Paper,Towards modeling context-sensitive interactive applications: the context-sensitive user interface profile (CUP),"Van den Bergh, J.","Coninx, K.",,,,,,,,,,,2005,SOFTVIS
+30,Gest05a,Paper,Methodology and architecture of JIVE,"Gestwicki, P.","Jayaraman, B.",,,,,,,,,,,2005,SOFTVIS
+31,Mall05a,Paper,Exploiting UML dynamic object modeling for the visualization of C++ programs,"Malloy, B.A.","Power, P.F.",,,,,,,,,,,2005,SOFTVIS
+32,Reis05a,Paper,Jove: java as it happens,"Reiss, S.P.","Renieris, M.",,,,,,,,,,,2005,SOFTVIS
+33,Bloc05a,Paper,Visualizing structural properties of irregular parallel computations,"Blochinger, W.","Kaufmann, M.","Siebenhaller, M.",,,,,,,,,,2005,SOFTVIS
+34,Cox05a,Paper,Adding parallelism to visual data flow programs,"Cox, P.","Gauvin, S.","Rau-Chaplin, A.",,,,,,,,,,2005,SOFTVIS
+35,Fris05a,Paper,Visualization of mobile object environments,"Frishman, Y.","Tal, A.",,,,,,,,,,,2005,SOFTVIS
+36,Noac05a,Paper,A space of layout styles for hierarchical graph models of software systems,"Noack, A.","Lewerentz, C.",,,,,,,,,,,2005,SOFTVIS
+37,Balz05a,Paper,Voronoi treemaps for the visualization of software metrics,"Balzer, M.","Deussen, O.","Lewerentz, C.",,,,,,,,,,2005,SOFTVIS
+38,Pana05a,Paper,Online-configuration of software visualizations with Vizz3D,"Panas, T.","Lincke, R.","Lowe, W.",,,,,,,,,,2005,SOFTVIS
+39,Deli05a,Paper,Towards understanding programs through wear-based filtering,"DeLine, R.","Khella, A.","Czerwinski, M.","Robertson, G.",,,,,,,,,2005,SOFTVIS
+40,Stor05a,Paper,On the use of visualization to support awareness of human activities in software development: a survey and a framework,"Storey, M.-A.","Cubranc, D.","German, D.M.",,,,,,,,,,2005,SOFTVIS
+41,Wend06a,Paper,The Clack graphical router: visualizing network software,"Wendlandt, D.","Casado, M.","Tarjan, P.","McKeown, N.",,,,,,,,,2006,SOFTVIS
+42,Blum06a,Paper,Narrative algorithm visualization,"Blumenkrants, M.","Starovisky, H.","Shamir, A.",,,,,,,,,,2006,SOFTVIS
+43,Jain06a,Paper,Experimental evaluation of animated-verifying object viewers for Java,"Jain, J.","Cross,II, C.H.","Hendrix, T.D.","Barowski, L.A.",,,,,,,,,2006,SOFTVIS
+44,Pauw06a,Paper,Execution patterns for visualizing web services,"De Pauw, W..","Krasikov, S.","Morar, J.F.",,,,,,,,,,2006,SOFTVIS
+45,Gree06a,Paper,Visualizing live software systems in 3D,"Greevy, O.","Lanza, M.","Wysseier, C.",,,,,,,,,,2006,SOFTVIS
+46,Deme06a,Paper,A data-driven graphical toolkit for software visualization,"Demetrescu, C.","Finocchi, I.",,,,,,,,,,,2006,SOFTVIS
+47,Gauv06a,Paper,"Transparency, holophrasting, and automatic layout applied to control structures for visual dataflow programming languages","Gauvin, S.","Banyasad, O.",,,,,,,,,,,2006,SOFTVIS
+48,Kara06a,Paper,Taxonomy of algorithm animation languages,"Karavirta, V.","Korhonen, A.","Malmi, L.",,,,,,,,,,2006,SOFTVIS
+49,Alsp06a,Paper,Using social agents to visualize software scenarios,"Alspaugh, T.A.","Tomlinson, B.","Baumer, E.",,,,,,,,,,2006,SOFTVIS
+50,Bohn06a,Paper,Visual exploration of function call graphs for feature location in complex software systems,"Bohnet, J.","Dollner, J.",,,,,,,,,,,2006,SOFTVIS
+51,Byel06a,Paper,Visualization of areas of interest in software architecture diagrams,"Byelas, H.","Telea, A.",,,,,,,,,,,2006,SOFTVIS
+52,Voin06b,Paper,Multiscale and multivariate visualizations of software evolution,"Voinea, L.","Telea, A.",,,,,,,,,,,2006,SOFTVIS
+53,Reis06a,Paper,Visualizing program execution using user abstractions,"Reiss, S.P.",,,,,,,,,,,,2006,SOFTVIS
+54,Meye06a,Paper,Mondrian: an agile information visualization framework,"Meyer, M.","Girba, T.","Lungu, M.",,,,,,,,,,2006,SOFTVIS
+55,Fron06a,Challenge,3D visualisation of code structures in Java software systems,"Fronk, A.","Bruckhoff, A.","Kern, M.",,,,,,,,,,2006,SOFTVIS
+56,Voin06a,Challenge,How do changes in buggy Mozilla files propagate?,"Voinea, L.","Telea, A.",,,,,,,,,,,2006,SOFTVIS
+57,Hosk06a,Poster,A tool for visualizing schemas for semistructured data,"Hosking, J.","Khoussainova, N.","Dobbie, G.",,,,,,,,,,2006,SOFTVIS
+58,Tani06a,Poster,A transparent interface to state-space search programs,"Tanimoto, S.L.","Levialdi, S.",,,,,,,,,,,2006,SOFTVIS
+59,Balo06a,Poster,A visualization software for the network simplex algorithm,"Baloukas, T.","Paparrizos, K.",,,,,,,,,,,2006,SOFTVIS
+60,Hund06a,Poster,Adding procedures and pointers to the ALVIS algorithm visualization software: a preliminary design,"Hundhausen, C.D.","Brown, B.L.","Farley, S.",,,,,,,,,,2006,SOFTVIS
+61,Liu06a,Poster,Animation of control flow for low-level debugging,"Liu, H.","Vainstein, F.",,,,,,,,,,,2006,SOFTVIS
+62,Sieb06a,Poster,Drawing activity diagrams,"Siebenhaller, M.","Kaufmann, M.",,,,,,,,,,,2006,SOFTVIS
+63,Ansl06a,Poster,Evaluating X3D for use in software visualization,"Anslow, C.","Marshall, S.","Noble, J.","Biddle, R.",,,,,,,,,2006,SOFTVIS
+64,Wolf06a,Poster,Evolutionary layout of UML class diagrams,"Wolff v. Gudenberg, J.","Niederle, A.","Ebner, M.","Eichelberger, H.",,,,,,,,,2006,SOFTVIS
+65,Juck06b,Poster,Evolutionary layout: preserving the mental map during the development of class models,"Jucknath-John, S.","Graf, D.","Taentzer, G.",,,,,,,,,,2006,SOFTVIS
+66,Juck06a,Poster,Icon graphs: visualizing the evolution of large class models,"Jucknath-John, S.","Graf, D.",,,,,,,,,,,2006,SOFTVIS
+67,Paze06a,Poster,Intentional MPI programming in a visual development environment,"Pazel, D.P.","Tibbitts, T.R.",,,,,,,,,,,2006,SOFTVIS
+68,Parn06a,Poster,Lightweight visualizations for inspecting code smells,"Parnin, C.","Gorg, C.",,,,,,,,,,,2006,SOFTVIS
+69,Saja06a,Poster,Metaphor-based animation of OO programs,"Sajaniemi, J.","Byckling, P.","Gerdt, P.",,,,,,,,,,2006,SOFTVIS
+70,Kerr06a,Poster,Novel algorithm explanation techniques for improving algorithm teaching,"Kerren, A.","Mueldner, T.","Shakshuki, E.",,,,,,,,,,2006,SOFTVIS
+71,Piet06a,Poster,Semantic web data visualization with graph style sheets,"Pietriga, E.",,,,,,,,,,,,2006,SOFTVIS
+72,Lung06a,Poster,Softwarenaut: cutting edge visualization,"Lungu, M.","Lanza, M.",,,,,,,,,,,2006,SOFTVIS
+73,Reed06a,Poster,The effect of comparison cueing and exchange motion on comprehension of program visualizations,"Reed, B.","Rhodes, P.","Kraemer, E.","Davis, E.T.","Hailston, K.",,,,,,,,2006,SOFTVIS
+74,Rhod06a,Poster,The importance of interactive questioning techniques in the comprehension of algorithm animations,"Rhodes, P.","Kraemer, E.","Reed, B.",,,,,,,,,,2006,SOFTVIS
+75,Kahn06a,Poster,Time travelling animated program executions,"Kahn, K.",,,,,,,,,,,,2006,SOFTVIS
+76,Knod06a,Poster,Towards empirically validated software architecture visualization,"Knodel, J.","Muthig, D.","Naab, M.","Zeckzer, D.",,,,,,,,,2006,SOFTVIS
+77,Elmq06a,Poster,TrustNeighborhoods in a nutshell,"Elmqvist, N.","Tsigas, P.",,,,,,,,,,,2006,SOFTVIS
+78,Reic06a,Poster,Two-dimensional C++,"Reichardt, J.",,,,,,,,,,,,2006,SOFTVIS
+79,Giff06a,Poster,Visual snippet editor,"Giffen, P.R.","Proulx, A.","Boo, J.",,,,,,,,,,2006,SOFTVIS
+80,Sing06a,Poster,Visualized adaptive runtime subsystems,"Singer, J.","Kirkham, C.",,,,,,,,,,,2006,SOFTVIS
+81,Lobo06a,Poster,WADEIn II: adaptive explanatory visualization for expressions evaluation,"Loboda, T.D.","Brusilovsky, P.",,,,,,,,,,,2006,SOFTVIS
+82,Stas08a,Keynote,Visualization for information exploration and analysis: keynote presentation,"Stasko, J.",,,,,,,,,,,,2008,SOFTVIS
+83,Xie08a,Paper,Assessing the benefits of synchronization-adorned sequence diagrams: two controlled experiments,"Xie, S.","Kraemer, E.","Stirewalt, R.E.","Dillon, L.K.","Fleming, S.D.",,,,,,,,2008,SOFTVIS
+84,Shah08a,Paper,Visualization of exception handling constructs to support program understanding,"Shah, H.","Gorg, C.","Harrold, M.J.",,,,,,,,,,2008,SOFTVIS
+85,Pich08a,Paper,Visual analysis of importance and grouping in software dependency graphs,"Pich, C.","Nachmanson, L.","Robertson, G.G.",,,,,,,,,,2008,SOFTVIS
+86,Pard08a,Paper,Algorithm visualization using concrete and abstract shape graphs,"Parduhn, S.A.","Seidel, R.","Wilhelm, R.",,,,,,,,,,2008,SOFTVIS
+87,Zeck08a,Paper,Analyzing the reliability of communication between software entities using a 3D visualization of clustered graphs,"Zeckzer, D.","Kalcklosch, R.","Schroder, L.","Hagen, H.","Klein, T.",,,,,,,,2008,SOFTVIS
+88,Sund08a,Paper,"HDPV: interactive, faithful, in-vivo runtime state visualization for C/C++ and Java","Sundararaman, J.","Back, G.",,,,,,,,,,,2008,SOFTVIS
+89,Cott08a,Paper,Representing unit test data for large scale software development,"Cottam, J.A.","Hursey, J.","Lumsdaine, A.",,,,,,,,,,2008,SOFTVIS
+90,Tele08a,Paper,An interactive reverse engineering environment for large-scale C++ code,"Telea, A.","Voinea, L.",,,,,,,,,,,2008,SOFTVIS
+91,Parn08a,Paper,A catalogue of lightweight visualizations to support code smell inspection,"Parnin, C.","Gorg, C.","Nnadi, O.",,,,,,,,,,2008,SOFTVIS
+92,Sens08a,Paper,Classifying desirable features of software visualization tools for corrective maintenance,"Sensalire, M.","Ogao, P.","Telea, A.",,,,,,,,,,2008,SOFTVIS
+93,Diet08a,Paper,Cluster analysis of Java dependency graphs,"Dietrich, J.","Yakovlev, V.","McCartin, C.","Jenson, G.","Duchrow, M.",,,,,,,,2008,SOFTVIS
+94,Pilg08a,Paper,"Gef3D: a framework for two-, two-and-a-half-, and three-dimensional graphical editors","von Pilgrim, J.","Duske, K.",,,,,,,,,,,2008,SOFTVIS
+95,Eich08a,Paper,Automatic layout of UML use case diagrams,"Eichelberger, H.",,,,,,,,,,,,2008,SOFTVIS
+96,Ploeg08a,Paper,Improving an interactive visualization of transition systems,"Ploeger, B.","Tankink, C.",,,,,,,,,,,2008,SOFTVIS
+97,Pauw08a,Paper,Streamsight: a visualization tool for large-scale streaming applications,"De Pauw, W.","Andrade, H.","Amini, L.",,,,,,,,,,2008,SOFTVIS
+98,Subr08a,Paper,Software visualization for end-user programmers: trial period obstacles,"Subrahmaniyan, N.","Burnett, M.","Bogart, C.",,,,,,,,,,2008,SOFTVIS
+99,Hare08a,Paper,Visualizing inter-dependencies between scenarios,"Harel, D.","Segall, I.",,,,,,,,,,,2008,SOFTVIS
+100,Wett08a,Paper,Visually localizing design problems with disharmony maps,"Wettel, R.","Lanza, M.",,,,,,,,,,,2008,SOFTVIS
+101,Bern08a,Paper,Stacked-widget visualization of scheduling-based algorithms,"Bernardin, T.","Budge, B.C.","Hamann, B.",,,,,,,,,,2008,SOFTVIS
+102,Nest08a,Paper,Applying visualisation techniques in software product lines,"Nestor, D.","Thiel, S.","Botterweck, G.","Cawley, C.","Healy, P.",,,,,,,,2008,SOFTVIS
+103,Pana08a,Paper,Signature visualization of software binaries,"Panas, T.",,,,,,,,,,,,2008,SOFTVIS
+104,Ther08a,Paper,Supporting the understanding of the evolution of software items,"Theron, R.","Gonzalez, A.","Garcia, F.J.",,,,,,,,,,2008,SOFTVIS
+105,Savi08a,Paper,Rapid visual design with semantics encoding through 3d CRC cards,"Savidis, A.","Papadakos, P.","Zargianakis, G.",,,,,,,,,,2008,SOFTVIS
+106,Agui08b,Poster,A landscape metaphor for visualization of software projects,"Aguirregoitia, A.","Dolado, D.J.","Presedo, C.",,,,,,,,,,2008,SOFTVIS
+107,Agui08a,Poster,A metro map metaphor for visualization of software projects,"Aguirregoitia, A.","Dolado, D.J.","Presedo, C.",,,,,,,,,,2008,SOFTVIS
+108,Carn08a,Poster,Combining software visualization paradigms to support software comprehension activities,"de F. Carneiro, G.","Magnavita, R.","Mendonca, M.",,,,,,,,,,2008,SOFTVIS
+109,Dach08a,Poster,Enhancing UML sketch tools with digital pens and paper,"Dachselt, R.","Frisch, M.","Decker, E.",,,,,,,,,,2008,SOFTVIS
+110,Byel08a,Poster,Texture-based visualization of metrics on software architectures,"Byelas, H.","Telea, A.",,,,,,,,,,,2008,SOFTVIS
+111,Fris08a,Poster,Towards seamless semantic zooming techniques for UML diagrams,"Frisch, M.","Dachselt, R.","Bruckmann, T.",,,,,,,,,,2008,SOFTVIS
+112,Alme08a,Poster,VAST: visualization of abstract syntax trees within language processors courses,"Almeida-Martinez, F.J.","Urquiza-Fuentes, J.","Velazquez-Iturbide, J.-A",,,,,,,,,,2008,SOFTVIS
+113,Thom08a,Poster,Visualizing the computation tree of the Tutte Polynomial,"Thompson, B.","Pearce, P.J.","Anslow, C.","Haggard, G.",,,,,,,,,2008,SOFTVIS
+114,Ansl08a,Poster,Web software visualization using extensible 3D (X3D) graphics,"Anslow, C.","Noble, J.","Marshall, S.","Biddle, R.",,,,,,,,,2008,SOFTVIS
+115,Deur10a,Keynote,A pragmatic perspective on software visualization,"van Deursen, A.",,,,,,,,,,,,2010,SOFTVIS
+116,Booc10a,Capstone,Why don't developers draw diagrams?,"Booch, G.",,,,,,,,,,,,2010,SOFTVIS
+117,Murp10a,Paper,An interactive ambient visualization for code smells,"Murphy-Hill, E.","Black, B.P.",,,,,,,,,,,2010,SOFTVIS
+118,Parn10a,Paper,CodePad: interactive spaces for maintaining concentration in programming environments,"Parnin, C.","Gorg, C.","Rugaber, S.",,,,,,,,,,2010,SOFTVIS
+119,Ansl10a,Paper,User evaluation of polymetric views using a large visualization wall,"Anslow, C.","Marshall, S.","Noble, J.","Tempero, E.","Biddle, R.",,,,,,,,2010,SOFTVIS
+120,Ogaw10a,Paper,Software evolution storylines,"Ogawa, M.","Ma, K.",,,,,,,,,,,2010,SOFTVIS
+121,Robe10a,Paper,AllocRay: memory allocation visualization for unmanaged languages,"Robertson, G.G.","Chilimbi, T.","Lee, B.",,,,,,,,,,2010,SOFTVIS
+122,Afta10a,Paper,Heapviz: interactive heap visualization for program understanding and debugging,"Aftandilian, E.E.","Kelley, S.","Gramazio, C.","Ricci, N.","Su, S.L.","Guyer, S.Z.",,,,,,,2010,SOFTVIS
+123,Myer10a,Paper,A map of the heap: revealing design abstractions in runtime structures,"Myers, C.","Duke, D.",,,,,,,,,,,2010,SOFTVIS
+124,Adam10a,Paper,Trevis: a context tree visualization & analysis framework and its use for classifying performance failure reports,"Adamoli, A.","Hauswirth, M.",,,,,,,,,,,2010,SOFTVIS
+125,Ruan10a,Paper,Exploring the inventor's paradox: applying jigsaw to software visualization,"Ruan, H.","Anslow, C.","Marshall, S.","Noble, J.",,,,,,,,,2010,SOFTVIS
+126,Isla10a,Paper,Dependence cluster visualization,"Islam, S.S.","Krinke, J.","Binkley, D.",,,,,,,,,,2010,SOFTVIS
+127,Lin10a,Paper,Towards anomaly comprehension: using structural compression to navigate profiling call-trees,"Lin, S.","Taiani, F.","Ormerod, T.C.","Ball, L.J.",,,,,,,,,2010,SOFTVIS
+128,Kuhn10a,Paper,Embedding spatial software visualization in the IDE: an exploratory study,"Kuhn, A.","Erni, D.","Nierstrasz, O.",,,,,,,,,,2010,SOFTVIS
+129,Wu10a,Paper,Visualizing windows system traces,"Wu, Y.","Yap, Y.H.","Halim, F.",,,,,,,,,,2010,SOFTVIS
+130,Trum10a,Paper,Understanding complex multithreaded software systems by using trace visualization,"Trumper, J.","Bohnet, J.","Dollner, J.",,,,,,,,,,2010,SOFTVIS
+131,Pauw10a,Paper,Zinsight: a visual and analytic environment for exploring large event traces,"De Pauw, W.","Heisig, S.",,,,,,,,,,,2010,SOFTVIS
+132,Helm10a,Paper,Jype - a program visualization and programming exercise tool for Python,"Helminen, J.","Malmi, L.",,,,,,,,,,,2010,SOFTVIS
+133,Fris10a,Paper,Off-screen visualization techniques for class diagrams,"Frisch, M.","Dachselt, R.",,,,,,,,,,,2010,SOFTVIS
+134,Albr10a,Paper,An automatic layout algorithm for BPEL processes,"Albrecht, B.","Effinger, P.","Held, M.","Kaufmann, M.",,,,,,,,,2010,SOFTVIS
+135,Beck10b,Paper,Visual comparison of software architectures,"Beck, F.","Diehl, S.",,,,,,,,,,,2010,SOFTVIS
+136,Stein10a,Paper,Representing development history in software cities,"Steinbruckner, F.","Lewerentz, C.",,,,,,,,,,,2010,SOFTVIS
+137,Kerr10a,Poster,3D kiviat diagrams for the interactive analysis of software metric trends,"Kerren, A.","Jusufi, I.",,,,,,,,,,,2010,SOFTVIS
+138,Meda10a,Poster,Graph works - pilot graph theory visualization tool,"Medani, D.","Haggard, G.","Bassett, C.","Koch, P.","Lampert, N.","Medlock, T.","Pierce, S.","Smith, R.","Yehl, A.",,,,2010,SOFTVIS
+139,Zeck10a,Poster,Visualizing software entities using a matrix layout,"Zeckzer, D.",,,,,,,,,,,,2010,SOFTVIS
+140,Foll10a,Poster,ImpactViz: visualizing class dependencies and the impact of changes in software revisions,"Follett, M.","Hoeber, O.",,,,,,,,,,,2010,SOFTVIS
+141,Jean10a,Poster,VIPERS: visual prototyping environment for real-time imaging systems,"Jean, F.","Albu, A.B.",,,,,,,,,,,2010,SOFTVIS
+142,Beck10a,Poster,Towards automated analysis and visualization of distributed software systems,"Beck, M.","Dollner, J.",,,,,,,,,,,2010,SOFTVIS
+143,Mahe10a,Poster,TIE: an interactive visualization of thread interleavings,"Maheswara, G.","Bradbury, B.S.","Collins, C.",,,,,,,,,,2010,SOFTVIS
+144,Hump10a,Poster,GEM: graphical explorer of MPI programs,"Humphrey, A.","Derrick, C.","Gopalakrishnan, G.","Tibbitts, B.R.",,,,,,,,,2010,SOFTVIS
+145,Bott10a,Poster,Fault forest visualization,"Bottger, S.","Barthel, H.","Ebert, A.",,,,,,,,,,2010,SOFTVIS
+146,Chen10a,Demo,xDIVA: automatic animation between debugging break points,"Cheng, Y.-P.","Tsai, H.","Wang, C.","Hsueh, C.",,,,,,,,,2010,SOFTVIS
+147,Thor10a,Demo,Understanding relaxed memory consistency through interactive visualization,"Thorsen, O.","Wallace, C.",,,,,,,,,,,2010,SOFTVIS
+148,John10a,Demo,Beat: a tool for visualizing the execution of object orientated concurrent programs,"Johnson, P.","Marsland, S.",,,,,,,,,,,2010,SOFTVIS
+149,Favr02a,Paper,Visualization of component-based software ,"Favre, J.-M.","Cervantes, H.",,,,,,,,,,,2002,VISSOFT
+150,Tayl02a,Paper,Revision Towers,"Taylor, C.M.B.","Munro, M.",,,,,,,,,,,2002,VISSOFT
+151,Ploi02a,Paper,Analogical representations of programs,"Ploix, D.",,,,,,,,,,,,2002,VISSOFT
+152,Lewe02a,Paper,Metrics-based 3D visualization of large object-oriented programs,"Lewerentz, C.","Simon, F.",,,,,,,,,,,2002,VISSOFT
+153,Dieh02a,Paper,Reification of program points for visual execution ,"Diehl, S.","Kerren, A.",,,,,,,,,,,2002,VISSOFT
+154,Smit02a,Paper,Runtime visualisation of object oriented software,"Smith, M.P. ","Munro, M.",,,,,,,,,,,2002,VISSOFT
+156,Rill02a,Paper,The CONCEPT project - applying source code analysis to reduce information complexity of static and dynamic visualization techniques,"Rilling, J.","Seffah, A.","Bouthlier, C.",,,,,,,,,,2002,VISSOFT
+157,Saja02a,Paper,View definitions for language-independent multiple-view program comprehension and editing,"Sajaniemi, J.",,,,,,,,,,,,2002,VISSOFT
+158,Male02a,Paper,A task oriented view of software visualization,"Maletic, J.I.","Marcus, A.","Collard, M.L.",,,,,,,,,,2002,VISSOFT
+159,Fran02a,Paper,Specifying algorithm visualizations in terms of data flow ,"Francik, J.",,,,,,,,,,,,2002,VISSOFT
+160,Eich02a,Paper,Aesthetics of class diagrams,"Eichelberger, H.",,,,,,,,,,,,2002,VISSOFT
+161,Ware03a,Keynote,Thinking with Interactive Visualization ,"Ware, C.",,,,,,,,,,,,2003,VISSOFT
+162,Eich03a,Paper,UML Class Diagrams-State of the Art in Layout Techniques,"Eichelberger, H.","Wolff von Gudenberg, J.",,,,,,,,,,,2003,VISSOFT
+163,Hamo03a,Paper,Techniques for Reducing the Complexity of Object-Oriented Execution Traces,"Hamou-Lhadj, A.","Lethbridge, T.C.",,,,,,,,,,,2003,VISSOFT
+164,Hass03a,Paper,ADG: Annotated Dependency Graphs for Software Understanding,"Hassan, A.E.","Holt, R.C.",,,,,,,,,,,2003,VISSOFT
+165,Favr03a,Demo,Exploring the Many Architectures of a Very Large Component-Based Software,"Favre, J.-M.","Sanlaville, R.","Estublier, J.",,,,,,,,,,2003,VISSOFT
+166,Whee03a,Demo,AutoCode: Using Memex-like Trails to Improve Program Comprehension,"Wheeldon, R.","Counsell, S.","Keenoy, K.",,,,,,,,,,2003,VISSOFT
+167,Lanz03a,Demo,CodeCrawler - A Lightweight Software Visualization Tool,"Lanza, M.",,,,,,,,,,,,2003,VISSOFT
+168,Eich03b,Demo,Demonstration of Advanced Layout of UML Class Diagrams by SugiBib,"Eichelberger, H.","Wolff von Gudenberg, J.",,,,,,,,,,,2003,VISSOFT
+169,Brit03a,Demo,GENISOM:  Self-Organizing Maps Applied in Visualising Large Software Collections,"Brittle, J.","Boldyreff, C.",,,,,,,,,,,2003,VISSOFT
+170,Marc03a,Demo,Source Viewer 3D (sv3D):  A System for Visualizing Multi Dimensional Software Analysis Data ,"Marcus, A.","Feng, L.","Maletic, J.I.",,,,,,,,,,2003,VISSOFT
+171,Lint03a,Demo,Plugging-in Visualization: Experiences Integrating a Visualization Tool with Eclipse,"Lintern, R.","Storey, M.-A.","Wu, X.","Michaud, J.",,,,,,,,,2003,VISSOFT
+172,Lanz03b,Paper,Program Visualization Support for Highly Iterative Development Environments,"Lanza, M.",,,,,,,,,,,,2003,VISSOFT
+173,Rill03a,Paper,Challenges in Visualizing and Reconstructing Architectural Views ,"Rilling, J.","Lizotte , M.",,,,,,,,,,,2003,VISSOFT
+174,Wu03a,Paper,Requirements for Visualizing Version Control Information,"Wu, X.","Murray, A.","Storey, M.-A.","Lintern, R.",,,,,,,,,2003,VISSOFT
+175,Vida03a,Paper,Visualization for Software Risk Assessments,"Vidal, J.","Kuipers, T.",,,,,,,,,,,2003,VISSOFT
+176,Rill03b,Paper,MetaViz Issues in Software Visualizing Beyond 3D,"Rilling, J.","Wang, J.","Mudur, S.",,,,,,,,,,2003,VISSOFT
+177,Davi03a,Paper,KScope: A Modularized Tool for 3D Visualization of Object-Oriented Programs,"Davis, T.A.","Pestka, K.","Kaplan, A",,,,,,,,,,2003,VISSOFT
+178,Brit03b,Paper,Self-Organizing Maps Applied in Visualising Large Software Collections,"Brittle, J.","Boldyreff, C.",,,,,,,,,,,2003,VISSOFT
+179,Char03a,Paper,The end of the line for Software Visualisation?,"Charters, S.M.","Thomas, N.","Munro, M.",,,,,,,,,,2003,VISSOFT
+180,Male03a,Paper,CFB: A Call For Benchmarks - for Software Visualization ,"Maletic, J.I.","Marcus, A.",,,,,,,,,,,2003,VISSOFT
+181,Erbe05a,Paper,SAB - The Software Architecture Browser,"Erben, N.","Lohr, K.-P.",,,,,,,,,,,2005,VISSOFT
+182,Shar05a,Paper,Interactive Exploration of UML Sequence Diagrams ,"Sharp, R.","Rountev, A.",,,,,,,,,,,2005,VISSOFT
+183,Andr05a,Paper,Evaluating UML Class Diagram Layout based on Architectural Importance,"Andriyevska, O.","Dragan, N.","Simoes, B.","Maletic, J.I.",,,,,,,,,2005,VISSOFT
+184,Term05a,Paper,Visual Exploration of Combined Architectural and Metric Information,"Termeer, M. ","Lange, C.F.J.","Telea, A. ","Chaudron, M.R.V.",,,,,,,,,2005,VISSOFT
+185,Holt05a,Paper,Visual Realism for the Visualization of Software Metrics,"Holten, D.","Vliegen, R.","van Wijk, J.J.",,,,,,,,,,2005,VISSOFT
+186,Duca05a,Paper,Multi-level Method Understanding Using Microprints ,"Ducasse, S.","Lanza, M.","Robbes, R.",,,,,,,,,,2005,VISSOFT
+187,Mesn05a,Paper,White Coats: Web-Visualization of Evolving Software in 3D,"Mesnage, C.","Lanza, M.",,,,,,,,,,,2005,VISSOFT
+188,Damb05a,Paper,Fractal Figures: Visualizing Development Effort for CVS Entities ,"D'Ambros, M.","Lanza, M.","Gall, H.",,,,,,,,,,2005,VISSOFT
+189,Tele05a,Paper,Interactive Visual Mechanisms for Exploring Source Code Evolution,"Telea, A.","Voinea, L.",,,,,,,,,,,2005,VISSOFT
+190,Reis05b,Paper,The Paradox of Software Visualization,"Reiss, S.P.",,,,,,,,,,,,2005,VISSOFT
+191,Scha05a,Paper,Towards More Flexibility in Software Visualization Tools,"Schafer, T.","Mezini, M.",,,,,,,,,,,2005,VISSOFT
+192,Cox05b,Paper,User Perspectives on a Visual Aid to Program Comprehension ,"Cox, A.","Fisher, M.","Muzzerall, J.",,,,,,,,,,2005,VISSOFT
+193,Gall05a,Paper,A Framework for Software Architecture Visualisation Assessment ,"Gallagher, K.","Hatch, A.","Munro, M.",,,,,,,,,,2005,VISSOFT
+194,Falk05a,Paper,The Dominance Tree in Visualizing Software Dependencies,"Falke, R.","Klein, R.","Koschke, R.","Quante, J.",,,,,,,,,2005,VISSOFT
+195,Balz05b,Paper,Exploring Relations within Software Systems Using Treemap Enhanced Hierarchical Graphs,"Balzer, M. ","Deussen, O.",,,,,,,,,,,2005,VISSOFT
+196,Lung05a,Paper,Interactive Exploration of Semantic Clusters,"Lungu, M.","Kuhn, A.","Girba, T.","Lanza, M.",,,,,,,,,2005,VISSOFT
+197,Xinr05a,Paper,Support for Static Concept Location with sv3D,Xinrong Xie,"Poshyvanyk, D.","Marcus, A.",,,,,,,,,,2005,VISSOFT
+198,Smit05a,Paper,Identifying Structural Features of Java Programs by Analysing the Interaction of Classes at Runtime,"Smith, M.P.","Munro, M.",,,,,,,,,,,2005,VISSOFT
+199,Gree05a,Paper,Visualizing Feature Interaction in 3-D,"Greevy, O.","Lanza, M.","Wysseier, C.",,,,,,,,,,2005,VISSOFT
+200,Clea05a,Demo,A Combined Software Reconnaissance & Static Analysis Eclipse Visualisation Plug-in ,"Cleary, B. ","Le Gear, A.","Exton, C.","Buckley, J.",,,,,,,,,2005,VISSOFT
+201,Rill05a,Demo,Applying Code Analysis and 3D Design Pattern Grouping to Facilitate Program Comprehension,"Rilling, J.","Nguyen, V.-L.",,,,,,,,,,,2005,VISSOFT
+202,Wilh05a,Demo,Dependency Viewer - A Tool for Visualizing Package Design Quality Metrics ,"Wilhelm, M.","Diehl, S.",,,,,,,,,,,2005,VISSOFT
+203,Burc05b,Demo,EPOSee - A Tool For Visualizing Software Evolution,"Burch, M.","Diehl, S.","Weissgerber, P.",,,,,,,,,,2005,VISSOFT
+204,Kien07a,Paper,Requirements of Software Visualization Tools: A Literature Survey,"Kienle, H.M.","Muller, H.A.",,,,,,,,,,,2007,VISSOFT
+205,Rill07a,Paper,Software Visualization - A Process Perspective,"Rilling, J.","Meng, W.J.",Fuzhi Chen,"Charland, P.",,,,,,,,,2007,VISSOFT
+206,Parn07a,Paper,Design Guidelines for Ambient Software Visualization in the Workplace,"Parnin, C.","Gorg, C.",,,,,,,,,,,2007,VISSOFT
+207,Sens07a,Paper,Visualizing Object Oriented Software: Towards a Point of Reference for Developing Tools for Industry ,"Sensalire, M.","Ogao, P.",,,,,,,,,,,2007,VISSOFT
+208,More07a,Paper,Visualizing Dynamic Memory Allocations,"Moreta, S.","Telea, A.",,,,,,,,,,,2007,VISSOFT
+209,Deel07a,Paper,Visualization of Dynamic Program Aspects,"Deelen, P.","van Ham, F.",Cornells Huizing,"van de Wetering, H.",,,,,,,,,2007,VISSOFT
+210,Holt07a,Paper,Trace Visualization Using Hierarchical Edge Bundles and Massive Sequence Views,"Holten, D.","Cornelissen, B.","van Wijk, J.J.",,,,,,,,,,2007,VISSOFT
+211,Cosm07a,Paper,Distributable Features View: Visualizing the Structural Characteristics of Distributed Software Systems ,"Cosma, D.C.","Marinescu, R.",,,,,,,,,,,2007,VISSOFT
+212,Bohn07a,Paper,Facilitating Exploration of Unfamiliar Source Code by Providing 21/2D Visualizations of Dynamic Call Graphs,"Bohnet, J.","Dollner, J.",,,,,,,,,,,2007,VISSOFT
+213,Lien07a,Paper,Rapid Prototyping of Visualizations using Mondrian,"Lienhard, A.","Kuhn, A.","Greevy, O.",,,,,,,,,,2007,VISSOFT
+214,Bocc07a,Paper,CocoViz: Towards Cognitive Software Visualizations,"Boccuzzo, S.","Gall, H.",,,,,,,,,,,2007,VISSOFT
+215,Kagd07a,Paper,Onion Graphs for Focus+Context Views of UML Class Diagrams,"Kagdi, H.","Maletic, J.I.",,,,,,,,,,,2007,VISSOFT
+216,Padd07a,Paper,Visualization Patterns: A Context-Sensitive Tool to Evaluate Visualization Techniques ,"Padda, H.","Seffah, A.","Mudur, S.",,,,,,,,,,2007,VISSOFT
+217,Wett07a,Paper,Visualizing Software Systems as Cities,"Wettel, R.","Lanza, M.",,,,,,,,,,,2007,VISSOFT
+218,Holm07a,Paper,Task-specific source code dependency investigation,"Holmes, R.","Walker, R.J.",,,,,,,,,,,2007,VISSOFT
+219,Eick07a,Paper,Software Visualization in the Context of Service-Oriented Architectures,"Eicker, S.","Spies, T.","Kahl, C.",,,,,,,,,,2007,VISSOFT
+220,Damb07a,Paper,"""A Bug's Life"" Visualizing a Bug Database","D'Ambros, M.","Lanza, M.","Pinzger, M.",,,,,,,,,,2007,VISSOFT
+221,Sawa07a,Paper,DiffArchViz: A Tool to Visualize Correspondence Between Multiple Representations of a Software Architecture ,"Sawant, A.P.",,,,,,,,,,,,2007,VISSOFT
+222,Hind07a,Paper,YARN: Animating Software Evolution,"Hindle, A.",Zhen Ming Jiang,"Koleilat, W.","Godfrey, M.W.","Holt, R.C.",,,,,,,,2007,VISSOFT
+223,Ripl07a,Paper,A Visualization for Software Project Awareness and Evolution ,"Ripley, R.M.","Sarma, A.","van der Hoek, Andre",,,,,,,,,,2007,VISSOFT
+224,Bohn07b,Paper,Evolutional Insights from UML and Source Code Versions using Information Visualization and Visual Analysis ,"Bohner, S.A.","Gracanin, D.","Henry, T.","Matkovic, K.",,,,,,,,,2007,VISSOFT
+225,Roth07a,Demo,Feature-centric Environment,"Rothlisberger, D.","Greevy, O.","Lienhard, A.",,,,,,,,,,2007,VISSOFT
+226,Hamo07a,Demo,Effective Exploration and Visualization of Large Execution Traces,"Hamou-Lhadj, A.",,,,,,,,,,,,2007,VISSOFT
+227,Sawa07b,Demo,SoftArchViz: A Software Architecture Visualization Tool,"Sawant, A.P.","Bali, N.",,,,,,,,,,,2007,VISSOFT
+228,Voin07a,Demo,Visualizing Debugging Activity in Source Code Repositories,"Voinea, L.","Telea, A.",,,,,,,,,,,2007,VISSOFT
+229,Kien07b,Challenge,Dependencies Analysis of Azureus with Rigi: Tool Demo Challenge,"Kienle, H.M.","Muller, H.A.","Martin, J.",,,,,,,,,,2007,VISSOFT
+230,Bohn07c,Challenge,CGA Call Graph Analyzer - Locating and Understanding Functionality within the Gnu Compiler Collection's Million Lines of Code ,"Bohnet, J.","Dollner, J.",,,,,,,,,,,2007,VISSOFT
+231,Lang07a,Challenge,Visual Analysis of Azureus using VERSO,"Langelier, G.","Dhambri, K.",,,,,,,,,,,2007,VISSOFT
+232,Park09a,Full Paper,Beyond pretty pictures: Examining the benefits of code visualization for Open Source newcomers,Yunrim Park,"Jensen, C.",,,,,,,,,,,2009,VISSOFT
+233,Shar09a,Full Paper,The effect of layout on the comprehension of UML class diagrams: A controlled experiment,"Sharif, B.","Maletic, J.I.",,,,,,,,,,,2009,VISSOFT
+234,Sens09a,Full Paper,Evaluation of software visualization tools: Lessons learned,"Sensalire, M.","Ogao, P.","Telea, A.",,,,,,,,,,2009,VISSOFT
+235,Cott09a,Short paper,Compare and contrast: Visual exploration of source code examples ,"Cottrell, R.","Goyette, B.","Holmes, R.","Walker, R.J.","Denzinger, J.",,,,,,,,2009,VISSOFT
+236,More09a,Short paper,Visualizing Calling Context profiles with Ring Charts ,"Moret, P.","Binder, W.","Ansaloni, D.","Villazon, A.",,,,,,,,,2009,VISSOFT
+237,Oliv09a,Short paper,Visualization of domain-specific programs' behavior,"Oliveira, N.","Pereira, M.J.V.","Henriques, P.R.","da Cruz, D.",,,,,,,,,2009,VISSOFT
+238,Hass09a,Short paper,Generating visualization-based analysis scenarios from maintenance task descriptions,"Hassaine, S.","Dhambri, K. ","Sahraoui, H.","Poulin, P.",,,,,,,,,2009,VISSOFT
+239,Voig09a,Demo,Enhancing structural views of software systems by dynamic information ,"Voigt, S.","Bohnet, J.","Dollner, J.",,,,,,,,,,2009,VISSOFT
+240,Mont09a,Demo,Sv3D meets Eclipse,"Montano, D.","Aponte, J.","Marcus, A.",,,,,,,,,,2009,VISSOFT
+241,Bohn09a,Full Paper,Visualizing massively pruned execution traces to facilitate trace exploration,"Bohnet, J.","Koeleman, M.","Dollner, J.",,,,,,,,,,2009,VISSOFT
+242,Tele09a,Full Paper,Case study: Visual analytics in software product assessments,"Telea, A.","Voinea, L.",,,,,,,,,,,2009,VISSOFT
+243,Reis09a,Full Paper,Visualizing the Java heap to detect memory problems ,"Reiss, S.P.",,,,,,,,,,,,2009,VISSOFT
+244,Tele09b,Full Paper,Extraction and visualization of call dependencies for large C/C++ code bases: A comparative study,"Telea, A.","Hoogendorp, H.","Ersoy, O.","Reniers, D.",,,,,,,,,2009,VISSOFT
+245,Erde11a,Paper,E-Quality: A graph based object oriented software quality visualization tool,"Erdemir, U.","Tekin, U.","Buzluca, F.",,,,,,,,,,2011,VISSOFT
+246,Neu11a,Paper,Telling stories about GNOME with Complicity,"Neu, S.","Lanza, M.","Hattori, L.","D'Ambros, M.",,,,,,,,,2011,VISSOFT
+247,Imro11a,Paper,Abstract visualization of runtime memory behavior,"Choudhury, A.N.M.I.","Rosen, P.",,,,,,,,,,,2011,VISSOFT
+248,Case11a,Paper,3D Hierarchical Edge bundles to visualize relations in a software city metaphor,"Caserta, P.","Zendra, O.","Bodenes, D.",,,,,,,,,,2011,VISSOFT
+249,Deng11a,Paper,Constellation visualization: Augmenting program dependence with dynamic information,Fang Deng,"DiGiuseppe, N.","Jones, J.A.",,,,,,,,,,2011,VISSOFT
+250,Beck11a,Paper,Visually exploring multi-dimensional code couplings,"Beck, F.","Petkov, R.","Diehl, S.",,,,,,,,,,2011,VISSOFT
+251,Beck11b,Paper,A visual analysis and design tool for planning software reengineerings,"Beck, M.","Trumper, J. ","Dollner, J.",,,,,,,,,,2011,VISSOFT
+252,Broe11a,Paper,Visual support for porting large code bases,"Broeksema, B.","Telea, A.",,,,,,,,,,,2011,VISSOFT
+253,Wirt11a,Paper,A multi-level approach for visualization and exploration of reactive program behavior,"Wirth, C.","Prahofer, H.","Schatz, R.",,,,,,,,,,2011,VISSOFT
+254,Lonn11a,Paper,Visualising concurrent programs with dynamic dependence graphs,"Lonnberg, J.","Ben-Ari, M.","Malmi, L.",,,,,,,,,,2011,VISSOFT
+255,Waln11a,Paper,Follow that sketch: Lifecycles of diagrams and sketches in software development,"Walny, J.","Haber, J.","Dork, M.","Sillito, J.","Carpendale, S.",,,,,,,,2011,VISSOFT
+256,Nova11a,Paper,An interactive differential and temporal approach to visually analyze software evolution,"Novais, R.L.","Lima, C.A.N.","de F Carneiro, G.","Paulo, R.M.S.","Mendonca, M.",,,,,,,,2011,VISSOFT
+257,Reni11a,Paper,"Visual exploration of program structure, dependencies and metrics with SolidSX","Reniers, D.","Voinea, L.","Telea, A.",,,,,,,,,,2011,VISSOFT
+258,Male11a,Paper,MosaiCode: Visualizing large scale software: A tool demonstration ,"Maletic, J.I.","Mosora, D.J.","Newman, C.D.","Collard, M.L.","Sutton, A.","Robinson, B.P.",,,,,,,2011,VISSOFT
+259,Wijk13a,Keynote,Information visualization: Experiences and lessons learned,"Van Wijk, J.J.",,,,,,,,,,,,2013,VISSOFT
+260,Shar13a,Paper,An empirical study assessing the effect of seeit 3D on comprehension,"Sharif, B.","Jetty, G.","Aponte, J.","Parra, E.",,,,,,,,,2013,VISSOFT
+261,Wall13a,Paper,Synchrovis: 3D visualization of monitoring traces in the city metaphor for analyzing concurrency,"Waller, J.","Wulf, C.","Fittkau, F.","Dohring, P.","Hasselbring, W.",,,,,,,,2013,VISSOFT
+262,Reis13a,Demo,The visualizations of code bubbles,"Reiss, S.P.","Tarvo, A.",,,,,,,,,,,2013,VISSOFT
+263,Else13a,Paper,VisGi: Visualizing Git branches,"Elsen, S.",,,,,,,,,,,,2013,VISSOFT
+264,Sand13a,Paper,Performance evolution blueprint: Understanding the impact of software evolution on performance,"Sandoval Alcocer, J.P.","Bergel, A.","Ducasse, S.","Denker, M.",,,,,,,,,2013,VISSOFT
+265,Beno13a,Paper,Visualizing software dynamicities with heat maps ,"Benomar, O.","Sahraoui, H.","Poulin, P.",,,,,,,,,,2013,VISSOFT
+266,Hanj13a,Paper,ClonEvol: Visualizing software evolution with code clones,"Hanjalic, A.",,,,,,,,,,,,2013,VISSOFT
+267,Zhi13a,Paper,DEVis: A tool for visualizing software document evolution,Junji Zhi,"Ruhe, G.",,,,,,,,,,,2013,VISSOFT
+268,Ansl13a,Paper,SourceVis: Collaborative software visualization for co-located environments ,"Anslow, C.","Marshall, S.","Noble, J.","Biddle, R.",,,,,,,,,2013,VISSOFT
+269,Balo13a,Paper,CodeMetrpolis A minecraft based collaboration tool for developers,"Balogh, G.","Beszedes, A.",,,,,,,,,,,2013,VISSOFT
+270,Guzm13a,Paper,Visualizing emotions in software development projects,"Guzman, E.",,,,,,,,,,,,2013,VISSOFT
+271,Abut13a,Paper,Finding structures in multi-type code couplings with node-link and matrix visualizations,"Abuthawabeh, A.","Beck, F.","Zeckzer, D.","Diehl, S.",,,,,,,,,2013,VISSOFT
+272,Mine13a,Paper,Visualizing the workflow of developers,"Minelli, R.","Lanza, M.",,,,,,,,,,,2013,VISSOFT
+273,Shre13a,Paper,Visualizing time and geography of open source software with storygraph,"Shrestha, A.",Ying Zhu,"Miller, B.",,,,,,,,,,2013,VISSOFT
+274,Brad13a,Paper,Visuocode: A software development environment that supports spatial navigation and composition,"Bradley, D.R. ","Hayes, I.J.",,,,,,,,,,,2013,VISSOFT
+275,Karr13a,Paper,SYNCTRACE: Visual thread-interplay analysis,"Karran, B.","Trumper, J.","Dollner, J.",,,,,,,,,,2013,VISSOFT
+276,Pauw13a,Paper,Visualizing jobs with shared resources in distributed environments,"De Pauw, W.","Wolf, J.","Balmin, A.",,,,,,,,,,2013,VISSOFT
+277,Fitt13a,Paper,Live trace visualization for comprehending large software landscapes: The ExplorViz approach,"Fittkau, F.","Waller, J.","Wulf, C.","Hasselbring, W.",,,,,,,,,2013,VISSOFT
+278,Pale13a,Paper,Visualizing constituent behaviors within executions ,"Palepu, V.K.","Jones, J.A.",,,,,,,,,,,2013,VISSOFT
+279,Vero13a,Paper,Visualizing the allocation and death of objects ,"Veroy, R.L.","Ricci, N.P.","Guyer, S.Z.",,,,,,,,,,2013,VISSOFT
+280,Gouv13a,Paper,Using HTML5 visualizations in software fault localization,"Gouveia, C.","Campos, J.","Abreu, R.",,,,,,,,,,2013,VISSOFT
+281,Reis13b,Paper,Automatic categorization and visualization of lock behavior,"Reiss, S.P.","Tarvo, A.",,,,,,,,,,,2013,VISSOFT
+282,Wehr13a,Paper,Lightweight software reverse engineering using augmented matrix visualizations,"Wehrwein, B.",,,,,,,,,,,,2013,VISSOFT
+283,Sass13a,Paper,A closer look at bugs,"Dal Sasso, T.","Lanza, M.",,,,,,,,,,,2013,VISSOFT
+284,Lope13a,Paper,Towards interactive visualization support for pairwise testing software product lines,"Lopez-Herrejon, R.E.","Egyed, A.",,,,,,,,,,,2013,VISSOFT
+285,Scan13a,Paper,Software entities as bird flocks and fish schools,"Scanniello, G.","Erra, U.",,,,,,,,,,,2013,VISSOFT
+286,Beck13a,Paper,Visual monitoring of numeric variables embedded in source code,"Beck, F.","Hollerich, F.","Diehl, S.","Weiskopf, D.",,,,,,,,,2013,VISSOFT
+287,Home13a,Paper,A tile-based editor for a textual programming language ,"Homer, M.","Noble, J.",,,,,,,,,,,2013,VISSOFT
+288,Serv13a,Paper,Chronos: Visualizing slices of source-code history,"Servant, F.","Jones, J.A.",,,,,,,,,,,2013,VISSOFT
+289,Fabr13a,Paper,Design decisions in AspectMaps,"Fabry, J.","Bergel, A.",,,,,,,,,,,2013,VISSOFT
+290,Abut13b,Paper,IMMV: An interactive multi-matrix visualization for program comprehension,"Abuthawabeh, A.","Zeckzer, D.",,,,,,,,,,,2013,VISSOFT
+291,Stor14a,Keynote,Visualization for Software Analytics by Margaret-Anne (Peggy) Storey,"Storey, M.-A.",,,,,,,,,,,,2014,VISSOFT
+292,Rens14a,Keynote,Visualization and Human Vision: A Tale of Two Systems,"Rensink, R.A.",,,,,,,,,,,,2014,VISSOFT
+293,Home14a,Paper,Combining Tiled and Textual Views of Code,"Homer, M.","Noble, J.",,,,,,,,,,,2014,VISSOFT
+294,Kule14a,Paper,Integrating Anomaly Diagnosis Techniques into Spreadsheet Environments ,"Kulesz, D.","Scheurich, J.","Beck, F.",,,,,,,,,,2014,VISSOFT
+295,Jaas14a,Paper,Action-Based Visualization,"Jaaskelainen, A.","Jarvinen, H.M.","Virtanen, H.",,,,,,,,,,2014,VISSOFT
+296,Blou14a,Paper,Slicing-Based Techniques for Visualizing Large Metamodels,"Blouin, A.","Moha, N.","Baudry, B.","Sahraoui, H.",,,,,,,,,2014,VISSOFT
+297,Haug14a,Paper,Search Space Pruning Constraints Visualization,"Haugen, B.","Kurzak, J.",,,,,,,,,,,2014,VISSOFT
+298,Nobl14a,Paper,Livecoding the SynthKit: Little Bits as an Embodied Programming Language ,"Noble, J.",,,,,,,,,,,,2014,VISSOFT
+299,Berg14a,Paper,A Domain-Specific Language for Visualizing Software Dependencies as a Graph,"Bergel, A.","Maass, S.","Ducasse, S.","Girba, T.",,,,,,,,,2014,VISSOFT
+300,Mart14a,Paper,Feature Relations Graphs: A Visualisation Paradigm for Feature Constraints in Software Product Lines,"Martinez, J.","Ziadi, T.","Mazo, R.","Bissyande, T.F.","Klein, J.","Le Traon, Y.",,,,,,,2014,VISSOFT
+301,Seri14a,Paper,Validation of Software Visualization Tools: A Systematic Mapping Study ,"Seriai, A.","Benomar, O.","Cerat, B.","Sahraoui, H.",,,,,,,,,2014,VISSOFT
+302,Scho14a,Paper,Using a Task-Oriented Framework to Characterize Visualization Approaches,"Schots, M.","Werner, C.",,,,,,,,,,,2014,VISSOFT
+303,Tart14a,Demo,Mr. Clean: A Tool for Tracking and Comparing the Lineage of Scientific Visualization Code,"Tartari, G.","Tiede, L.","Holsbo, E.","Knudsen, K.","Raknes, I.A.","Fjukstad, B.","Mode, N.","Bjorndalen, J.M.","Lund, E.","Bongo, L.A.",,,2014,VISSOFT
+304,Voin14a,Demo,Visual Clone Analysis with SolidSDD,"Voinea, L.","Telea, A.C.",,,,,,,,,,,2014,VISSOFT
+305,Dani14a,Demo,Polyptychon: A Hierarchically-Constrained Classified Dependencies Visualization,"Daniel, D.T.","Wuchner, E.","Sokolov, K.","Stal, M."," Liggesmeyer, P.",,,,,,,,2014,VISSOFT
+306,Bari14a,Paper,How Developers Visualize Compiler Messages: A Foundational Approach to Notification Construction,"Barik, T.","Lubick, K.","Christie, S.","Murphy-Hill, E.",,,,,,,,,2014,VISSOFT
+307,Topr14a,Paper,Lightweight Structured Visualization of Assembler Control Flow Based on Regular Expressions ,"Toprak, S.","Wichmann, A.","Schupp, S.",,,,,,,,,,2014,VISSOFT
+308,Roze14a,Paper,Templated Visualization of Object State with Vebugger,"Rozenberg, D.","Beschastnikh, I.",,,,,,,,,,,2014,VISSOFT
+309,Reis14a,Paper,The Challenge of Helping the Programmer during Debugging ,"Reiss, S.P.",,,,,,,,,,,,2014,VISSOFT
+310,Ens14a,Paper,ChronoTwigger: A Visual Analytics Tool for Understanding Source and Test Co-evolution,"Ens, B.","Rea, D.","Shpaner, R.","Hemmati, H.","Young, J.E.","Irani, P.",,,,,,,2014,VISSOFT
+311,Kula14a,Paper,Visualizing the Evolution of Systems and Their Library Dependencies,"Kula, R.G.","De Roover, C.","German, D.","Ishio, T.","Inoue, K.",,,,,,,,2014,VISSOFT
+312,Rufi14a,Paper,AniMatrix: A Matrix-Based Visualization of Software Evolution,"Rufiange, S.","Melancon, G.",,,,,,,,,,,2014,VISSOFT
+313,Mine14a,Paper,Visualizing Developer Interactions,"Minelli, R.","Mocci, A.","Lanza, M.","Baracchi, L.",,,,,,,,,2014,VISSOFT
+314,Pare14a,Paper,Information Visualization for Agile Software Development ,"Paredes, J.","Anslow, C.","Maurer, F.",,,,,,,,,,2014,VISSOFT
+315,Guzm14a,Paper,FAVe: Visualizing User Feedback for Software Evolution ,"Guzman, E.","Bhuvanagiri, P.","Bruegge, B.",,,,,,,,,,2014,VISSOFT
+316,Girb15b,Keynote,Pervasive software visualizations,"Girba, T.","Chis, A.",,,,,,,,,,,2015,VISSOFT
+317,Hess15a,Paper,Stable Voronoi-based visualizations for software quality monitoring,"van Hees, R.","Hage, J.",,,,,,,,,,,2015,VISSOFT
+318,Khan15a,Paper,Visual analytics of software structure and metrics,"Khan, T.","Barthel, H.","Ebert, A.","Liggesmeyer, P.",,,,,,,,,2015,VISSOFT
+319,Schn15a,Paper,Vestige: A visualization framework for engineering geometry-related software,"Schneider, T.","Zulian, P.","Azadmanesh, M.R.","Krause, R.","Hauswirth, M.",,,,,,,,2015,VISSOFT
+320,Fitt15a,Paper,Hierarchical software landscape visualization for system comprehension: A controlled experiment,"Fittkau, F.","Krause, A. ","Hasselbring, W.",,,,,,,,,,2015,VISSOFT
+321,Basi15a,Paper,A survey on goal-oriented visualization of clone data,"Basit, H.A.","Hammad, M.","Koschke, R.",,,,,,,,,,2015,VISSOFT
+322,Gree15a,Paper,Interactive tag cloud visualization of software version control repositories,"Greene, G.J.","Fischer, B.",,,,,,,,,,,2015,VISSOFT
+323,Scar15a,Paper,Visualising software as a particle system,"Scarle, S.","Walkinshaw, N.",,,,,,,,,,,2015,VISSOFT
+324,Urli15a,Paper,A visual support for decomposing complex feature models,"Urli, S.","Bergel, A. ","Blay-Fornarino, M.","Collet, P.","Mosser, S.",,,,,,,,2015,VISSOFT
+325,Pale15a,Paper,Revealing runtime features and constituent behaviors within software,"Palepu, V.K.","Jones, J.A.",,,,,,,,,,,2015,VISSOFT
+326,Hawe15a,Paper,CodeSurveyor: Mapping large-scale software to aid in code comprehension,"Hawes, N.","Marshall, S.","Anslow, C.",,,,,,,,,,2015,VISSOFT
+327,Dals15a,Paper,"Blended, not stirred: Multi-concern visualization of large software systems","Dal Sasso, T.","Minelli, R. ","Mocci, A.","Lanza, M.",,,,,,,,,2015,VISSOFT
+328,Burc15a,Paper,Visualizing work processes in software engineering with developer rivers,"Burch, M.","Munz, T.","Beck, F.","Weiskopf, D.",,,,,,,,,2015,VISSOFT
+329,Fitt15b,NIER,Research perspective on supporting software engineering via physical 3D models,"Fittkau, F.","Koppenhagen, E.","Hasselbring, W.",,,,,,,,,,2015,VISSOFT
+330,Fitt15c,NIER,Exploring software cities in virtual reality,"Fittkau, F.","Krause, A.","Hasselbring, W.",,,,,,,,,,2015,VISSOFT
+331,Camp15a,NIER,From robots to humans: Visualizations for robot sensor data,"Campusano, M. ","Fabry, J.",,,,,,,,,,,2015,VISSOFT
+332,Petr15a,NIER,Visualizing interactive and shared debugging sessions,"Petrillo, F.","Lacerda, G.","Pimenta, M.","Freitas, C.",,,,,,,,,2015,VISSOFT
+333,Kube15a,NIER,On understanding how developers use the Spotter search tool,"Kubelka, J.","Bergel, A.","Chis, A.","Girba, T.","Reichhart, S.","Robbes, R.","Syrel, A.",,,,,,2015,VISSOFT
+334,Matt15a,NIER,Unified model for software engineering data,"Mattila, A.-L.","Luoto, A.","Terho, H.","Hylli, O.","Sievi-Korte, O.","Systa, K.",,,,,,,2015,VISSOFT
+335,Saie15a,NIER,Visualization based API usage patterns refining,"Saied, M.A.","Benomar, O.","Sahraoui, H.",,,,,,,,,,2015,VISSOFT
+336,Cott15a,NIER,Pixel-oriented techniques for visualizing next-generation HPC systems,"Cottam, J.","Martin, B.","Dalessandro, L.","Lumsdaine, A.",,,,,,,,,2015,VISSOFT
+337,Saka15a,NIER,Extracting a unified directory tree to compare similar software products,"Sakaguchi, Y. ","Ishio, T.","Kanda, T.","Inoue, K.",,,,,,,,,2015,VISSOFT
+338,Geor15a,Demo,Kayrebt: An activity diagram extraction and visualization toolset designed for the Linux codebase,"Georget, L.","Tronel, F.","Tong, V.V.T.",,,,,,,,,,2015,VISSOFT
+339,Abut15a,Demo,SMNLV: A small-multiples node-link visualization supporting software comprehension by displaying multiple relationships in software structure,"Abuthawabeh, A.","Zeckzer, D.",,,,,,,,,,,2015,VISSOFT
+340,Pape15a,Demo,Polyhedral user mapping and assistant visualizer tool for the r-stream auto-parallelizing compiler,"Papenhausen, E.",Bing Wang,"Langston, M.H.","Baskaran, M.","Henretty, T.","Izubuchi, T.","Johnson, A. ",Chulwoo Jung,Meifeng Lin,"Meister, B.","Mueller, K.","Lethin, R.",2015,VISSOFT
+341,Moln15a,Demo,Live visualization of GUI application code coverage with GUITracer,"Molnar, A.-J.",,,,,,,,,,,,2015,VISSOFT
+342,Sant15a,Demo,OrionPlanning: Improving modularization and checking consistency on software architecture,"Santos, G.","Anquetil, N. ","Etien, A.","Ducasse, S.","Tulio Valente, M.",,,,,,,,2015,VISSOFT
+343,Meri15b,Demo,Explora: A visualisation tool for metric analysis of software corpora,"Merino, L.","Lungu, M.","Nierstrasz, O.",,,,,,,,,,2015,VISSOFT
+344,Kout15a,Demo,Advancing data race investigation and classification through visualization,"Koutsopoulos, N.","Northover, M.","Felden, T.","Wittiger, M.",,,,,,,,,2015,VISSOFT
+345,Redd15a,Demo,"SPIDER SENSE: Software-engineering, networked, system evaluation","Reddy, N.H.",Junghun Kim ,"Palepu, V.K.","Jones, J.A.",,,,,,,,,2015,VISSOFT
+346,Hodn15a,Demo,XVIZIT: Visualizing cognitive units in spreadsheets,"Hodnigg, K.","Pinzger, M.",,,,,,,,,,,2015,VISSOFT
+347,,Paper,Towards Actionable Visualisation in Software Development,"Merino, L.","Ghafari, M.","Nierstrasz, O.",,,,,,,,,,2016,VISSOFT
+348,,Demo,A Visualization Tool for 3D Graphics Program Comprehension and Debugging,"Podila, S.","Zhu, Y.",,,,,,,,,,,2016,VISSOFT
+349,,Demo,Interactive Visualizations for Testing Physics Engines in Robotics,"Fabry, J.","Sinclair, S.",,,,,,,,,,,2016,VISSOFT
+350,,Demo,DAHLIA 2.0: A Visual Analyzer of Database Usage in Dynamic and Heterogeneous Systems,"Meurice, L.","Cleve, A.",,,,,,,,,,,2016,VISSOFT
+351,,NIER,MetaVis: Exploring Actionable Visualization,"Merino, L.","Ghafari, M.","Nierstrasz, O.","Bergel, A.","Kubelka, J.",,,,,,,,2016,VISSOFT
+352,,Demo,vizSlice: Visualizing Large Scale Software Slices,"Alomari, H.W.","Jennings, R.A.","Virote de Souza, P.","Stephan, M.","Gannod, G.C.",,,,,,,,2016,VISSOFT
+353,,NIER,Metrics Visualization Technique Based on the Origins and Function Layers for OSS-Based Development,"Ishizue, R.","Washizaki, H.","Fukazawa, Y.","Inoue, S.","Hanai, Y.","Kanazawa, M.","Namba, K.",,,,,,2016,VISSOFT
+354,,NIER,Towards Visualization of Feature Interactions in Software Product Lines,"Illescas, S.","Lopez-Herrejon, R.E.","Egyed, A.",,,,,,,,,,2016,VISSOFT
+355,,Paper,Visualizing the Evolution of Working Sets,"Minelli, R.","Mocci, A.","Lanza, M.",,,,,,,,,,2016,VISSOFT
+356,,Demo,Visualizing Modules and Dependencies of OSGi-Based Applications,"Seider, D.","Schreiber, A.","Marquardt, T.","Brueggemann, M.",,,,,,,,,2016,VISSOFT
+357,,NIER,Visually Exploring Object Mutation,"Schulz, R.","Beck, F.","Cerezo Felipez, J.W.","Bergel, A.",,,,,,,,,2016,VISSOFT
+358,,Paper,CuboidMatrix: Exploring Dynamic Structural Connections in Software Components Using Space-Time Cube,Schneider. T,"Tymchuk, Y.",Salgado R.,"Bergel, A.",,,,,,,,,2016,VISSOFT
+359,,Demo,A Visualization Framework for Parallelization,"Wilhelm, A.","Savu, V.","Amadasun, E.","Gerndt, M.","Schuele, T.",,,,,,,,2016,VISSOFT
+360,,Paper,Perquimans: A Tool for Visualizing Patterns of Spreadsheet Function Combinations,"Middleton, J.","Murphy-Hill, E.",,,,,,,,,,,2016,VISSOFT
+361,,Paper,Visualization for Software Product Lines: A Systematic Mapping Study,"Lopez-Herrejon, R.E.","Illescas, S.","Egyed, A.",,,,,,,,,,2016,VISSOFT
+362,,Paper,"Walls, Pillars and Beams: A 3D Decomposition of Quality Anomalies","Tymchuk, Y.","Merino, L.","Ghafari, M.","Nierstrasz, O.",,,,,,,,,2016,VISSOFT
+363,,Demo,An Interactive Microarray Call-Graph Visualization,"Shah, M.D.","Guyer, S.D.",,,,,,,,,,,2016,VISSOFT
+364,,Paper,Jsvee & Kelmu: Creating and Tailoring Program Animations for Computing Education,"Sirkiae, T.",,,,,,,,,,,,2016,VISSOFT
+365,,NIER,Critical Section Investigator: Building Story Visualizations with Program Traces,"Shah, M.D.","Guyer, S.D.",,,,,,,,,,,2016,VISSOFT
+366,,Demo,On Using Tree Visualisation Techniques to Support Source Code Comprehension,"Bacher, I.","Mac Namee, B.","Kelleher, J.D.",,,,,,,,,,2016,VISSOFT
+367,,Paper,Merge-Tree: Visualizing the Integration of Commits into Linux,"Wilde, E.","German, D.",,,,,,,,,,,2016,VISSOFT
+368,,Paper,Visualizing Project Evolution through Abstract Syntax Tree Analysis,"Feist, M.D.","Santos, E.A.","Watts, I.","Hindle, A.",,,,,,,,,2016,VISSOFT
