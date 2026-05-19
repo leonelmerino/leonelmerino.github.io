@@ -18,6 +18,11 @@ gem "github-pages", group: :jekyll_plugins
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
+# Gems removed from Ruby stdlib in 3.4+
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"

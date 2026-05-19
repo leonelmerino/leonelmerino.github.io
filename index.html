@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leonel Merino</title>
+  <!-- Let crawlers discover both language versions without executing JS -->
+  <link rel="alternate" hreflang="en"       href="/en/" />
+  <link rel="alternate" hreflang="es"       href="/es/" />
+  <link rel="alternate" hreflang="x-default" href="/en/" />
+  <!-- Fallback redirect for browsers with JS disabled -->
+  <noscript><meta http-equiv="refresh" content="0;url=/en/" /></noscript>
+  <style>
+    body { margin: 0; background: #252a34; display: flex; align-items: center;
+           justify-content: center; min-height: 100vh; font-family: sans-serif; }
+    p { color: #aaa; font-size: .9rem; }
+    a { color: #0092ca; }
+  </style>
+</head>
+<body>
+  <p>Redirecting… <a href="/en/">English</a> · <a href="/es/">Español</a></p>
+  <script>
+    (function () {
+      // Respect a previous manual language choice
+      var saved = localStorage.getItem('preferred-lang');
+      var lang  = saved || (navigator.language || navigator.userLanguage || 'en');
+      var dest  = lang.toLowerCase().startsWith('es') ? '/es/' : '/en/';
+      location.replace(dest);
+    })();
+  </script>
+</body>
+</html>

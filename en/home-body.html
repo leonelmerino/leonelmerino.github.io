@@ -1,0 +1,245 @@
+<style>
+  /* ── Home body styles ── */
+  main h1 { font-size: 1.15rem; font-weight: 700; padding-bottom: .3rem; border-bottom: 1px solid var(--border); margin-bottom: .6rem; }
+  main h2 { font-size: 1.15rem; font-weight: 700; margin: 2rem 0 .6rem; padding-bottom: .3rem; border-bottom: 1px solid var(--border); }
+  main p  { font-size: .95rem; line-height: 1.7; margin-bottom: .85rem; color: var(--dark); }
+  main ul { padding-left: 1.4rem; margin-bottom: .85rem; }
+  main ul li { font-size: .92rem; line-height: 1.65; margin-bottom: .2rem; color: var(--dark); }
+  main a  { color: var(--blue); }
+
+  /* Research lines */
+  .research-lines {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .6rem 2rem;
+    margin: .75rem 0 1rem;
+  }
+  .research-line {
+    display: flex; align-items: flex-start; gap: .6rem;
+    font-size: .9rem; line-height: 1.5;
+  }
+  .research-line .rl-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--blue); flex-shrink: 0; margin-top: .42em;
+  }
+  .research-line strong { display: block; font-weight: 600; color: var(--dark); }
+  .research-line span   { font-size: .83rem; color: var(--muted); }
+
+  /* Teaching lines */
+  .teaching-courses {
+    display: flex; flex-wrap: wrap; gap: .4rem; margin: .6rem 0 1rem;
+  }
+  .course-tag {
+    background: #f1f3f5; color: #495057; border-radius: 6px;
+    padding: .25rem .6rem; font-size: .82rem; font-weight: 500; line-height: 1.4;
+  }
+  .course-tag em { font-size: .76rem; color: var(--muted); font-style: normal; display: block; }
+
+  /* Graduate students callout */
+  .grad-callout {
+    background: #f0f7ff; border-left: 3px solid var(--blue);
+    border-radius: 0 6px 6px 0; padding: .9rem 1.1rem; margin: 1rem 0;
+  }
+  .grad-callout p { margin-bottom: .5rem; font-size: .92rem; }
+  .grad-callout p:last-child { margin-bottom: 0; }
+  .grad-callout .prog-links { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .5rem; }
+  .grad-callout .prog-links a {
+    background: #fff; border: 1px solid #bcd6f0; border-radius: 20px;
+    padding: .2rem .7rem; font-size: .8rem; font-weight: 600; color: var(--blue);
+    text-decoration: none;
+  }
+  .grad-callout .prog-links a:hover { background: var(--blue); color: #fff; }
+
+  @media (max-width: 640px) {
+    .research-lines { grid-template-columns: 1fr; }
+  }
+</style>
+
+<main>
+  <h1>About me</h1>
+
+  <p>
+    Leonel Merino is Assistant Professor of Engineering Design at the
+    <a href="https://diseno.uc.cl" target="_blank" rel="noopener">School of Design</a> and the
+    <a href="https://www.ing.puc.cl/" target="_blank" rel="noopener">Faculty of Engineering</a>
+    of the Pontifical Catholic University of Chile, since 2021. He is part of the
+    <a href="https://dilab-uc.cl/" target="_blank" rel="noopener">Design Engineering Lab</a>.
+  </p>
+
+  <p>
+    Between 2018 and 2021, he was a Postdoctoral Research Fellow at the Visualization Research Center
+    (<a href="http://visus.uni-stuttgart.de/" target="_blank" rel="noopener">VISUS</a>),
+    Universitaet Stuttgart.
+  </p>
+
+  <p>
+    Since 2020, Prof. Merino is a member of the steering committee of
+    <a href="https://vissoft.info/" target="_blank" rel="noopener">VISSOFT</a>,
+    the leading international conference in software visualization. His research interests lie at the
+    intersection of the use of virtual and augmented reality, software engineering,
+    human-computer interaction, data visualization, and evaluations with users.
+  </p>
+
+  <p>
+    From 2014 to 2018, he worked as a Research Assistant at the Software Composition Group
+    (<a href="http://scg.unibe.ch/" target="_blank" rel="noopener">SCG</a>)
+    and obtained a Ph.D. degree in Computer Science at Universitaet Bern.
+  </p>
+
+  <p>
+    He worked as a Project Engineer at <a href="https://entel.cl/" target="_blank" rel="noopener">ENTEL</a>
+    between 2009 and 2014. Previously, he received a Master's degree in Computer Science, in the EMOOSE
+    program, from the
+    <a href="https://web.imt-atlantique.fr/x-info/emoose/" target="_blank" rel="noopener">École des Mines de Nantes</a>
+    and <a href="http://soft.vub.ac.be/soft/" target="_blank" rel="noopener">Vrije Universiteit Brussel</a>, in 2008.
+  </p>
+
+  <p>
+    He obtained a B.Sc. degree in Engineering Sciences and a Professional Degree of Civil Engineer in
+    Computer Science from the
+    <a href="https://dcc.uchile.cl/" target="_blank" rel="noopener">University of Chile</a>, in 2006.
+  </p>
+
+  <!-- ── RESEARCH ── -->
+  <h2>Research</h2>
+
+  <p>My research sits at the intersection of software engineering, immersive technologies, and human-computer interaction. I design, build, and evaluate tools that help developers and analysts understand complex systems through visualization and extended reality.</p>
+
+  <div class="research-lines">
+    <div class="research-line">
+      <span class="rl-dot"></span>
+      <div>
+        <strong>Software Visualization</strong>
+        <span>Visual tools and approaches for understanding software structure, evolution, and quality</span>
+      </div>
+    </div>
+    <div class="research-line">
+      <span class="rl-dot"></span>
+      <div>
+        <strong>Immersive Analytics</strong>
+        <span>VR/AR environments for in-situ data exploration and situated visualization authoring</span>
+      </div>
+    </div>
+    <div class="research-line">
+      <span class="rl-dot"></span>
+      <div>
+        <strong>Software Engineering</strong>
+        <span>Software comprehension, performance monitoring, and code analysis at scale</span>
+      </div>
+    </div>
+    <div class="research-line">
+      <span class="rl-dot"></span>
+      <div>
+        <strong>Human-Computer Interaction</strong>
+        <span>User studies, interaction design, and empirical evaluations with developers</span>
+      </div>
+    </div>
+    <div class="research-line">
+      <span class="rl-dot"></span>
+      <div>
+        <strong>Extended Reality</strong>
+        <span>Applications of VR/AR in software development and the metaverse</span>
+      </div>
+    </div>
+    <div class="research-line">
+      <span class="rl-dot"></span>
+      <div>
+        <strong>Privacy &amp; Security</strong>
+        <span>Security and privacy challenges for developers in immersive platforms</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TEACHING ── -->
+  <h2>Teaching</h2>
+
+  <p>I teach courses at the intersection of computing, design, and immersive technologies at UC Chile. Current and recent courses include:</p>
+
+  <div class="teaching-courses">
+    <div class="course-tag">Realidad Extendida <em>IDI3185</em></div>
+    <div class="course-tag">Visualización de Datos <em>INF3531 · MTIG</em></div>
+    <div class="course-tag">Tópicos en Ciencia de la Computación <em>IIC3800</em></div>
+    <div class="course-tag">Diseño en Realidad Extendida <em>DNO098</em></div>
+    <div class="course-tag">Pensamiento Visual <em>IDI1015</em></div>
+    <div class="course-tag">Pensamiento Computacional <em>DNO1063</em></div>
+    <div class="course-tag">Diseño en VR/AR <em>DNO3289 · MADA</em></div>
+  </div>
+
+  <div class="grad-callout">
+    <p><strong>Prospective students &amp; researchers</strong> — I am always looking for motivated people interested in pursuing a <strong>Master (M.Sc.)</strong>, <strong>Doctorate (Ph.D.)</strong>, or <strong>Postdoctoral</strong> position in topics related to my research. If you are passionate about software visualization, immersive analytics, HCI, or extended reality, feel free to <a href="mailto:leonel.merino@uc.cl">reach out</a>.</p>
+    <p>Partial direct funding is available through active research projects. Full funding opportunities exist through
+      <a href="https://investigacion.uc.cl/en/funding-and-grants/" target="_blank" rel="noopener">VRI UC</a>
+      (Vicerrectoría de Investigación, Pontificia Universidad Católica de Chile) and
+      <a href="https://www.anid.cl/concursos/" target="_blank" rel="noopener">ANID</a>
+      (Agencia Nacional de Investigación y Desarrollo, Chile).
+    </p>
+    <p>Relevant programs at UC Chile:</p>
+    <div class="prog-links">
+      <a href="https://www.ing.uc.cl/programas-de-estudio/postgrado/magister-ciencias-la-ingenieria/" target="_blank" rel="noopener">M.Sc. en Ciencias de la Ingeniería</a>
+      <a href="https://www.ing.uc.cl/programas-de-estudio/postgrado/doctorado-ciencias-la-ingenieria/" target="_blank" rel="noopener">Ph.D. en Ciencias de la Ingeniería</a>
+      <a href="https://doctorado.fadeu.uc.cl/" target="_blank" rel="noopener">Ph.D. en Arquitectura, Diseño y Estudios Urbanos</a>
+    </div>
+  </div>
+
+  <!-- ── CONFERENCE ORGANIZATION ── -->
+  <h2>Conference Organization</h2>
+  <ul>
+    <li>VISSOFT 2025 — General Co-Chair</li>
+    <li>VISSOFT 2024 — General Co-Chair</li>
+    <li>VISSOFT 2022 — Program Chair</li>
+    <li>VISSOFT 2021 — Program Co-Chair</li>
+    <li>VISSOFT 2020 — NIER/Tool Demo Track (NIER/TD)</li>
+    <li>VISSOFT 2019 — Artifact Evaluation Committee (AEC)</li>
+  </ul>
+
+  <!-- ── PROGRAM COMMITTEE ── -->
+  <h2>Program Committee</h2>
+  <ul>
+    <li>ISMAR 2024</li>
+    <li>PX 2024</li>
+    <li>SANER 2024</li>
+    <li>SCCC 2021–2023</li>
+    <li>SEAA 2019–2020</li>
+    <li>ASSE 2019</li>
+    <li>VISSOFT 2019–2020, 2023–2026</li>
+    <li>VISSOFT 2016, 2018 — Artifact Evaluation Committee (AEC)</li>
+    <li>VISSOFT 2017 — NIER/Tool Demo Track (NIER/TD)</li>
+    <li>SATToSE 2014</li>
+  </ul>
+
+  <!-- ── REVIEWER ── -->
+  <h2>Reviewer</h2>
+  <p>
+    IEEE Transactions on Software Engineering (TSE),
+    IEEE Transactions on Visualization and Computer Graphics (TVCG),
+    Empirical Software Engineering (EMSE),
+    Information and Software Technology (IST),
+    Journal of Systems and Software (JSS),
+    Software: Practice and Experience (SPE),
+    Journal of Software: Evolution and Process (JSPE),
+    Information Visualization (IV),
+    Journal of Visualization (JOVI),
+    Journal of Object Technology (JOT),
+    DGDW,
+    SoftwareX
+  </p>
+
+  <!-- ── STUDENT SUPERVISION ── -->
+  <h2>Student Supervision</h2>
+  <ul>
+    <li>Santiago Viana — Bachelor thesis, Design, UC. <em>Ongoing, 2026.</em></li>
+    <li>Arturo Prieto — Bachelor thesis, Engineering, UC. 2025.</li>
+    <li>Ljubedsa Calderón — Bachelor thesis, Design, UC. 2025.</li>
+    <li>Jorge Ordóñez — Bachelor thesis, Engineering, UC. 2025.</li>
+    <li>Mauricio Solís — Bachelor thesis, Engineering, UC. 2024.</li>
+    <li>Argianto Rahartomo — Ph.D. thesis, TU Clausthal. 2025. <em>(Co-supervised.)</em></li>
+    <li>Samuel Beck — Master thesis, University of Stuttgart. 2021. <em>Evaluating Human-Computer Interfaces for Specification and Comprehension of Transient Behavior in Microservice-based Systems.</em></li>
+    <li>Sarah Dosdall — Bachelor thesis, University of Stuttgart. 2021. <em>On-the-go Authoring Visualizations through Wearable Keyboards.</em></li>
+    <li>Till Mayer — Bachelor thesis, University of Stuttgart. 2021. <em>Agile Situated Visualization.</em></li>
+    <li><a href="https://elib.uni-stuttgart.de/handle/11682/11402" target="_blank" rel="noopener">Niklas Gärtner — Bachelor thesis, University of Stuttgart. 2020. <em>Interaction Modalities for Immersive Analytics and Situated Visualization.</em></a></li>
+    <li>Mario Hess — Bachelor thesis, University of Bern. 2019. <em>Pervasive Visualization in AR for Software Monitoring.</em> Alumni prize award.</li>
+    <li>Silas David Berger — Bachelor thesis, University of Bern. 2017. <em>Visually Exploring Scientific Communities.</em></li>
+    <li>Dominik Seliner — Bachelor thesis, University of Bern. 2016. <em>EggShell: A Workbench for Modeling Scientific Communities.</em></li>
+  </ul>
+
+</main>

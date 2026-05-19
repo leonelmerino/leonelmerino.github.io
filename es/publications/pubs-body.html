@@ -1,0 +1,654 @@
+<style>
+  /* ── Publications page styles ── */
+  .pubs-header { margin-bottom: 1.5rem; }
+  .pubs-header h1 { font-size: 1.75rem; font-weight: 700; padding-bottom: .5rem; border-bottom: 2px solid var(--border); margin-bottom: .6rem; }
+  .pubs-header p { font-size: .92rem; color: var(--muted); }
+  .pubs-header a { color: var(--blue); }
+
+  /* Year group */
+  .year-group { margin-bottom: 1.75rem; }
+  .year-heading { display: flex; align-items: center; gap: 1rem; margin-bottom: .65rem; }
+  .year-heading .year-num { font-size: 1.4rem; font-weight: 800; color: var(--dark); flex-shrink: 0; line-height: 1; }
+  .year-heading .year-line { flex: 1; height: 1px; background: var(--border); }
+
+  /* Paper entry */
+  .pub-entry { display: flex; gap: .75rem; padding: .55rem 0; border-bottom: 1px solid var(--border); }
+  .pub-entry:last-child { border-bottom: none; }
+
+  .pub-type-bar { width: 3px; border-radius: 2px; flex-shrink: 0; align-self: stretch; min-height: 100%; }
+  .pub-type-bar.journal    { background: #0092ca; }
+  .pub-type-bar.conference { background: #5c7cfa; }
+  .pub-type-bar.workshop   { background: #adb5bd; }
+  .pub-type-bar.book       { background: #f59f00; }
+
+  .pub-body { flex: 1; min-width: 0; }
+
+  .pub-title { font-size: .93rem; font-weight: 600; margin-bottom: .15rem; line-height: 1.35; }
+  .pub-title a { color: var(--dark); text-decoration: none; }
+  .pub-title a:hover { color: var(--blue); text-decoration: underline; }
+
+  .pub-authors { font-size: .81rem; color: var(--muted); margin-bottom: .12rem; line-height: 1.4; }
+  .pub-authors strong { color: var(--dark); font-weight: 600; }
+
+  .pub-venue { font-size: .81rem; font-style: italic; color: var(--muted); margin-bottom: .3rem; }
+
+  /* Badges */
+  .pub-badges { display: flex; flex-wrap: wrap; gap: .25rem; }
+  .badge {
+    display: inline-flex; align-items: center; gap: .2rem;
+    font-size: .68rem; font-weight: 600; letter-spacing: .03em;
+    padding: .12rem .45rem; border-radius: 20px;
+    text-transform: uppercase; white-space: nowrap; text-decoration: none;
+  }
+  .badge-journal  { background: #e8f4fb; color: #0074a6; }
+  .badge-conf     { background: #edf2ff; color: #3b5bdb; }
+  .badge-workshop { background: #f1f3f5; color: #495057; }
+  .badge-book     { background: #fff9db; color: #b36000; }
+  .badge-q1       { background: #d3f9d8; color: #1a7431; }
+  .badge-q2       { background: #e8f8ff; color: #1971c2; }
+  .badge-award    { background: #fff3bf; color: #875800; }
+  .badge-accepted { background: #f3d9fa; color: #862e9c; }
+  /* CORE rankings */
+  .badge-core-astar { background: #fff4e6; color: #d9480f; }
+  .badge-core-a     { background: #ebfbee; color: #2f9e44; }
+  .badge-core-b     { background: #e3fafc; color: #0c8599; }
+  .badge-core-c     { background: #f1f3f5; color: #868e96; }
+  /* External links — preprint or publisher */
+  a.badge-link { background: #f8f9fa; color: #495057; border: 1px solid #dee2e6; }
+  a.badge-link:hover { background: #e9ecef; text-decoration: none; color: #212529; }
+</style>
+
+<main>
+  <div class="pubs-header">
+    <h1>Publicaciones</h1>
+    <p>También puedes encontrar mis artículos en <a href="https://scholar.google.com/citations?user=iPYBpsEAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>. Ordenados por año (más reciente primero).</p>
+  </div>
+
+  <!-- ══════════ 2026 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2026</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar journal"></div>
+      <div class="pub-body">
+        <div class="pub-title">In-Situ Immersive Analytics Authoring through Ergonomic Keyboard Support</div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Begoña Juliá-Nehme, and Santiago Viana</div>
+        <div class="pub-venue">International Journal of Human-Computer Interaction, 2026</div>
+        <div class="pub-badges">
+          <span class="badge badge-journal">Revista</span>
+          <span class="badge badge-accepted">✦ Aceptado</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar journal"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0950584925003386" target="_blank" rel="noopener">On the use of extended reality to support software development activities: A systematic literature review</a></div>
+        <div class="pub-authors">Tiara Rojas-Stambuk, Juan Pablo Sandoval Alcocer, <strong>Leonel Merino</strong>, and Andres Neyem</div>
+        <div class="pub-venue">Information and Software Technology, page 107999, 2026</div>
+        <div class="pub-badges">
+          <span class="badge badge-journal">Revista</span>
+          <span class="badge badge-q1">WoS Q1</span>
+          <a href="https://www.sciencedirect.com/science/article/abs/pii/S0950584925003386" target="_blank" rel="noopener" class="badge badge-link">Elsevier</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ 2025 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2025</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar journal"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S0167404825002913" target="_blank" rel="noopener">Metaverse security and privacy research: A systematic review</a></div>
+        <div class="pub-authors">Argianto Rahartomo, <strong>Leonel Merino</strong>, and Mohammad Ghafari</div>
+        <div class="pub-venue">Computers &amp; Security, 157:104602, 2025</div>
+        <div class="pub-badges">
+          <span class="badge badge-journal">Revista</span>
+          <span class="badge badge-q1">WoS Q1</span>
+          <a href="https://www.sciencedirect.com/science/article/pii/S0167404825002913" target="_blank" rel="noopener" class="badge badge-link">Elsevier</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar journal"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://www.tandfonline.com/doi/full/10.1080/08956308.2025.2561525" target="_blank" rel="noopener">Collaborative scenario experimentation for strategy formulation to shape desirable futures</a></div>
+        <div class="pub-authors">Paula Wuth, Ricardo J Hernández, <strong>Leonel Merino</strong>, Sebastian Negrete, and Ignacio Pavez</div>
+        <div class="pub-venue">Research-Technology Management, 68(6):73–91, 2025</div>
+        <div class="pub-badges">
+          <span class="badge badge-journal">Revista</span>
+          <span class="badge badge-q2">WoS Q2</span>
+          <a href="https://www.tandfonline.com/doi/full/10.1080/08956308.2025.2561525" target="_blank" rel="noopener" class="badge badge-link">Taylor &amp; Francis</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar workshop"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2501.12006" target="_blank" rel="noopener">The dilemma of privacy protection for developers in the metaverse</a></div>
+        <div class="pub-authors">Argianto Rahartomo, <strong>Leonel Merino</strong>, Yoshiki Ohshima, and Mohammad Ghafari</div>
+        <div class="pub-venue">IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 284–290, 2025</div>
+        <div class="pub-badges">
+          <span class="badge badge-workshop">Taller</span>
+          <a href="https://arxiv.org/abs/2501.12006" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ 2024 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2024</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10795008/" target="_blank" rel="noopener">GitTruck@ Duck — Interactive time range selection in hierarchy-oriented polymetric visualization of Git repository evolution</a></div>
+        <div class="pub-authors">Adrian Hoff, Thomas Hoffmann Kilbak, <strong>Leonel Merino</strong>, and Mircea Lungu</div>
+        <div class="pub-venue">IEEE International Conference on Software Maintenance and Evolution (ICSME), pp. 853–857, 2024</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-a">CORE A</span>
+          <a href="https://ieeexplore.ieee.org/document/10795008/" target="_blank" rel="noopener" class="badge badge-link">IEEE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar journal"></div>
+      <div class="pub-body">
+        <div class="pub-title">Speculative labs: Shaping future management practices through collaborative scenario experimentation</div>
+        <div class="pub-authors">Paula Wuth, Ricardo J Hernandez, <strong>Leonel Merino</strong>, and Sebastián Negrete</div>
+        <div class="pub-venue">Touchpoint, 14(3), 2024</div>
+        <div class="pub-badges">
+          <span class="badge badge-journal">Revista</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar workshop"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3663529.3663821" target="_blank" rel="noopener">A developer's guide to building and testing accessible mobile apps</a></div>
+        <div class="pub-authors">Juan Pablo Sandoval Alcocer, <strong>Leonel Merino</strong>, Alison Fernandez-Blanco, William Ravelo-Mendez, Camilo Escobar-Velásquez, and Mario Linares-Vásquez</div>
+        <div class="pub-venue">Companion Proceedings of the 32nd ACM International Conference on the Foundations of Software Engineering (FSE), pp. 713–715, 2024</div>
+        <div class="pub-badges">
+          <span class="badge badge-workshop">Taller</span>
+          <span class="badge badge-core-astar">CORE A*</span>
+          <a href="https://dl.acm.org/doi/10.1145/3663529.3663821" target="_blank" rel="noopener" class="badge badge-link">ACM</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ 2023 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2023</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar journal"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10328768/" target="_blank" rel="noopener">An eye-tracking study on the use of split/unified code change views for bug detection</a></div>
+        <div class="pub-authors">Juan Pablo Sandoval Alcocer, Alejandra Cossio-Chavalier, Tiara Rojas-Stambuk, and <strong>Leonel Merino</strong></div>
+        <div class="pub-venue">IEEE Access, 11:136195–136205, 2023</div>
+        <div class="pub-badges">
+          <span class="badge badge-journal">Revista</span>
+          <span class="badge badge-q2">WoS Q2</span>
+          <a href="https://ieeexplore.ieee.org/document/10328768/" target="_blank" rel="noopener" class="badge badge-link">IEEE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10350119/" target="_blank" rel="noopener">DGT-AR: Visualizing code dependencies in AR</a></div>
+        <div class="pub-authors">Dussan Freire-Pozo, Kevin Cespedes-Arancibia, <strong>Leonel Merino</strong>, Alison Fernandez-Blanco, Andres Neyem, and Juan Pablo Sandoval Alcocer</div>
+        <div class="pub-venue">IEEE Working Conference on Software Visualization (VISSOFT), pp. 95–99, 2023</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <a href="https://ieeexplore.ieee.org/document/10350119/" target="_blank" rel="noopener" class="badge badge-link">IEEE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar book"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://shonan.nii.ac.jp/docs/No.192.pdf" target="_blank" rel="noopener">Augmented Software Visualization</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Craig Anslow, Takashi Ishio, and Alexandre Bergel</div>
+        <div class="pub-venue">National Institute of Informatics, 2023</div>
+        <div class="pub-badges">
+          <span class="badge badge-book">Capítulo de Libro</span>
+          <a href="https://shonan.nii.ac.jp/docs/No.192.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ 2022 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2022</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://mircealungu.com/docs/assets/papers/22-Git-Truck.pdf" target="_blank" rel="noopener">Git-truck: Hierarchy-oriented visualization of git repository evolution</a></div>
+        <div class="pub-authors">K Højelse, T Kilbak, J Røssum, E Järpelt, <strong>L Merino</strong>, and M Lungu</div>
+        <div class="pub-venue">IEEE Working Conference on Software Visualization (VISSOFT), pp. 131–140, 2022</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <a href="https://mircealungu.com/docs/assets/papers/22-Git-Truck.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://visvar.github.io/pub/dosdall2022toward.html" target="_blank" rel="noopener">Toward in-situ authoring of situated visualization with chorded keyboards</a></div>
+        <div class="pub-authors">Sarah Dosdall, Katrin Angerbauer, <strong>Leonel Merino</strong>, Michael Sedlmair, and Daniel Weiskopf</div>
+        <div class="pub-venue">15th International Symposium on Visual Information Communication and Interaction (VINCI), pp. 1–5, 2022</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-c">CORE C</span>
+          <a href="https://visvar.github.io/pub/dosdall2022toward.html" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ 2021 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2021</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://visvar.github.io/assets/pdf/beck2022transient.pdf" target="_blank" rel="noopener">TransVis: Using visualizations and chatbots for supporting transient behavior in microservice systems</a></div>
+        <div class="pub-authors">Samuel Beck, Sebastian Frank, Alireza Hakamian, <strong>Leonel Merino</strong>, and André van Hoorn</div>
+        <div class="pub-venue">IEEE Working Conference on Software Visualization (VISSOFT), pp. 65–75, 2021</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <a href="https://visvar.github.io/assets/pdf/beck2022transient.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://bergel.eu/MyPapers/Segu21a-SCCC-VR.pdf" target="_blank" rel="noopener">VR-based user interactions to exploit infinite space in programming activities</a></div>
+        <div class="pub-authors">Víctor Stefano Segura Castillo, <strong>Leonel Merino</strong>, Geoffrey Hecht, and Alexandre Bergel</div>
+        <div class="pub-venue">IEEE 40th International Conference of the Chilean Computer Science Society (SCCC), pp. 1–5, 2021</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <a href="https://bergel.eu/MyPapers/Segu21a-SCCC-VR.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ 2020 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2020</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar journal"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2003.00643" target="_blank" rel="noopener">A systematic literature review of modern software visualization</a></div>
+        <div class="pub-authors">Noptanit Chotisarn, <strong>Leonel Merino</strong>, Xu Zheng, Supaporn Lonapalawong, Tianye Zhang, Mingliang Xu, and Wei Chen</div>
+        <div class="pub-venue">Journal of Visualization, 23(4):539–558, 2020</div>
+        <div class="pub-badges">
+          <span class="badge badge-journal">Revista</span>
+          <span class="badge badge-q2">WoS Q2</span>
+          <a href="https://arxiv.org/abs/2003.00643" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2010.05988" target="_blank" rel="noopener">Evaluating mixed and augmented reality: A systematic literature review (2009–2018)</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Magdalena Schwarzl, Matthias Kraus, Michael Sedlmair, Dieter Schmalstieg, and Daniel Weiskopf</div>
+        <div class="pub-venue">IEEE International Symposium on Mixed and Augmented Reality (ISMAR), pp. 438–451, 2020</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-astar">CORE A*</span>
+          <a href="https://arxiv.org/abs/2010.05988" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2001.01223" target="_blank" rel="noopener">Unleashing the potentials of immersive augmented reality for software engineering</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Mircea Lungu, and Christoph Seidl</div>
+        <div class="pub-venue">IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER), pp. 517–521, 2020</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-a">CORE A</span>
+          <a href="https://arxiv.org/abs/2001.01223" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2002.05963" target="_blank" rel="noopener">Toward agile situated visualization: An exploratory user study</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Boris Sotomayor-Gómez, Xingyao Yu, Ronie Salgado, Alexandre Bergel, Michael Sedlmair, and Daniel Weiskopf</div>
+        <div class="pub-venue">Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA), pp. 1–7, 2020</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-astar">CORE A*</span>
+          <a href="https://arxiv.org/abs/2002.05963" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://bergel.eu/MyPapers/Dias20-Hunter.pdf" target="_blank" rel="noopener">Evaluating a visual approach for understanding JavaScript source code</a></div>
+        <div class="pub-authors">Martin Dias, Diego Orellana, Santiago Vidal, <strong>Leonel Merino</strong>, and Alexandre Bergel</div>
+        <div class="pub-venue">28th International Conference on Program Comprehension (ICPC), pp. 128–138, 2020</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-a">CORE A</span>
+          <a href="https://bergel.eu/MyPapers/Dias20-Hunter.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://research.spec.org/icpe_proceedings/2020/proceedings/p120.pdf" target="_blank" rel="noopener">Can a chatbot support software engineers with load testing? Approach and experiences</a></div>
+        <div class="pub-authors">Dušan Okanović, Samuel Beck, Lasse Merz, Christoph Zorn, <strong>Leonel Merino</strong>, André van Hoorn, and Fabian Beck</div>
+        <div class="pub-venue">11th ACM/SPEC International Conference on Performance Engineering (ICPE), pp. 120–129, 2020</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <a href="https://research.spec.org/icpe_proceedings/2020/proceedings/p120.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar workshop"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3397537.3398472" target="_blank" rel="noopener">Toward requirements engineering with immersive augmented reality</a></div>
+        <div class="pub-authors">Nitish Patkar, <strong>Leonel Merino</strong>, and Oscar Nierstrasz</div>
+        <div class="pub-venue">Conference Companion of the 4th International Conference on Art, Science, and Engineering of Programming (NIP), pp. 55–60, 2020</div>
+        <div class="pub-badges">
+          <span class="badge badge-workshop">Taller</span>
+          <a href="https://dl.acm.org/doi/10.1145/3397537.3398472" target="_blank" rel="noopener" class="badge badge-link">ACM</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ 2019 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2019</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://arxiv.org/pdf/1908.04090" target="_blank" rel="noopener">VISON: An ontology-based approach for software visualization tool discoverability</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Ekaterina Kozlova, Oscar Nierstrasz, and Daniel Weiskopf</div>
+        <div class="pub-venue">IEEE Working Conference on Software Visualization (VISSOFT), pp. 45–55, 2019</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <a href="https://arxiv.org/pdf/1908.04090" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://arxiv.org/abs/1904.06399" target="_blank" rel="noopener">PerfVis: Pervasive visualization in immersive augmented reality for performance awareness</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Mario Hess, Alexandre Bergel, Oscar Nierstrasz, and Daniel Weiskopf</div>
+        <div class="pub-venue">10th ACM/SPEC International Conference on Performance Engineering (ICPE), pp. 13–16, 2019</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <a href="https://arxiv.org/abs/1904.06399" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/8900967" target="_blank" rel="noopener">CorpusVis — Visualizing software metrics at scale</a></div>
+        <div class="pub-authors">Jack Slater, Craig Anslow, Jens Dietrich, and <strong>Leonel Merino</strong></div>
+        <div class="pub-venue">IEEE Working Conference on Software Visualization (VISSOFT), pp. 99–109, 2019</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <a href="https://ieeexplore.ieee.org/document/8900967" target="_blank" rel="noopener" class="badge badge-link">IEEE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ 2018 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2018</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar journal"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="http://homepages.ecs.vuw.ac.nz/~craig/publications/jss2018-merino.pdf" target="_blank" rel="noopener">A systematic literature review of software visualization evaluation</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Mohammad Ghafari, Craig Anslow, and Oscar Nierstrasz</div>
+        <div class="pub-venue">Journal of Systems and Software, 144:165–180, 2018</div>
+        <div class="pub-badges">
+          <span class="badge badge-journal">Revista</span>
+          <span class="badge badge-q1">WoS Q1</span>
+          <a href="http://homepages.ecs.vuw.ac.nz/~craig/publications/jss2018-merino.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar journal"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="http://scg.unibe.ch/archive/papers/Meri17a.pdf" target="_blank" rel="noopener">Towards actionable visualization for software developers</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Mohammad Ghafari, and Oscar Nierstrasz</div>
+        <div class="pub-venue">Journal of Software: Evolution and Process, 2018</div>
+        <div class="pub-badges">
+          <span class="badge badge-journal">Revista</span>
+          <span class="badge badge-q1">WoS Q1</span>
+          <a href="http://scg.unibe.ch/archive/papers/Meri17a.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="http://bergel.eu/MyPapers/Meri18a.pdf" target="_blank" rel="noopener">Overcoming issues of 3D software visualization through immersive augmented reality</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Alexandre Bergel, and Oscar Nierstrasz</div>
+        <div class="pub-venue">IEEE Working Conference on Software Visualization (VISSOFT), pp. 54–64, 2018</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <span class="badge badge-award">🏆 Distinguished Paper Award</span>
+          <a href="http://bergel.eu/MyPapers/Meri18a.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ 2017 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2017</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://bib.dbvis.de/uploadedFiles/3_paper.pdf" target="_blank" rel="noopener">On the impact of the medium in the effectiveness of 3D software visualization</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Johannes Fuchs, Michael Blumenschein, Craig Anslow, Mohammad Ghafari, Oscar Nierstrasz, Michael Behrisch, and Daniel Keim</div>
+        <div class="pub-venue">IEEE Working Conference on Software Visualization (VISSOFT), pp. 11–21, 2017</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <a href="https://bib.dbvis.de/uploadedFiles/3_paper.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://scg.unibe.ch/archive/papers/Meri17c.pdf" target="_blank" rel="noopener">CityVR: Gameful software visualization</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Mohammad Ghafari, Craig Anslow, and Oscar Nierstrasz</div>
+        <div class="pub-venue">IEEE International Conference on Software Maintenance and Evolution (ICSME), pp. 633–637, 2017</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-a">CORE A</span>
+          <a href="https://scg.unibe.ch/archive/papers/Meri17c.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ 2016 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2016</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://scg.unibe.ch/download/merino/papers/Meri16a.pdf" target="_blank" rel="noopener">Towards actionable visualisation in software development</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Mohammad Ghafari, and Oscar Nierstrasz</div>
+        <div class="pub-venue">IEEE Working Conference on Software Visualization (VISSOFT), 2016</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <span class="badge badge-award">🏆 Best Paper Award</span>
+          <a href="https://scg.unibe.ch/download/merino/papers/Meri16a.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://scg.unibe.ch/download/merino/papers/Meri16c.pdf" target="_blank" rel="noopener">MetaVis: Exploring actionable visualization</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Mohammad Ghafari, Oscar Nierstrasz, Alexandre Bergel, and Juraj Kubelka</div>
+        <div class="pub-venue">IEEE Working Conference on Software Visualization (VISSOFT), 2016</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <a href="https://scg.unibe.ch/download/merino/papers/Meri16c.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://scg.unibe.ch/assets/archive/papers/Tymc16a.pdf" target="_blank" rel="noopener">Walls, pillars and beams: A 3D decomposition of quality anomalies</a></div>
+        <div class="pub-authors">Yuriy Tymchuk, <strong>Leonel Merino</strong>, Mohammad Ghafari, and Oscar Nierstrasz</div>
+        <div class="pub-venue">IEEE Working Conference on Software Visualization (VISSOFT), pp. 126–135, 2016</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <a href="https://scg.unibe.ch/assets/archive/papers/Tymc16a.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar workshop"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://scg.unibe.ch/assets/download/merino/papers/Meri16b.pdf" target="_blank" rel="noopener">CommunityExplorer: A framework for visualizing collaboration networks</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Dominik Seliner, Mohammad Ghafari, and Oscar Nierstrasz</div>
+        <div class="pub-venue">International Workshop on Smalltalk Technologies (IWST), pp. 2:1–2:9, 2016</div>
+        <div class="pub-badges">
+          <span class="badge badge-workshop">Taller</span>
+          <a href="https://scg.unibe.ch/assets/download/merino/papers/Meri16b.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar book"></div>
+      <div class="pub-body">
+        <div class="pub-title">Network visualization</div>
+        <div class="pub-authors"><strong>Leonel Merino</strong></div>
+        <div class="pub-venue">In Alexandre Bergel (ed.), <em>Agile Visualization</em>, ch. 17, pp. 201–209. LULU Press, 2016</div>
+        <div class="pub-badges">
+          <span class="badge badge-book">Capítulo de Libro</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ 2015 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2015</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar conference"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/7332436/" target="_blank" rel="noopener">Explora: A visualisation tool for metric analysis of software corpora</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Mircea Lungu, and Oscar Nierstrasz</div>
+        <div class="pub-venue">IEEE Working Conference on Software Visualization (VISSOFT), 2015</div>
+        <div class="pub-badges">
+          <span class="badge badge-conf">Conferencia</span>
+          <span class="badge badge-core-b">CORE B</span>
+          <a href="https://ieeexplore.ieee.org/document/7332436/" target="_blank" rel="noopener" class="badge badge-link">IEEE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar workshop"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://research.rug.nl/files/32664148/Meri15b.pdf" target="_blank" rel="noopener">Explora: Infrastructure for scaling up software visualisation to corpora</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong>, Mircea Lungu, and Oscar Nierstrasz</div>
+        <div class="pub-venue">Post-Proceedings of SATToSE'14, CEUR Workshop Proceedings, vol. 1354, 2015</div>
+        <div class="pub-badges">
+          <span class="badge badge-workshop">Taller</span>
+          <a href="https://research.rug.nl/files/32664148/Meri15b.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ 2014 ══════════ -->
+  <div class="year-group">
+    <div class="year-heading"><span class="year-num">2014</span><span class="year-line"></span></div>
+
+    <div class="pub-entry">
+      <div class="pub-type-bar workshop"></div>
+      <div class="pub-body">
+        <div class="pub-title"><a href="https://scg.unibe.ch/assets/archive/papers/Meri14a.pdf" target="_blank" rel="noopener">Adaptable visualisation based on user needs</a></div>
+        <div class="pub-authors"><strong>Leonel Merino</strong></div>
+        <div class="pub-venue">Pre-Proceedings of SATToSE'14, pp. 71–74, July 2014</div>
+        <div class="pub-badges">
+          <span class="badge badge-workshop">Taller</span>
+          <a href="https://scg.unibe.ch/assets/archive/papers/Meri14a.pdf" target="_blank" rel="noopener" class="badge badge-link">Preprint</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>

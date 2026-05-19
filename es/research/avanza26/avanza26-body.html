@@ -1,0 +1,92 @@
+<style>
+main h1 { font-size: 1.15rem; font-weight: 700; padding-bottom: .3rem; border-bottom: 1px solid var(--border); margin-bottom: .6rem; }
+main h2 { font-size: 1.15rem; font-weight: 700; margin: 2rem 0 .6rem; padding-bottom: .3rem; border-bottom: 1px solid var(--border); }
+main p  { font-size: .95rem; line-height: 1.7; margin-bottom: .85rem; color: var(--dark); }
+main ul { padding-left: 1.4rem; margin-bottom: .85rem; }
+main ul li { font-size: .92rem; line-height: 1.65; margin-bottom: .3rem; color: var(--dark); }
+main a  { color: var(--blue); }
+
+.project-info { display: grid; grid-template-columns: auto 1fr; gap: .4rem 1.1rem; margin: .75rem 0 1.5rem; }
+.project-info dt { font-weight: 600; font-size: .88rem; color: var(--muted); white-space: nowrap; padding-top: .1rem; }
+.project-info dd { font-size: .88rem; line-height: 1.5; }
+.team-list { list-style: none; padding: 0; margin: .5rem 0 1.2rem; display: flex; flex-direction: column; gap: .4rem; }
+.team-list li { font-size: .9rem; display: flex; align-items: baseline; gap: .5rem; flex-wrap: wrap; }
+.team-list .role { font-size: .78rem; color: var(--muted); font-weight: 500; }
+.team-section { font-size: .78rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin: .9rem 0 .3rem; }
+.course-meta { font-size: .88rem; color: var(--muted); margin-bottom: 1.25rem; }
+
+.fig-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.25rem 0 1.5rem; }
+.fig-wrap { margin: 1.25rem 0 1.5rem; }
+.fig-row .fig-wrap { margin: 0; }
+.fig-wrap img { width: 100%; border-radius: 6px; border: 1px solid var(--border); display: block; background: #f9f9f9; }
+.fig-caption { font-size: .8rem; color: var(--muted); margin-top: .45rem; line-height: 1.45; }
+.fig-caption strong { color: var(--dark); font-weight: 600; }
+@media (max-width: 600px) { .fig-row { grid-template-columns: 1fr; } }
+</style>
+
+<main>
+  <h1>Modelamiento Fotorrealista de la Propagación del Oleaje Hacia las Costas de Chile: Cerrando la Brecha entre la Investigación Fundamental y la Comunicación de Riesgos Mediante WebGPU y Realidad Aumentada</h1>
+
+  <p class="course-meta">UC-VRI – Avanza UC &middot; <a href="../">Investigación</a></p>
+
+  <dl class="project-info">
+    <dt>Financiamiento</dt>  <dd>UC-VRI – Avanza UC</dd>
+    <dt>Duración</dt>        <dd>Marzo 2026 – Febrero 2027</dd>
+    <dt>Presupuesto</dt>     <dd>~$38K USD</dd>
+    <dt>Rol</dt>             <dd>Investigador Responsable</dd>
+  </dl>
+
+  <h2>Equipo</h2>
+  <p class="team-section">Investigadores Principales</p>
+  <ul class="team-list">
+    <li>Rodrigo Cienfuegos <span class="role">UC Chile</span></li>
+    <li>Leonel Merino <span class="role">UC Chile</span></li>
+  </ul>
+  <p class="team-section">Co-investigadores</p>
+  <ul class="team-list">
+    <li>José Galaz <span class="role">UC Chile</span></li>
+    <li>Patrick Lynett <span class="role">Universidad del Sur de California</span></li>
+  </ul>
+  <p class="team-section">Estudiantes de Posgrado</p>
+  <ul class="team-list">
+    <li>Damyan Santander <span class="role">UC Chile</span></li>
+  </ul>
+  <p class="team-section">Estudiantes de Pregrado (IPRE)</p>
+  <ul class="team-list">
+    <li>María Paz Oviedo <span class="role">UC Chile</span></li>
+    <li>Fernanda Loyola <span class="role">UC Chile</span></li>
+  </ul>
+  <p class="team-section">Practicantes</p>
+  <ul class="team-list">
+    <li>Corentin D'Haussy <span class="role">ENSTA Paris</span></li>
+  </ul>
+
+  <h2>Descripción</h2>
+
+  <p>Este proyecto propone el diseño, implementación y evaluación de un prototipo de realidad aumentada móvil para visualizar de manera fotorrealista e interactiva fenómenos de oleaje y riesgos costeros en el borde costero chileno. La investigación integra modelos numéricos de oleaje de alta fidelidad con tecnologías de visualización inmersiva en dispositivos iOS, utilizando técnicas modernas de renderizado y computación gráfica para representar dinámicamente información hidrodinámica compleja en contexto real e in situ. El sistema permitirá a usuarios no especialistas explorar escenarios de oleaje, alturas y direcciones de las olas directamente sobre el entorno físico mediante realidad aumentada móvil.</p>
+
+  <p>El proyecto contempla el desarrollo de una experiencia interactiva orientada a la comunicación científica y la comprensión pública de riesgos costeros, incorporando principios de visualización de datos, narrativa espacial y diseño de experiencias inmersivas. Para ello, se realizará un proceso de análisis de usuarios y contexto de uso, diseño museográfico de la experiencia, implementación técnica de la aplicación y validación progresiva mediante pruebas piloto y evaluaciones en terreno.</p>
+
+  <div class="fig-wrap">
+    <img src="/en/research/avanza26/img/app-onboarding.png" alt="Flujo de incorporación del prototipo: pantallas de inicio, segmentación de usuario, selección de ubicación y advertencia de seguridad" loading="lazy" />
+    <p class="fig-caption"><strong>Fig. 1.</strong> Flujo de incorporación del prototipo de RA móvil. Los usuarios son segmentados según nivel de experiencia y tiempo disponible, seleccionan su ubicación costera en un mapa y reciben un aviso de seguridad antes de ingresar a la experiencia de RA.</p>
+  </div>
+
+  <p>La evaluación experimental del sistema considerará participantes no especialistas en un entorno costero real en Punta de Lobos, Pichilemu, con el objetivo de estudiar el impacto de las visualizaciones inmersivas sobre la comprensión de fenómenos hidrodinámicos, la identificación de peligros potenciales y la percepción de usabilidad y carga cognitiva. Para ello se utilizarán instrumentos estandarizados como el System Usability Scale (SUS) y el NASA Task Load Index (NASA-TLX), además de métricas de interacción y observación directa.</p>
+
+  <div class="fig-wrap">
+    <img src="/en/research/avanza26/img/app-ar.png" alt="Pantallas de interacción y visualización AR: calibración espacial, superposición de simulación de oleaje y pantalla de cierre" loading="lazy" />
+    <p class="fig-caption"><strong>Fig. 2.</strong> Pantallas de interacción y visualización AR. Tras la calibración espacial, el prototipo superpone simulaciones de oleaje en tiempo real sobre el entorno físico costero, permitiendo a los usuarios explorar datos hidrodinámicos in situ.</p>
+  </div>
+
+  <h2>Palabras clave</h2>
+  <ul>
+    <li>Realidad Aumentada</li>
+    <li>Riesgo Costero</li>
+    <li>WebGPU</li>
+    <li>Visualización de Datos</li>
+    <li>Visualización Inmersiva</li>
+    <li>Ciencia Ciudadana</li>
+    <li>Interacción Humano-Computador</li>
+  </ul>
+</main>

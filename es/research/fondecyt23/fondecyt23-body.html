@@ -1,0 +1,108 @@
+<style>
+main h1 { font-size: 1.15rem; font-weight: 700; padding-bottom: .3rem; border-bottom: 1px solid var(--border); margin-bottom: .6rem; }
+main h2 { font-size: 1.15rem; font-weight: 700; margin: 2rem 0 .6rem; padding-bottom: .3rem; border-bottom: 1px solid var(--border); }
+main h3 { font-size: 1rem; font-weight: 600; margin: 1.5rem 0 .5rem; color: var(--dark); }
+main p  { font-size: .95rem; line-height: 1.7; margin-bottom: .85rem; color: var(--dark); }
+main ul { padding-left: 1.4rem; margin-bottom: .85rem; }
+main ul li { font-size: .92rem; line-height: 1.65; margin-bottom: .3rem; color: var(--dark); }
+main a  { color: var(--blue); }
+
+.project-info { display: grid; grid-template-columns: auto 1fr; gap: .4rem 1.1rem; margin: .75rem 0 1.5rem; }
+.project-info dt { font-weight: 600; font-size: .88rem; color: var(--muted); white-space: nowrap; padding-top: .1rem; }
+.project-info dd { font-size: .88rem; line-height: 1.5; }
+.team-list { list-style: none; padding: 0; margin: .5rem 0 1.2rem; display: flex; flex-direction: column; gap: .4rem; }
+.team-list li { font-size: .9rem; display: flex; align-items: baseline; gap: .5rem; flex-wrap: wrap; }
+.team-list .role { font-size: .78rem; color: var(--muted); font-weight: 500; }
+.course-meta { font-size: .88rem; color: var(--muted); margin-bottom: 1.25rem; }
+
+.finished-badge { background: #f3f4f6; color: #6b7280; border: 1px solid #d1d5db; border-radius: 20px; padding: .1rem .6rem; font-size: .72rem; font-weight: 600; display: inline-block; margin-left: .5rem; vertical-align: middle; letter-spacing: .02em; }
+
+.fig-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.25rem 0 1.5rem; }
+.fig-wrap { margin: 1.25rem 0 1.5rem; }
+.fig-row .fig-wrap { margin: 0; }
+.fig-wrap img { width: 100%; border-radius: 6px; border: 1px solid var(--border); display: block; background: #f9f9f9; }
+.fig-caption { font-size: .8rem; color: var(--muted); margin-top: .45rem; line-height: 1.45; }
+.fig-caption strong { color: var(--dark); font-weight: 600; }
+@media (max-width: 600px) { .fig-row { grid-template-columns: 1fr; } }
+
+.pub-list { list-style: none; padding: 0; margin: .5rem 0 1rem; display: flex; flex-direction: column; gap: .7rem; }
+.pub-list li { font-size: .88rem; line-height: 1.55; padding-left: .9rem; border-left: 3px solid var(--border); }
+.pub-list li .pub-venue { font-style: italic; }
+.pub-badge { font-size: .7rem; font-weight: 600; background: #f0f7ff; color: var(--blue); border: 1px solid #bcd6f0; border-radius: 4px; padding: .05rem .35rem; margin-left: .3rem; white-space: nowrap; }
+.software-badge { font-size: .7rem; font-weight: 600; background: #f5f0ff; color: #6741d9; border: 1px solid #c8b4f5; border-radius: 4px; padding: .05rem .35rem; margin-left: .3rem; white-space: nowrap; }
+</style>
+
+<main>
+  <h1>Mejorando la Colaboración y Movilidad de los Toolkits de Autoría de Analítica Inmersiva <span class="finished-badge">Finalizado</span></h1>
+
+  <p class="course-meta">ANID – FONDECYT Iniciación &middot; <a href="../">Investigación</a></p>
+
+  <dl class="project-info">
+    <dt>Financiamiento</dt>  <dd>ANID – FONDECYT Iniciación</dd>
+    <dt>Proyecto</dt>        <dd>N°11230349</dd>
+    <dt>Duración</dt>        <dd>Marzo 2023 – Marzo 2026</dd>
+    <dt>Presupuesto</dt>     <dd>~$130K USD</dd>
+    <dt>Rol</dt>             <dd>Investigador Responsable</dd>
+  </dl>
+
+  <h2>Equipo</h2>
+  <ul class="team-list">
+    <li>Leonel Merino <span class="role">Investigador Responsable &middot; Pontificia Universidad Católica de Chile</span></li>
+  </ul>
+
+  <h2>Descripción</h2>
+  <p>Este proyecto aborda un desafío fundamental en la adopción de la analítica inmersiva: la brecha entre los entornos físicos donde los analistas necesitan trabajar y las herramientas disponibles para crear visualizaciones de datos en realidad extendida (XR). Los toolkits de autoría actuales para realidad aumentada y virtual requieren en su mayoría flujos de trabajo vinculados al escritorio, desconectados de los espacios reales donde las visualizaciones se consumen. El proyecto investiga cómo rediseñar las herramientas de autoría para soportar la creación <em>in situ</em>, permitiendo a los analistas construir y refinar visualizaciones directamente en los espacios físicos o virtuales donde serán utilizadas.</p>
+
+  <p>Un segundo eje aborda la colaboración multiusuario durante el propio proceso de autoría. El proyecto diseña y evalúa nuevos mecanismos de interacción —incluyendo señalización fisiológica en tiempo real y visualización de estados emocionales en avatares— que permiten a múltiples usuarios colaborar dentro de un entorno inmersivo compartido mientras co-construyen artefactos analíticos.</p>
+
+  <h2>Resultados</h2>
+
+  <h3>Compartición de Estados Cognitivos en Autoría Colaborativa Inmersiva</h3>
+  <p>El proyecto desarrolló <em>Emotions Mapper</em>, un pipeline de EEG a visualización que captura señales cerebrales mediante una diadema Muse 2, las clasifica en tiempo real en proxies emocionales (alegría, concentración, activación, calma) y transmite los estados resultantes a un entorno inmersivo compartido. Los estados se renderizan como señales visuales en los avatares de los colaboradores (Fig. 1), permitiendo a los participantes percibir el contexto emocional mientras realizan tareas conjuntas de autoría de visualizaciones.</p>
+
+  <div class="fig-row">
+    <div class="fig-wrap">
+      <img src="/en/research/fondecyt23/img/emotions-avatar.jpeg" alt="Avatar mostrando señales de estado emocional en la interfaz de configuración VR" loading="lazy" />
+      <p class="fig-caption"><strong>Fig. 1a.</strong> Avatar mostrando señales de estado emocional junto a la interfaz de configuración en VR, donde los usuarios personalizan parámetros como el tamaño de las señales y la frecuencia de actualización.</p>
+    </div>
+    <div class="fig-wrap">
+      <img src="/en/research/fondecyt23/img/vr-scene.jpeg" alt="Vista general del entorno de analítica inmersiva colaborativa" loading="lazy" />
+      <p class="fig-caption"><strong>Fig. 1b.</strong> Vista general de la escena de analítica inmersiva colaborativa con múltiples espacios de autoría, donde los participantes construyen y exploran visualizaciones de datos conjuntamente.</p>
+    </div>
+  </div>
+
+  <p>La evaluación de usabilidad con 8 participantes arrojó una puntuación promedio en la Escala de Usabilidad del Sistema (SUS) de <strong>73,75</strong>, confirmando que la visualización emocional en tiempo real puede integrarse en flujos de trabajo de autoría inmersiva. Se diseñó un protocolo experimental dedicado para medir el impacto colaborativo de la compartición de estados cognitivos, comparando escenarios con y sin señales afectivas compartidas durante sesiones de autoría.</p>
+
+  <h3>Autoría Móvil con el Teclado Corporal (BSK)</h3>
+  <p>Para liberar a los analistas de estaciones de trabajo fijas, el proyecto diseñó el <em>Body-Supported Keyboard</em> (BSK): un soporte ergonómico wearable que integra un teclado Bluetooth en un arnés corporal impreso en 3D, habilitando la autoría sostenida basada en texto en realidad aumentada mientras el usuario se mueve libremente (Fig. 2). El sistema fue integrado en el toolkit de autoría AVAR, permitiendo a los usuarios construir y modificar visualizaciones de pie, arrodillados, caminando o adoptando otras posturas.</p>
+
+  <div class="fig-wrap">
+    <img src="/en/research/fondecyt23/img/bsk-prototype.jpeg" alt="Prototipo BSK mostrando diferentes posturas durante una sesión de autoría en RA" loading="lazy" />
+    <p class="fig-caption"><strong>Fig. 2.</strong> El prototipo Body-Supported Keyboard (BSK). Izquierda: configuración wearable completa que combina un visor HoloLens 2 con un teclado Bluetooth en un arnés corporal impreso en 3D. Derecha: participantes adoptando distintas posturas —sentado, acostado, arrodillado— durante una sesión de autoría inmersiva, demostrando la movilidad habilitada por el BSK.</p>
+  </div>
+
+  <p>Un estudio controlado intra-sujeto con <strong>20 participantes</strong> comparó la autoría móvil con el BSK frente a una configuración de escritorio convencional. Los resultados muestran tiempos de completación de tareas y precisión de escritura comparables a las configuraciones estacionarias, mientras que las métricas de movilidad confirmaron una mayor diversidad de posturas en la condición wearable. La puntuación media SUS fue de <strong>74,5</strong>, indicando buena usabilidad y aceptación positiva. El toolkit de autoría AVAR desarrollado en este proyecto está disponible públicamente.</p>
+
+  <h2>Publicaciones</h2>
+  <ul class="pub-list">
+    <li>Rojas-Stambuk, T., Sandoval Alcocer, J.P., Merino, L., Neyem, A. On the use of extended reality to support software development activities: A systematic literature review. <span class="pub-venue">Information and Software Technology</span>, 107999, 2026. <span class="pub-badge">WoS Q1</span></li>
+    <li>Rahartomo, A., Merino, L., Ghafari, M. Metaverse security and privacy research: A systematic review. <span class="pub-venue">Computers &amp; Security</span>, 157:104602, 2025. <span class="pub-badge">WoS Q1</span></li>
+    <li>Rojas-Stambuk, T., Gil-Gareca, L.F., Sandoval Alcocer, J.P., Merino, L., Moreno-Lumbreras, D. FlameGraph AR: Immersive Visualization of CPU Profiles in Augmented Reality. <span class="pub-venue">IEEE VISSOFT</span>, 2025.</li>
+    <li>Rojas-Stambuk, T., Gil-Gareca, L.F., Sandoval Alcocer, J.P., Merino, L., Moreno-Lumbreras, D. Visualizing The Linux Kernel Performance with FlameGraph AR. <span class="pub-venue">IEEE VISSOFT</span>, 2025.</li>
+    <li>Rahartomo, A., Merino, L., Ohshima, Y., Ghafari, M. The Dilemma of Privacy Protection for Developers in the Metaverse. <span class="pub-venue">IEEE VR Workshops (VRW)</span>, 2025.</li>
+    <li>Hoff, A., Kilbak, T.H., Merino, L., Lungu, M. GitTruck@Duck: Interactive Time Range Selection in Hierarchy-Oriented Polymetric Visualization of Git Repository Evolution. <span class="pub-venue">IEEE ICSME</span>, 2024.</li>
+    <li>Sandoval Alcocer, J.P., Merino, L., Fernandez-Blanco, A., Ravelo-Mendez, W., Escobar-Vel&aacute;squez, C., Linares-V&aacute;squez, M. A Developer's Guide to Building and Testing Accessible Mobile Apps. <span class="pub-venue">FSE Companion</span>, 2024.</li>
+    <li>Sandoval Alcocer, J.P., Cossio-Chavalier, A., Rojas-Stambuk, T., Merino, L. An eye-tracking study on the use of split/unified code change views for bug detection. <span class="pub-venue">IEEE Access</span>, 2023. <span class="pub-badge">WoS Q2</span></li>
+    <li>Freire-Pozo, D., Cespedes-Arancibia, K., Merino, L., Fernandez-Blanco, A., Neyem, A., Sandoval Alcocer, J.P. DGT-AR: Visualizing Code Dependencies in AR. <span class="pub-venue">IEEE VISSOFT</span>, 2023.</li>
+    <li>Merino, L. AVAR (0.1). Zenodo, 2026. <a href="https://doi.org/10.5281/zenodo.18735850" target="_blank" rel="noopener">doi:10.5281/zenodo.18735850</a> <span class="software-badge">Software</span></li>
+  </ul>
+
+  <h2>Palabras clave</h2>
+  <ul>
+    <li>Analítica Inmersiva &middot; Herramientas de Autoría</li>
+    <li>Realidad Aumentada &middot; Realidad Virtual</li>
+    <li>Visualización Situada &middot; Interacción Móvil</li>
+    <li>Visualización Colaborativa &middot; Computación Afectiva</li>
+    <li>Realidad Extendida &middot; Interacción Humano-Computador</li>
+  </ul>
+</main>

@@ -1,0 +1,35 @@
+<style>
+  .lang-switch {
+    display: flex; gap: 0; align-items: center; margin-left: 1rem;
+    border: 1px solid rgba(255,255,255,.25); border-radius: 4px; overflow: hidden;
+  }
+  .lang-switch a, .lang-switch span {
+    font-size: .72rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase;
+    padding: .22rem .55rem; line-height: 1; text-decoration: none; transition: background .2s, color .2s;
+  }
+  .lang-switch a { color: #aaa; }
+  .lang-switch a:hover { background: rgba(255,255,255,.12); color: #fff; text-decoration: none; }
+  .lang-switch .lang-active { background: rgba(255,255,255,.18); color: #fff; cursor: default; }
+  .lang-switch .lang-sep { color: rgba(255,255,255,.25); padding: 0; font-size: .65rem; }
+</style>
+
+<nav>
+  <a class="site-title" href="/es/">Leonel Merino</a>
+
+  <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <ul class="nav-links">
+    <li><a href="/es/">Acerca</a></li>
+    <li><a href="/es/publications/">Publicaciones</a></li>
+    <li><a href="/es/research/">Investigación</a></li>
+    <li><a href="/es/teaching/">Docencia</a></li>
+  </ul>
+
+  <div class="lang-switch">
+    <a href="/en/" onclick="localStorage.setItem('preferred-lang','en')">EN</a>
+    <span class="lang-sep">|</span>
+    <span class="lang-active">ES</span>
+  </div>
+</nav>

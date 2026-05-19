@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Jekyll (sitio actual)",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd /Users/merino/Claude/leonelmerino.github.io && bundle exec jekyll serve --config _config.yml,_config.dev.yml --livereload"],
+      "port": 4000
+    },
+    {
+      "name": "Python HTTP (new/)",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8000"],
+      "port": 8000
+    }
+  ]
+}
