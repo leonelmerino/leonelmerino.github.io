@@ -1,3 +1,88 @@
+<style>
+main h1 { font-size: 1.15rem; font-weight: 700; padding-bottom: .3rem; border-bottom: 1px solid var(--border); margin-bottom: .6rem; }
+main h2 { font-size: 1.15rem; font-weight: 700; margin: 2rem 0 .6rem; padding-bottom: .3rem; border-bottom: 1px solid var(--border); }
+main p  { font-size: .95rem; line-height: 1.7; margin-bottom: .85rem; color: var(--dark); }
+main ul { padding-left: 1.4rem; margin-bottom: .85rem; }
+main ul li { font-size: .92rem; line-height: 1.65; margin-bottom: .3rem; color: var(--dark); }
+main a  { color: var(--blue); }
+
+/* Program link */
+.program-link {
+  display: inline-flex; align-items: center; gap: .45rem;
+  background: #f0f7ff; color: var(--blue); border: 1px solid #bcd6f0;
+  border-radius: 6px; padding: .45rem .85rem; font-size: .88rem; font-weight: 600;
+  text-decoration: none; margin-bottom: 1.75rem; transition: background .15s;
+}
+.program-link:hover { background: #dceefb; text-decoration: none; }
+.program-link svg { flex-shrink: 0; }
+
+/* Activities */
+.activities { display: flex; flex-wrap: wrap; gap: .5rem; margin: .5rem 0 1.5rem; }
+.activity-chip {
+  display: inline-flex; align-items: center; gap: .35rem;
+  background: #f3f4f6; color: var(--muted); border: 1px solid #e2e4e9;
+  border-radius: 20px; padding: .25rem .75rem; font-size: .82rem; font-weight: 500;
+}
+.activity-chip .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+
+/* Editions */
+.edition { margin-top: 2.25rem; }
+.edition-header {
+  display: flex; align-items: center; gap: .75rem;
+  margin-bottom: 1.1rem;
+}
+.edition-header h3 {
+  font-size: 1rem; font-weight: 700; color: var(--dark); white-space: nowrap;
+}
+.edition-header .semester-badge {
+  background: var(--dark); color: #fff; border-radius: 4px;
+  padding: .1rem .5rem; font-size: .72rem; font-weight: 600; letter-spacing: .04em;
+}
+.edition-placeholder {
+  background: #f9f9f9; border: 1px dashed var(--border); border-radius: 8px;
+  padding: .85rem 1rem; font-size: .88rem; color: var(--muted); font-style: italic;
+}
+
+/* Projects grid */
+.projects-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;
+}
+@media (max-width: 680px) { .projects-grid { grid-template-columns: 1fr; } }
+
+/* Project card */
+.proj-card {
+  border: 1px solid var(--border); border-radius: 10px; overflow: hidden;
+  display: flex; flex-direction: column;
+}
+.proj-card-img {
+  width: 100%; aspect-ratio: 16/9; background: #f0f2f5;
+  display: flex; align-items: center; justify-content: center;
+  border-bottom: 1px solid var(--border); position: relative; overflow: hidden;
+}
+.proj-card-img img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+}
+.proj-card-body { padding: .9rem 1rem; flex: 1; display: flex; flex-direction: column; gap: .5rem; }
+.proj-card-title { font-size: .96rem; font-weight: 700; color: var(--dark); line-height: 1.3; }
+.proj-card-student { font-size: .82rem; color: var(--muted); font-style: italic; }
+.proj-card-desc { font-size: .87rem; line-height: 1.6; color: var(--dark); flex: 1; }
+.proj-tech { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .2rem; }
+.proj-tech span {
+  background: #f3f4f6; color: var(--muted); border-radius: 4px;
+  padding: .1rem .45rem; font-size: .72rem; font-weight: 500;
+}
+.proj-links { display: flex; gap: .55rem; margin-top: .5rem; }
+.proj-link-btn {
+  display: inline-flex; align-items: center; gap: .3rem;
+  font-size: .78rem; font-weight: 600; padding: .3rem .65rem;
+  border-radius: 5px; text-decoration: none; transition: opacity .15s;
+}
+.proj-link-btn:hover { opacity: .8; text-decoration: none; }
+.proj-link-btn.video { background: #fff0f0; color: #cc2200; border: 1px solid #f5c2b8; }
+.proj-link-btn.video-placeholder { background: #f3f4f6; color: #aaa; border: 1px solid #e2e4e9; cursor: default; }
+.proj-link-btn.repo { background: #f6f8fa; color: #24292f; border: 1px solid #d0d7de; }
+</style>
+
 <main>
   <h1>Realidad Extendida (IDI3185)</h1>
   <p class="course-meta" style="font-size:.88rem; color:var(--muted); margin-bottom:1.25rem;">
@@ -12,12 +97,161 @@
     estudiantes exploran los fundamentos conceptuales de los entornos inmersivos, incluyendo percepción,
     presencia y diseño de interacción en espacios tridimensionales. El curso examina las plataformas XR
     actuales, herramientas de autoría y los principios de diseño que guían la creación de experiencias
-    inmersivas efectivas y utilizables. Los estudiantes desarrollan habilidades prácticas a través de proyectos
+    inmersivas efectivas y usables. Los estudiantes desarrollan habilidades prácticas a través de proyectos
     que integran el pensamiento de diseño con la prototipación en XR.
   </p>
 
+  <a class="program-link" href="/new/teaching/idi3185/programa.pdf" target="_blank" rel="noopener">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+    Programa del Curso (PDF)
+  </a>
+
+  <h2>Actividades</h2>
+  <div class="activities">
+    <span class="activity-chip"><span class="dot" style="background:#0092ca;"></span>Control</span>
+    <span class="activity-chip"><span class="dot" style="background:#2d7a4f;"></span>Aula Invertida</span>
+    <span class="activity-chip"><span class="dot" style="background:#7c3aed;"></span>Proyecto de Desarrollo</span>
+    <span class="activity-chip"><span class="dot" style="background:#b45309;"></span>Lectura de Paper</span>
+  </div>
+
   <h2>Ediciones</h2>
-  <ul>
-    <li>2025</li>
-  </ul>
+
+  <!-- ==================== 2026-1 ==================== -->
+  <div class="edition">
+    <div class="edition-header">
+      <h3>2026</h3>
+      <span class="semester-badge">Semestre 1</span>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Proyecto 1: Bastón como ojo -->
+      <div class="proj-card">
+        <div class="proj-card-img">
+          <img src="/new/teaching/idi3185/baston.png" alt="Bastón como ojo" />
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-title">Bastón como ojo</div>
+          <div class="proj-card-student">Lucas Wu</div>
+          <p class="proj-card-desc">
+            Una simulación VR donde el usuario navega una ciudad interactiva con oscuridad visual total, apoyándose únicamente en un bastón blanco cuya punta actúa como su único "ojo." La detección de contacto, la memoria espacial persistente y el audio espacializado guían al jugador por tres tareas urbanas reales —supermercado, catedral y paradero de bus— en una ventana de tres minutos, fomentando la empatía hacia los peatones con discapacidad visual.
+          </p>
+          <div class="proj-tech">
+            <span>Meta Quest 2</span><span>Unity 6.4</span><span>XR Interaction Toolkit</span><span>VR</span>
+          </div>
+          <div class="proj-links">
+            <a class="proj-link-btn video" href="https://youtu.be/I3b4WP2wHs4" target="_blank" rel="noopener">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              Video demo
+            </a>
+            <a class="proj-link-btn repo" href="https://github.com/orgs/idi3185-realidad-extendida/dashboard" target="_blank" rel="noopener">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Repositorio
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 2: Palaces -->
+      <div class="proj-card">
+        <div class="proj-card-img">
+          <img src="/new/teaching/idi3185/palaces.png" alt="Palaces" />
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-title">Palaces</div>
+          <div class="proj-card-student">Miguel Luengo</div>
+          <p class="proj-card-desc">
+            Un museo musical VR que permite a los fans adentrarse en el mundo creativo de un álbum. Cada canción transforma el entorno virtual y su atmósfera; pedestales interactivos permiten tomar instrumentos, escuchar entrevistas del artista y explorar material del detrás de escenas. Los discos de vinilo actúan como disparadores físicos que controlan tanto la reproducción musical como las transiciones espaciales.
+          </p>
+          <div class="proj-tech">
+            <span>OpenXR</span><span>Unity</span><span>XR Interaction Toolkit</span><span>VR</span>
+          </div>
+          <div class="proj-links">
+            <span class="proj-link-btn video-placeholder">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              Video próximamente
+            </span>
+            <a class="proj-link-btn repo" href="https://github.com/idi3185-realidad-extendida/vr-template-dreamflash3r" target="_blank" rel="noopener">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Repositorio
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 3: FireReady VR -->
+      <div class="proj-card">
+        <div class="proj-card-img">
+          <img src="/new/teaching/idi3185/fire.png" alt="FireReady VR" />
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-title">FireReady VR</div>
+          <div class="proj-card-student">Amanda Allendes</div>
+          <p class="proj-card-desc">
+            Un simulador de entrenamiento VR que sumerge a bomberos en un edificio en llamas generado proceduralmente, con visibilidad casi nula y un suministro de oxígeno críticamente limitado. Los usuarios deben navegar por tacto, localizar un objeto de rescate y evacuar antes de que el O₂ se agote — replicando la presión cognitiva de incendios estructurales reales. Una pantalla de debriefing post-misión entrega retroalimentación cuantitativa sobre tiempo, proyección de O₂ y puntaje de desempeño ponderado.
+          </p>
+          <div class="proj-tech">
+            <span>Meta Quest 2</span><span>Unity 6 LTS</span><span>XR Interaction Toolkit</span><span>Gen. Procedural</span>
+          </div>
+          <div class="proj-links">
+            <span class="proj-link-btn video-placeholder">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              Video próximamente
+            </span>
+            <a class="proj-link-btn repo" href="https://github.com/idi3185-realidad-extendida/vr-template-Amandaasg" target="_blank" rel="noopener">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Repositorio
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 4: AutoXR -->
+      <div class="proj-card">
+        <div class="proj-card-img">
+          <img src="/new/teaching/idi3185/auto-xr.png" alt="AutoXR" />
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-title">AutoXR</div>
+          <div class="proj-card-student">Bárbara Gómez Asencio</div>
+          <p class="proj-card-desc">
+            Una experiencia XR para aprender componentes automotrices en tres modos progresivos: exploración libre (hover y selección de piezas para leer descripciones), prueba de identificación cronometrada y tarea guiada de mantenimiento paso a paso. Construida sobre un motor 3D interactivo de un Hyundai Sonata, el sistema usa highlights en hover, retroalimentación de audio espacial y gestores C# modulares para escalar el aprendizaje desde el reconocimiento hasta la práctica guiada.
+          </p>
+          <div class="proj-tech">
+            <span>OpenXR</span><span>Unity 6</span><span>XR Interaction Toolkit</span><span>XR</span>
+          </div>
+          <div class="proj-links">
+            <a class="proj-link-btn video" href="https://www.youtube.com/watch?v=GC1BOqlLy-8" target="_blank" rel="noopener">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              Video demo
+            </a>
+            <a class="proj-link-btn repo" href="https://github.com/idi3185-realidad-extendida/vr-template-Barbi03" target="_blank" rel="noopener">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Repositorio
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /projects-grid -->
+  </div><!-- /edition 2026-1 -->
+
+  <!-- ==================== 2025-1 ==================== -->
+  <div class="edition">
+    <div class="edition-header">
+      <h3>2025</h3>
+      <span class="semester-badge">Semestre 1</span>
+    </div>
+    <p class="edition-placeholder">Contenido próximamente.</p>
+  </div>
+
+  <!-- ==================== 2024-1 ==================== -->
+  <div class="edition">
+    <div class="edition-header">
+      <h3>2024</h3>
+      <span class="semester-badge">Semestre 1</span>
+    </div>
+    <p class="edition-placeholder">Contenido próximamente.</p>
+  </div>
+
 </main>
