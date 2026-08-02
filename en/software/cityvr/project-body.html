@@ -11,12 +11,17 @@
     transition:background .2s;
   }
   .btn-gh:hover { background:#1a1e27; text-decoration:none; }
-  .placeholder-img {
-    width:100%; height:200px; background:#f5f6f8;
-    border:2px dashed #d0d4dc; border-radius:6px;
-    display:flex; align-items:center; justify-content:center;
-    color:#9aa0ad; font-size:.9rem; margin-bottom:1.75rem;
+  .btn-secondary {
+    display:inline-flex; align-items:center; gap:.4rem;
+    background:#fff; color:var(--dark,#252a34);
+    border:1px solid var(--border,#e8e8e8);
+    font-size:.82rem; font-weight:600; letter-spacing:.03em;
+    padding:.42rem .9rem; border-radius:4px; text-decoration:none;
+    transition:border-color .2s, color .2s;
   }
+  .btn-secondary:hover { border-color:var(--blue,#0092ca); color:var(--blue,#0092ca); text-decoration:none; }
+  .proj-img { width:100%; margin-bottom:1.75rem; }
+  .proj-img img { width:100%; height:auto; display:block; border-radius:6px; border:1px solid var(--border,#e8e8e8); }
   .tech-grid {
     display:grid; grid-template-columns:repeat(3,1fr); gap:1rem;
     margin-bottom:1.75rem;
@@ -41,21 +46,41 @@
   <h1>CityVR</h1>
 
   <div class="proj-actions">
-    <a class="btn-gh" href="https://github.com/leonelmerino/CityVR" target="_blank" rel="noopener">
-      <i class="fab fa-github"></i> GitHub Repository
+    <a class="btn-gh" href="https://bitbucket.org/leonelmerino/cityvr" target="_blank" rel="noopener">
+      <i class="fab fa-bitbucket"></i> Bitbucket Repository
+    </a>
+    <a class="btn-secondary" href="https://scg.unibe.ch/archive/papers/Meri17c.pdf" target="_blank" rel="noopener">
+      <i class="fas fa-file-alt"></i> Paper
+    </a>
+    <a class="btn-secondary" href="https://youtu.be/R0C-HMAtgnk" target="_blank" rel="noopener">
+      <i class="fab fa-youtube"></i> Demo Video
     </a>
   </div>
 
-  <div class="placeholder-img">📷 Screenshot coming soon</div>
+  <div class="proj-img">
+    <img src="https://scg.unibe.ch/assets/files/e3/mwop9j6zzv1spkcw8y4y3lp071i3tl/cityvr.png"
+         alt="CityVR screenshot — city metaphor visualization in VR" />
+  </div>
 
   <h2>Description</h2>
   <p>
-    CityVR is an early-stage virtual reality project exploring immersive visualization of urban data.
-    The project investigates how city-scale information can be represented and navigated in VR
-    environments, providing an intuitive spatial perspective on urban structure and dynamics.
+    CityVR is an interactive software visualization tool that implements the <em>city metaphor</em>
+    technique in an immersive 3D (I3D) environment using virtual reality. The goal is to boost
+    developer engagement in software comprehension tasks by providing an experience analogous to
+    a game, going beyond typical gamification mechanisms like points and badges.
   </p>
   <p>
-    This is a foundational prototype that laid the groundwork for later XR visualization research.
+    In CityVR, a software system is represented as a virtual city: each building corresponds to a
+    class, districts represent packages, and three software metrics are encoded visually — number
+    of lines of code (color), number of methods (building height), and number of attributes
+    (width/depth). Developers physically walk, crouch, and jump through the city using VR
+    controllers, and can create a "bubble" to inspect the source code of any class.
+  </p>
+  <p>
+    The tool was evaluated with a case study based on ArgoUML 0.34. Developers reported feeling
+    curious, immersed, in control, excited, and challenged, and perceived that time passed faster
+    while using it — indicating high engagement. CityVR was developed at the Software Composition
+    Group, University of Bern.
   </p>
 
   <h2>Stack</h2>
@@ -63,21 +88,24 @@
     <div class="tech-section">
       <h3>Technologies</h3>
       <ul>
-        <li>Virtual Reality</li>
-        <li>3D Visualization</li>
-        <li>Urban Data</li>
+        <li>Immersive 3D (I3D)</li>
+        <li>City metaphor visualization</li>
+        <li>Room-scale VR interaction</li>
+        <li>Software metric encoding</li>
       </ul>
     </div>
     <div class="tech-section">
       <h3>Software</h3>
       <ul>
-        <li>TBD</li>
+        <li>Unity</li>
+        <li>SteamVR SDK</li>
       </ul>
     </div>
     <div class="tech-section">
       <h3>Hardware</h3>
       <ul>
-        <li>VR headset</li>
+        <li>HTC Vive (2160×1200, 90 Hz)</li>
+        <li>Handheld controllers</li>
       </ul>
     </div>
   </div>
@@ -85,5 +113,8 @@
   <h2>Collaborators</h2>
   <ul class="collab-list">
     <li>Leonel Merino <span class="collab-role">Lead Collaborator</span></li>
+    <li>Mohammad Ghafari <span class="collab-role">Collaborator</span></li>
+    <li>Craig Anslow <span class="collab-role">Collaborator</span></li>
+    <li>Oscar Nierstrasz <span class="collab-role">Collaborator</span></li>
   </ul>
 </main>
