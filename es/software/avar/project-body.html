@@ -11,8 +11,6 @@
     transition:background .2s;
   }
   .btn-gh:hover { background:#1a1e27; text-decoration:none; }
-  .proj-img { width:100%; margin-bottom:1.75rem; }
-  .proj-img img { width:100%; max-width:320px; height:auto; display:block; border-radius:6px; border:1px solid var(--border,#e8e8e8); }
   .placeholder-img {
     width:100%; height:200px; background:#f5f6f8;
     border:2px dashed #d0d4dc; border-radius:6px;
@@ -48,22 +46,22 @@
     </a>
   </div>
 
-  <div class="proj-img">
-    <img src="https://raw.githubusercontent.com/leonelmerino/avar/main/AVAR2/Documentation/Markers/AVAR2_Marker_A.png"
-         alt="Marcador AVAR A" />
-  </div>
+  <div class="placeholder-img">📷 Captura de pantalla próximamente</div>
 
   <h2>Descripción</h2>
   <p>
-    AVAR es una aplicación nativa de iOS para detección de realidad aumentada basada en marcadores,
-    desarrollada en Swift usando ARKit. La app reconoce marcadores físicos impresos y superpone
-    contenido digital de RA sobre ellos en tiempo real a través de la cámara del dispositivo.
+    AVAR (AVAR2) es una aplicación de visualización de datos espaciales para plataformas Apple
+    (visionOS 2.0+ e iOS 18+) que renderiza datos de grafos — nodos y aristas descritos en JSON —
+    como objetos 3D interactivos anclados en realidad aumentada. Los nodos se representan como
+    formas geométricas 3D (cajas, esferas, cilindros, conos) y pueden arrastrarse, escalarse y
+    ajustarse a superficies del mundo real como paredes, pisos, mesas y techos detectados por ARKit.
   </p>
   <p>
-    El proyecto incluye un conjunto de marcadores de referencia AR personalizados (Marcador A y
-    Marcador B) utilizados para activar experiencias de RA. Desarrollado en el contexto del evento
-    AVAR (Augmented and Virtual Reality), sirve como demostración de las capacidades nativas de
-    AR en iOS sin necesitar frameworks de RA de terceros.
+    La app acepta datos de grafos desde tres fuentes: archivos de ejemplo incluidos, pegado directo
+    de JSON, o inyección en tiempo real mediante un servidor HTTP embebido (puerto 8081) que acepta
+    solicitudes POST a <code>/avar</code>. Esto convierte a AVAR en un frontend AR en vivo para
+    herramientas externas como Pharo Smalltalk. Las sesiones colaborativas multiusuario se soportan
+    mediante SharePlay (GroupActivities), permitiendo diagramas AR sincronizados entre dispositivos.
   </p>
 
   <h2>Stack</h2>
@@ -71,29 +69,34 @@
     <div class="tech-section">
       <h3>Tecnologías</h3>
       <ul>
-        <li>ARKit</li>
-        <li>Detección de marcadores</li>
-        <li>Imágenes de referencia AR</li>
+        <li>RealityKit (renderizado 3D)</li>
+        <li>ARKit (detección de planos)</li>
+        <li>SharePlay / GroupActivities</li>
+        <li>Servidor HTTP embebido</li>
+        <li>Modelo de datos JSON</li>
       </ul>
     </div>
     <div class="tech-section">
       <h3>Software</h3>
       <ul>
         <li>Swift</li>
-        <li>Xcode</li>
+        <li>SwiftUI</li>
+        <li>Xcode 16+</li>
+        <li>macOS 15 Sequoia (dev)</li>
       </ul>
     </div>
     <div class="tech-section">
       <h3>Hardware</h3>
       <ul>
-        <li>iPhone o iPad</li>
+        <li>Apple Vision Pro (visionOS)</li>
+        <li>iPhone — iOS 18+ (modo receptor)</li>
       </ul>
     </div>
   </div>
 
   <h2>Colaboradores</h2>
   <ul class="collab-list">
-    <li>Leonel Merino <span class="collab-role">Investigador Principal</span></li>
+    <li>Leonel Merino <span class="collab-role">Colaborador Principal</span></li>
     <li>Roberto Riquelme <span class="collab-role">Colaborador</span></li>
     <li>Mateo de la Cuadra <span class="collab-role">Colaborador</span></li>
   </ul>

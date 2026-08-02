@@ -11,8 +11,6 @@
     transition:background .2s;
   }
   .btn-gh:hover { background:#1a1e27; text-decoration:none; }
-  .proj-img { width:100%; margin-bottom:1.75rem; }
-  .proj-img img { width:100%; max-width:320px; height:auto; display:block; border-radius:6px; border:1px solid var(--border,#e8e8e8); }
   .placeholder-img {
     width:100%; height:200px; background:#f5f6f8;
     border:2px dashed #d0d4dc; border-radius:6px;
@@ -48,22 +46,22 @@
     </a>
   </div>
 
-  <div class="proj-img">
-    <img src="https://raw.githubusercontent.com/leonelmerino/avar/main/AVAR2/Documentation/Markers/AVAR2_Marker_A.png"
-         alt="AVAR Marker A" />
-  </div>
+  <div class="placeholder-img">📷 Screenshot coming soon</div>
 
   <h2>Description</h2>
   <p>
-    AVAR is a native iOS application for marker-based augmented reality detection, developed in
-    Swift using ARKit. The app recognizes physical printed markers and overlays digital AR content
-    on them in real time through the device camera.
+    AVAR (AVAR2) is a spatial data visualization application for Apple platforms (visionOS 2.0+ and
+    iOS 18+) that renders graph data — nodes and edges described in JSON — as interactive 3D objects
+    anchored in augmented reality. Nodes are represented as 3D geometric shapes (boxes, spheres,
+    cylinders, cones) and can be dragged, scaled, and snapped to real-world surfaces such as walls,
+    floors, tables, and ceilings detected by ARKit.
   </p>
   <p>
-    The project includes a set of custom AR reference markers (Marker A and Marker B) used to
-    trigger AR experiences. Developed in the context of the AVAR (Augmented and Virtual Reality)
-    event, it serves as a demonstration of native iOS AR capabilities without the need for
-    third-party AR frameworks.
+    The app accepts graph data from three sources: bundled example files, direct JSON paste, or
+    real-time injection via an embedded HTTP server (port 8081) that accepts POST requests to
+    <code>/avar</code>. This makes AVAR a live AR visualization frontend for external tools such as
+    Pharo Smalltalk. Multi-user collaborative sessions are supported via SharePlay (GroupActivities),
+    allowing synchronized spatial AR diagrams across devices.
   </p>
 
   <h2>Stack</h2>
@@ -71,29 +69,34 @@
     <div class="tech-section">
       <h3>Technologies</h3>
       <ul>
-        <li>ARKit</li>
-        <li>Image Marker Detection</li>
-        <li>AR Reference Images</li>
+        <li>RealityKit (3D rendering)</li>
+        <li>ARKit (plane detection)</li>
+        <li>SharePlay / GroupActivities</li>
+        <li>Embedded HTTP server</li>
+        <li>JSON graph data model</li>
       </ul>
     </div>
     <div class="tech-section">
       <h3>Software</h3>
       <ul>
         <li>Swift</li>
-        <li>Xcode</li>
+        <li>SwiftUI</li>
+        <li>Xcode 16+</li>
+        <li>macOS 15 Sequoia (dev)</li>
       </ul>
     </div>
     <div class="tech-section">
       <h3>Hardware</h3>
       <ul>
-        <li>iPhone or iPad</li>
+        <li>Apple Vision Pro (visionOS)</li>
+        <li>iPhone — iOS 18+ (receive mode)</li>
       </ul>
     </div>
   </div>
 
   <h2>Collaborators</h2>
   <ul class="collab-list">
-    <li>Leonel Merino <span class="collab-role">Principal Investigator</span></li>
+    <li>Leonel Merino <span class="collab-role">Lead Collaborator</span></li>
     <li>Roberto Riquelme <span class="collab-role">Collaborator</span></li>
     <li>Mateo de la Cuadra <span class="collab-role">Collaborator</span></li>
   </ul>
