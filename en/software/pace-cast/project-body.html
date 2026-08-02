@@ -1,0 +1,100 @@
+<style>
+  .proj-back { font-size:.85rem; margin-bottom:1.25rem; }
+  .proj-back a { color:var(--muted,#6d7281); }
+  .proj-back a:hover { color:var(--blue,#0092ca); }
+  .proj-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin-bottom:1.75rem; }
+  .btn-gh {
+    display:inline-flex; align-items:center; gap:.4rem;
+    background:var(--dark,#252a34); color:#fff;
+    font-size:.82rem; font-weight:600; letter-spacing:.03em;
+    padding:.42rem .9rem; border-radius:4px; text-decoration:none;
+    transition:background .2s;
+  }
+  .btn-gh:hover { background:#1a1e27; text-decoration:none; }
+  .proj-img { width:100%; margin-bottom:1.75rem; }
+  .proj-img img { width:100%; height:auto; display:block; border-radius:6px; border:1px solid var(--border,#e8e8e8); }
+  .tech-grid {
+    display:grid; grid-template-columns:repeat(3,1fr); gap:1rem;
+    margin-bottom:1.75rem;
+  }
+  .tech-section h3 {
+    font-size:.8rem; font-weight:700; text-transform:uppercase;
+    letter-spacing:.07em; color:var(--muted,#6d7281);
+    margin-bottom:.5rem;
+  }
+  .tech-section ul { list-style:none; margin:0; padding:0; }
+  .tech-section ul li { font-size:.88rem; margin-bottom:.3rem; color:#444; }
+  .tech-section ul li::before { content:"· "; color:var(--blue,#0092ca); }
+  .collab-list { list-style:none; margin:0; padding:0; }
+  .collab-list li { font-size:.9rem; margin-bottom:.4rem; display:flex; align-items:center; gap:.5rem; }
+  .collab-list li .collab-role { font-size:.78rem; color:var(--muted,#6d7281); }
+  @media(max-width:600px) { .tech-grid { grid-template-columns:1fr; } }
+</style>
+
+<main>
+  <p class="proj-back"><a href="../">← Software</a></p>
+
+  <h1>Pace Cast</h1>
+
+  <div class="proj-actions">
+    <a class="btn-gh" href="https://github.com/leonelmerino/pace-cast" target="_blank" rel="noopener">
+      <i class="fab fa-github"></i> GitHub Repository
+    </a>
+  </div>
+
+  <div class="proj-img">
+    <img src="https://raw.githubusercontent.com/leonelmerino/pace-cast/main/documentation/screenshot-app.png"
+         alt="Pace Cast app screenshot" />
+  </div>
+
+  <h2>Description</h2>
+  <p>
+    Pace Cast is a proof-of-concept that uses an HTC VIVE Ultimate Tracker worn on the foot as a
+    gait sensor to control the playback speed of a first-person walkthrough video in real time.
+    Walking in place increases the video's playback rate while audio pitch is preserved, creating
+    a seamless perceptual coupling between physical movement and visual locomotion.
+  </p>
+  <p>
+    The system consists of a Python backend that reads tracker data via SteamVR and a web
+    frontend (served in a Chromium-based browser) that receives playback rate commands and
+    adjusts the video accordingly. This POC explores embodied interaction for virtual navigation
+    and immersive media experiences.
+  </p>
+
+  <h2>Stack</h2>
+  <div class="tech-grid">
+    <div class="tech-section">
+      <h3>Technologies</h3>
+      <ul>
+        <li>Gait Sensing</li>
+        <li>Real-time Tracking</li>
+        <li>Video Playback Control</li>
+        <li>Pitch Preservation</li>
+        <li>WebSocket / HTTP</li>
+      </ul>
+    </div>
+    <div class="tech-section">
+      <h3>Software</h3>
+      <ul>
+        <li>Python 3.10+</li>
+        <li>SteamVR</li>
+        <li>VIVE Hub</li>
+        <li>Chromium browser</li>
+        <li>HTML / JavaScript</li>
+      </ul>
+    </div>
+    <div class="tech-section">
+      <h3>Hardware</h3>
+      <ul>
+        <li>HTC VIVE Ultimate Tracker</li>
+        <li>VIVE Wireless Dongle</li>
+        <li>Windows PC</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>Collaborators</h2>
+  <ul class="collab-list">
+    <li>Leonel Merino <span class="collab-role">Principal Investigator</span></li>
+  </ul>
+</main>

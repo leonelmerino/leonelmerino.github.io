@@ -1,0 +1,100 @@
+<style>
+  .proj-back { font-size:.85rem; margin-bottom:1.25rem; }
+  .proj-back a { color:var(--muted,#6d7281); }
+  .proj-back a:hover { color:var(--blue,#0092ca); }
+  .proj-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin-bottom:1.75rem; }
+  .btn-gh {
+    display:inline-flex; align-items:center; gap:.4rem;
+    background:var(--dark,#252a34); color:#fff;
+    font-size:.82rem; font-weight:600; letter-spacing:.03em;
+    padding:.42rem .9rem; border-radius:4px; text-decoration:none;
+    transition:background .2s;
+  }
+  .btn-gh:hover { background:#1a1e27; text-decoration:none; }
+  .proj-img { width:100%; margin-bottom:1.75rem; }
+  .proj-img img { width:100%; max-width:320px; height:auto; display:block; border-radius:6px; border:1px solid var(--border,#e8e8e8); }
+  .placeholder-img {
+    width:100%; height:200px; background:#f5f6f8;
+    border:2px dashed #d0d4dc; border-radius:6px;
+    display:flex; align-items:center; justify-content:center;
+    color:#9aa0ad; font-size:.9rem; margin-bottom:1.75rem;
+  }
+  .tech-grid {
+    display:grid; grid-template-columns:repeat(3,1fr); gap:1rem;
+    margin-bottom:1.75rem;
+  }
+  .tech-section h3 {
+    font-size:.8rem; font-weight:700; text-transform:uppercase;
+    letter-spacing:.07em; color:var(--muted,#6d7281);
+    margin-bottom:.5rem;
+  }
+  .tech-section ul { list-style:none; margin:0; padding:0; }
+  .tech-section ul li { font-size:.88rem; margin-bottom:.3rem; color:#444; }
+  .tech-section ul li::before { content:"· "; color:var(--blue,#0092ca); }
+  .collab-list { list-style:none; margin:0; padding:0; }
+  .collab-list li { font-size:.9rem; margin-bottom:.4rem; display:flex; align-items:center; gap:.5rem; }
+  .collab-list li .collab-role { font-size:.78rem; color:var(--muted,#6d7281); }
+  @media(max-width:600px) { .tech-grid { grid-template-columns:1fr; } }
+</style>
+
+<main>
+  <p class="proj-back"><a href="../">← Software</a></p>
+
+  <h1>AVAR</h1>
+
+  <div class="proj-actions">
+    <a class="btn-gh" href="https://github.com/leonelmerino/avar" target="_blank" rel="noopener">
+      <i class="fab fa-github"></i> Repositorio GitHub
+    </a>
+  </div>
+
+  <div class="proj-img">
+    <img src="https://raw.githubusercontent.com/leonelmerino/avar/main/AVAR2/Documentation/Markers/AVAR2_Marker_A.png"
+         alt="Marcador AVAR A" />
+  </div>
+
+  <h2>Descripción</h2>
+  <p>
+    AVAR es una aplicación nativa de iOS para detección de realidad aumentada basada en marcadores,
+    desarrollada en Swift usando ARKit. La app reconoce marcadores físicos impresos y superpone
+    contenido digital de RA sobre ellos en tiempo real a través de la cámara del dispositivo.
+  </p>
+  <p>
+    El proyecto incluye un conjunto de marcadores de referencia AR personalizados (Marcador A y
+    Marcador B) utilizados para activar experiencias de RA. Desarrollado en el contexto del evento
+    AVAR (Augmented and Virtual Reality), sirve como demostración de las capacidades nativas de
+    AR en iOS sin necesitar frameworks de RA de terceros.
+  </p>
+
+  <h2>Stack</h2>
+  <div class="tech-grid">
+    <div class="tech-section">
+      <h3>Tecnologías</h3>
+      <ul>
+        <li>ARKit</li>
+        <li>Detección de marcadores</li>
+        <li>Imágenes de referencia AR</li>
+      </ul>
+    </div>
+    <div class="tech-section">
+      <h3>Software</h3>
+      <ul>
+        <li>Swift</li>
+        <li>Xcode</li>
+      </ul>
+    </div>
+    <div class="tech-section">
+      <h3>Hardware</h3>
+      <ul>
+        <li>iPhone o iPad</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>Colaboradores</h2>
+  <ul class="collab-list">
+    <li>Leonel Merino <span class="collab-role">Investigador Principal</span></li>
+    <li>Roberto Riquelme <span class="collab-role">Colaborador</span></li>
+    <li>Mateo de la Cuadra <span class="collab-role">Colaborador</span></li>
+  </ul>
+</main>
