@@ -1,3 +1,6 @@
+---
+layout: none
+---
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -77,9 +80,9 @@
       document.getElementById(targetId).innerHTML = html;
     }
     Promise.all([
-      loadComponent('../../../navbar.html', 'navbar-slot'),
-      loadComponent('../../../sidebar.html','sidebar-slot'),
-      loadComponent('project-body.html',    'body-slot'),
+      loadComponent('../../navbar.html',  'navbar-slot'),
+      loadComponent('../../sidebar.html', 'sidebar-slot'),
+      loadComponent('project-body.html',  'body-slot'),
     ]).then(() => {
       const nav = document.querySelector('nav');
       const toggle = document.querySelector('.nav-toggle');

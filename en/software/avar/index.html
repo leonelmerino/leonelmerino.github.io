@@ -1,10 +1,13 @@
+---
+layout: none
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AVAR — Leonel Merino</title>
-  <meta name="description" content="Native iOS AR marker app by Leonel Merino" />
+  <meta name="description" content="Native iOS AR app by Leonel Merino" />
   <link rel="alternate" hreflang="en" href="/en/software/avar/" />
   <link rel="alternate" hreflang="es" href="/es/software/avar/" />
   <link rel="alternate" hreflang="x-default" href="/en/software/avar/" />
@@ -77,9 +80,9 @@
       document.getElementById(targetId).innerHTML = html;
     }
     Promise.all([
-      loadComponent('../../../navbar.html', 'navbar-slot'),
-      loadComponent('../../../sidebar.html','sidebar-slot'),
-      loadComponent('project-body.html',    'body-slot'),
+      loadComponent('../../navbar.html',  'navbar-slot'),
+      loadComponent('../../sidebar.html', 'sidebar-slot'),
+      loadComponent('project-body.html',  'body-slot'),
     ]).then(() => {
       const nav = document.querySelector('nav');
       const toggle = document.querySelector('.nav-toggle');
