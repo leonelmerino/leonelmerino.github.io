@@ -24,6 +24,10 @@
   .proj-img img { width:100%; height:auto; display:block; border-radius:6px; border:1px solid var(--border,#e8e8e8); }
   .screenshots { display:grid; grid-template-columns:1fr 1fr; gap:.75rem; margin-bottom:1.75rem; }
   .screenshots img { width:100%; height:auto; display:block; border-radius:6px; border:1px solid var(--border,#e8e8e8); }
+  .screenshots-3col { display:grid; grid-template-columns:1fr 1fr 1fr; gap:.45rem; margin-bottom:1.75rem; }
+  .screenshots-3col figure { margin:0; }
+  .screenshots-3col img { width:100%; display:block; border-radius:5px; border:1px solid var(--border,#e8e8e8); object-fit:cover; aspect-ratio:4/3; }
+  .screenshots-3col figcaption { font-size:.67rem; color:var(--muted,#6d7281); text-align:center; margin-top:.28rem; letter-spacing:.03em; text-transform:uppercase; }
   .placeholder-img {
     width:100%; height:200px; background:#f5f6f8;
     border:2px dashed #d0d4dc; border-radius:6px;
@@ -71,9 +75,22 @@
     </a>
   </div>
 
-  <div class="screenshots">
-    <img src="xr-collaboration-test-1.jpg" alt="XR Collaboration Proto2 — participants testing the prototype in the lab" />
-    <img src="xr-collaboration-test-2.jpg" alt="XR Collaboration Proto2 — wider view of the lab session with VR headsets" />
+  <div class="proj-img">
+    <img src="xr-collaboration-test-2.jpg" alt="XR Collaboration Proto2 — lab session with participants using HTC Vive Focus Vision headsets" />
+  </div>
+  <div class="screenshots-3col">
+    <figure>
+      <img src="xr-collaboration-infrastructure.png" alt="XR Collaboration Proto2 — hardware setup: Alienware laptops, HTC Vive Focus Vision, and Wi-Fi router" />
+      <figcaption>Hardware setup</figcaption>
+    </figure>
+    <figure>
+      <img src="xr-collaboration-movements-2.png" alt="XR Collaboration Proto2 — overhead view with pose estimation skeleton tracking overlay on participants" />
+      <figcaption>Movement tracking</figcaption>
+    </figure>
+    <figure>
+      <img src="xr-collaboration-physio.png" alt="XR Collaboration Proto2 — participant equipped with MindWare physiological sensors" />
+      <figcaption>Physiological sensing</figcaption>
+    </figure>
   </div>
 
   <h2>Description</h2>
