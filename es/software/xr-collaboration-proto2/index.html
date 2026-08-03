@@ -75,7 +75,7 @@ layout: none
   <footer>&copy; 2026 Leonel Merino &mdash; Pontifical Catholic University of Chile</footer>
   <script>
     async function loadComponent(url, targetId) {
-      const res = await fetch(url);
+      const res = await fetch(url, {cache:'no-store'});
       const html = await res.text();
       document.getElementById(targetId).innerHTML = html;
     }

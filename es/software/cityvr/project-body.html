@@ -22,7 +22,7 @@
   .btn-secondary:hover { border-color:var(--blue,#0092ca); color:var(--blue,#0092ca); text-decoration:none; }
   .proj-img { width:100%; margin-bottom:1.75rem; }
   .proj-img img { width:100%; height:auto; display:block; border-radius:6px; border:1px solid var(--border,#e8e8e8); }
-  .screenshots { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1.75rem; }
+  .screenshots { display:grid; grid-template-columns:1fr 1fr; gap:.75rem; margin-bottom:1.75rem; }
   .screenshots img { width:100%; height:auto; display:block; border-radius:6px; border:1px solid var(--border,#e8e8e8); }
   .placeholder-img {
     width:100%; height:200px; background:#f5f6f8;
@@ -37,15 +37,12 @@
     padding:.18rem .55rem; border-radius:20px;
     text-transform:uppercase; white-space:nowrap;
   }
-  .badge-tech { background:#edf2ff; color:#3b5bdb; }
-  .badge-sw   { background:#ebfbee; color:#2f9e44; }
-  .badge-hw   { background:#fff9db; color:#b36000; }
-  .stack-group { margin-bottom:1.1rem; }
-  .stack-label {
-    font-size:.72rem; font-weight:700; text-transform:uppercase;
-    letter-spacing:.07em; color:var(--muted,#6d7281); margin-bottom:.4rem;
-  }
-  .badge-row { display:flex; flex-wrap:wrap; gap:.3rem; }
+  /* Recurring concepts — consistent color across all project pages */
+  .badge-apple { background:#edf2ff; color:#3b5bdb; }   /* ARKit · Swift · Xcode · iPhone */
+  .badge-unity { background:#d3f9d8; color:#2f9e44; }   /* Unity · C# */
+  .badge-vr    { background:#e3fafc; color:#0c8599; }   /* SteamVR */
+  /* Single-occurrence concepts */
+  .badge-gray  { background:#f1f3f5; color:#495057; }
   .note-box {
     font-size:.85rem; color:#555; background:#f7f9fc;
     border-left:3px solid var(--border,#e8e8e8);
@@ -53,6 +50,12 @@
     margin-bottom:1.5rem;
   }
   .note-box a { color:var(--blue,#0092ca); }
+  .stack-group { margin-bottom:1.1rem; }
+  .stack-label {
+    font-size:.72rem; font-weight:700; text-transform:uppercase;
+    letter-spacing:.07em; color:var(--muted,#6d7281); margin-bottom:.4rem;
+  }
+  .badge-row { display:flex; flex-wrap:wrap; gap:.3rem; }
   .collab-list { list-style:none; margin:0; padding:0; }
   .collab-list li { font-size:.9rem; margin-bottom:.4rem; display:flex; align-items:center; gap:.5rem; }
   .collab-list li .collab-role { font-size:.78rem; color:var(--muted,#6d7281); }
@@ -60,7 +63,6 @@
 
 <main>
   <p class="proj-back"><a href="../">← Software</a></p>
-
   <h1>CityVR</h1>
 
   <div class="proj-actions">
@@ -107,24 +109,24 @@
   <div class="stack-group">
     <p class="stack-label">Tecnologías</p>
     <div class="badge-row">
-      <span class="badge badge-tech">3D Inmersivo (I3D)</span>
-      <span class="badge badge-tech">Visualización metáfora de ciudad</span>
-      <span class="badge badge-tech">Interacción VR a escala de sala</span>
-      <span class="badge badge-tech">Codificación de métricas de software</span>
+      <span class="badge badge-gray">3D Inmersivo (I3D)</span>
+      <span class="badge badge-gray">Visualización metáfora de ciudad</span>
+      <span class="badge badge-gray">Interacción VR a escala de sala</span>
+      <span class="badge badge-gray">Codificación de métricas de software</span>
     </div>
   </div>
   <div class="stack-group">
     <p class="stack-label">Software</p>
     <div class="badge-row">
-      <span class="badge badge-sw">Unity</span>
-      <span class="badge badge-sw">SteamVR SDK</span>
+      <span class="badge badge-unity">Unity</span>
+      <span class="badge badge-vr">SteamVR SDK</span>
     </div>
   </div>
   <div class="stack-group">
     <p class="stack-label">Hardware</p>
     <div class="badge-row">
-      <span class="badge badge-hw">HTC Vive (2160×1200, 90 Hz)</span>
-      <span class="badge badge-hw">Controladores manuales</span>
+      <span class="badge badge-gray">HTC Vive (2160×1200, 90 Hz)</span>
+      <span class="badge badge-gray">Controladores manuales</span>
     </div>
   </div>
 
