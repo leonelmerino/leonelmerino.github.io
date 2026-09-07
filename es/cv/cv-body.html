@@ -1,6 +1,6 @@
 <style>
   main h1 { font-size: 1.15rem; font-weight: 700; padding-bottom: .3rem; border-bottom: 1px solid var(--border); margin-bottom: .6rem; }
-  main h2 { font-size: 1.05rem; font-weight: 700; margin: 1.8rem 0 .5rem; padding-bottom: .25rem; border-bottom: 1px solid var(--border); text-transform: uppercase; letter-spacing: .06em; color: var(--dark); }
+  main h2 { font-size: .78rem; font-weight: 700; margin: 1.8rem 0 .6rem; padding: .25rem .6rem; border-radius: 4px; letter-spacing: .08em; text-transform: uppercase; background: #edf2ff; color: #3b5bdb; display: inline-block; }
   main p  { font-size: .92rem; line-height: 1.7; margin-bottom: .75rem; color: var(--dark); }
   main ul { padding-left: 1.4rem; margin-bottom: .75rem; }
   main ul li { font-size: .9rem; line-height: 1.6; margin-bottom: .2rem; color: var(--dark); }
@@ -8,18 +8,23 @@
   main ol { padding-left: 1.6rem; margin-bottom: .75rem; }
   main ol li { font-size: .88rem; line-height: 1.6; margin-bottom: .45rem; color: var(--dark); }
 
+  .cv-section { margin-bottom: 0; display: block; width: 100%; }
+
   .cv-entry { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: .15rem .5rem; margin-bottom: .15rem; }
   .cv-entry-title { font-size: .92rem; font-weight: 600; color: var(--dark); }
   .cv-entry-date  { font-size: .83rem; color: var(--muted); white-space: nowrap; flex-shrink: 0; }
-  .cv-entry-sub   { font-size: .88rem; color: var(--muted); margin-bottom: .9rem; padding-left: .75rem; }
+  .cv-entry-sub   { font-size: .87rem; color: var(--muted); margin-bottom: .85rem; padding-left: .75rem; border-left: 2px solid #e8f4fb; }
   .cv-entry-sub em { font-style: italic; }
 
+  .cv-subsection-label { font-size: .8rem; font-weight: 700; color: #0074a6; text-transform: uppercase; letter-spacing: .05em; margin: .9rem 0 .3rem; padding: .15rem .5rem; background: #e8f4fb; border-radius: 3px; display: inline-block; }
+
   .cv-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: .15rem 2rem; margin-bottom: .9rem; }
-  .cv-two-col .cv-entry { margin-bottom: 0; }
 
-  .cv-pub-section { font-size: .82rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin: 1rem 0 .35rem; }
+  .cv-pub-section { font-size: .78rem; font-weight: 700; color: #0c8599; text-transform: uppercase; letter-spacing: .06em; margin: 1rem 0 .35rem; padding: .15rem .5rem; background: #e3fafc; border-radius: 3px; display: inline-block; }
 
-  .cv-award { font-size: .83rem; color: var(--muted); font-style: italic; margin-left: .5rem; }
+  .cv-award { font-size: .82rem; color: var(--muted); font-style: italic; margin-left: .4rem; }
+
+  .cv-separator { height: 1px; background: var(--border); margin: .5rem 0 .9rem; }
 
   @media (max-width: 640px) { .cv-two-col { grid-template-columns: 1fr; } }
 </style>
@@ -181,16 +186,16 @@
     <span class="cv-entry-date"></span>
   </div>
 
-  <p style="margin-top:.6rem; margin-bottom:.2rem; font-size:.9rem; font-weight:600;">Comité de Programa</p>
+  <p class="cv-subsection-label">Comité de Programa</p>
   <p>VRST 2026 · ISMAR 2024, 2026 · PX 2024 · SANER 2024 · SCCC 2021–2023 · SEAA 2019–2020 · ASSE 2019 · VISSOFT 2019–2020, 2023–2026 · VISSOFT 2016, 2018 AEC · VISSOFT 2017 NIER/TD · SATToSE 2014</p>
 
-  <p style="margin-bottom:.2rem; font-size:.9rem; font-weight:600;">Revisor</p>
+  <p class="cv-subsection-label">Revisor</p>
   <p>ACM Computing Surveys (CSUR), IEEE Transactions on Software Engineering (TSE), IEEE Transactions on Visualization and Computer Graphics (TVCG), Empirical Software Engineering (EMSE), Information and Software Technology (IST), Journal of Systems and Software (JSS), Software: Practice and Experience (SPE), Journal of Software: Evolution and Process (JSPE), Information Visualization (IV), Journal of Visualization (JOVI), Journal of Object Technology (JOT), DGDW, IEEE SoftwareX</p>
 
   <!-- DOCENCIA -->
   <h2>Docencia</h2>
 
-  <p style="margin-bottom:.2rem; font-size:.9rem; font-weight:600;">Cursos (UC Chile)</p>
+  <p class="cv-subsection-label">Cursos (UC Chile)</p>
   <ul>
     <li>"Realidad Extendida" – IDI3185 (2025, 2026)</li>
     <li>"Visualización de Datos" – INF3531, MTIG (2023–2025)</li>
@@ -201,7 +206,7 @@
     <li>"Diseño en VR/AR" – DNO3289, MADA (2021, 2023)</li>
   </ul>
 
-  <p style="margin-bottom:.2rem; font-size:.9rem; font-weight:600;">Clases Internacionales / Invitado</p>
+  <p class="cv-subsection-label">Clases Internacionales / Invitado</p>
   <ul>
     <li>Escuela Internacional de Verano "Visual Software Analytics — Software Comprehension" (Otoño 2019), Universität Leipzig</li>
     <li>Clase Invitada: "3D Software Visualization in VR/AR" (Otoño 2019), Software Modeling and Analysis, Universität Bern</li>
@@ -211,14 +216,14 @@
     <li>Clase Invitada: "Agile Visualization with Roassal" (Otoño 2014), Universität Bern</li>
   </ul>
 
-  <p style="margin-bottom:.2rem; font-size:.9rem; font-weight:600;">Ayudante</p>
+  <p class="cv-subsection-label">Ayudante</p>
   <ul>
     <li>Seminario sobre Immersive Analytics and Situated Visualization, Universität Stuttgart (Primavera 2020)</li>
     <li>Introduction to Virtual and Augmented Reality, Universität Stuttgart (Primavera 2019)</li>
     <li>Concurrency: State Models and Design Patterns, Universität Bern (Otoño 2015, 2017)</li>
   </ul>
 
-  <p style="margin-bottom:.2rem; font-size:.9rem; font-weight:600;">Tesis Supervisadas</p>
+  <p class="cv-subsection-label">Tesis Supervisadas</p>
   <ul>
     <li>Juan Pablo Palma — Tesis de pregrado, Ingeniería, UC. <em>En curso, 2026.</em></li>
     <li>Santiago Viana — Tesis de pregrado, Diseño, UC. 2026.</li>
