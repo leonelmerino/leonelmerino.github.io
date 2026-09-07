@@ -1,0 +1,328 @@
+<style>
+  main h1 { font-size: 1.15rem; font-weight: 700; padding-bottom: .3rem; border-bottom: 1px solid var(--border); margin-bottom: .6rem; }
+  main h2 { font-size: 1.05rem; font-weight: 700; margin: 1.8rem 0 .5rem; padding-bottom: .25rem; border-bottom: 1px solid var(--border); text-transform: uppercase; letter-spacing: .06em; color: var(--dark); }
+  main p  { font-size: .92rem; line-height: 1.7; margin-bottom: .75rem; color: var(--dark); }
+  main ul { padding-left: 1.4rem; margin-bottom: .75rem; }
+  main ul li { font-size: .9rem; line-height: 1.6; margin-bottom: .2rem; color: var(--dark); }
+  main a  { color: var(--blue); }
+  main ol { padding-left: 1.6rem; margin-bottom: .75rem; }
+  main ol li { font-size: .88rem; line-height: 1.6; margin-bottom: .45rem; color: var(--dark); }
+
+  .cv-entry { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: .15rem .5rem; margin-bottom: .15rem; }
+  .cv-entry-title { font-size: .92rem; font-weight: 600; color: var(--dark); }
+  .cv-entry-date  { font-size: .83rem; color: var(--muted); white-space: nowrap; flex-shrink: 0; }
+  .cv-entry-sub   { font-size: .88rem; color: var(--muted); margin-bottom: .9rem; padding-left: .75rem; }
+  .cv-entry-sub em { font-style: italic; }
+
+  .cv-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: .15rem 2rem; margin-bottom: .9rem; }
+  .cv-two-col .cv-entry { margin-bottom: 0; }
+
+  .cv-pub-section { font-size: .82rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin: 1rem 0 .35rem; }
+
+  .cv-award { font-size: .83rem; color: var(--muted); font-style: italic; margin-left: .5rem; }
+
+  @media (max-width: 640px) { .cv-two-col { grid-template-columns: 1fr; } }
+</style>
+
+<main>
+  <h1>Currículum Vitae</h1>
+
+  <!-- EDUCACIÓN -->
+  <h2>Educación</h2>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Doctorado en Ciencias de la Computación — University of Bern, Suiza</span>
+    <span class="cv-entry-date">Junio 2018</span>
+  </div>
+  <div class="cv-entry-sub">Software Composition Group, supervisado por Oscar Nierstrasz</div>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Magíster en Ciencias de la Computación — École des Mines de Nantes, Francia</span>
+    <span class="cv-entry-date">Septiembre 2008</span>
+  </div>
+  <div class="cv-entry-sub">Programa EMOOSE (doble titulación)</div>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Magíster en Ciencias de la Computación — Vrije Universiteit Brussel, Bélgica</span>
+    <span class="cv-entry-date">Septiembre 2008</span>
+  </div>
+  <div class="cv-entry-sub">Programa EMOOSE (doble titulación)</div>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Licenciado en Ciencias de la Ingeniería / Ingeniero Civil en Computación — <a href="https://dcc.uchile.cl/" target="_blank" rel="noopener">Universidad de Chile</a></span>
+    <span class="cv-entry-date">Noviembre 2006</span>
+  </div>
+  <div class="cv-entry-sub">&nbsp;</div>
+
+  <!-- EXPERIENCIA LABORAL -->
+  <h2>Experiencia Laboral</h2>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Profesor Asistente — Pontificia Universidad Católica de Chile</span>
+    <span class="cv-entry-date">Marzo 2021 – presente</span>
+  </div>
+  <div class="cv-entry-sub">Escuela de Diseño &amp; Facultad de Ingeniería, <a href="https://dilab-uc.cl/" target="_blank" rel="noopener">Di-Lab</a></div>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Director — Pontificia Universidad Católica de Chile</span>
+    <span class="cv-entry-date">Diciembre 2021 – presente</span>
+  </div>
+  <div class="cv-entry-sub">Diplomado en Diseño y Gestión de Soluciones Innovadoras</div>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Director — Pontificia Universidad Católica de Chile</span>
+    <span class="cv-entry-date">Marzo 2023 – presente</span>
+  </div>
+  <div class="cv-entry-sub">Diplomado en Realidad Virtual y Aumentada en el Metaverso</div>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Gestor de Escuela de Posgrado — SFB/Transregio 161</span>
+    <span class="cv-entry-date">Junio 2019 – Febrero 2021</span>
+  </div>
+  <div class="cv-entry-sub">Visual Computing, University of Stuttgart (supervisor: Daniel Weiskopf)</div>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Investigador Postdoctoral — University of Stuttgart</span>
+    <span class="cv-entry-date">Septiembre 2018 – Febrero 2021</span>
+  </div>
+  <div class="cv-entry-sub"><a href="http://visus.uni-stuttgart.de/" target="_blank" rel="noopener">Centro de Investigación en Visualización (VISUS)</a>, supervisor: Daniel Weiskopf</div>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Asistente de Investigación — University of Bern</span>
+    <span class="cv-entry-date">Marzo 2014 – Julio 2018</span>
+  </div>
+  <div class="cv-entry-sub">Software Composition Group (<a href="http://scg.unibe.ch/" target="_blank" rel="noopener">SCG</a>), supervisor: Oscar Nierstrasz</div>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Arquitecto de Plataformas — Entel S.A.</span>
+    <span class="cv-entry-date">Septiembre 2009 – Febrero 2014</span>
+  </div>
+  <div class="cv-entry-sub">Servicios de Valor Agregado</div>
+
+  <!-- BECAS, FONDOS Y PREMIOS -->
+  <h2>Becas, Fondos y Premios</h2>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Avanza UC — UC-VRI <em class="cv-award">(Investigador Principal, ~30K USD)</em></span>
+    <span class="cv-entry-date">Mar 2026 – Feb 2027</span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title">Distinguished Visitor — IEEE Computer Society</span>
+    <span class="cv-entry-date">Sep 2025 – Sep 2027</span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title">Proyectos de Exploración N°13250116 — ANID <em class="cv-award">(Co-Director, ~390K USD)</em></span>
+    <span class="cv-entry-date">Ago 2025 – Ago 2029</span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title">Internship Mentor RISE Worldwide — DAAD <em class="cv-award">(CL-CS-CS-6206)</em></span>
+    <span class="cv-entry-date">Ago – Oct 2024</span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title">FONDECYT Iniciación N°11230349 — ANID <em class="cv-award">(Investigador Principal, ~130K USD)</em></span>
+    <span class="cv-entry-date">Mar 2023 – Mar 2026</span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title">Proyecto Interdisciplinario DCS — UC-VRI <em class="cv-award">(Co-Investigador, ~10K USD)</em></span>
+    <span class="cv-entry-date">Mar 2023 – Mar 2025</span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title">Programa de Inserción Académica PIA N°2647-496-81 — UC-VRI <em class="cv-award">(Investigador Principal, ~10K USD)</em></span>
+    <span class="cv-entry-date">Ago 2021 – Ago 2024</span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title">Apoyo a Redes Internacionales 190086 — CONICYT <em class="cv-award">(Investigador Extranjero Principal, ~20K USD)</em></span>
+    <span class="cv-entry-date">Ene 2020 – Dic 2021</span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title">Beca Chile Postdoctorado Extranjero 74200100 — CONICYT</span>
+    <span class="cv-entry-date">Sep 2019 – Ago 2021</span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title">Distinguished Paper Award — VISSOFT 2018</span>
+    <span class="cv-entry-date">Septiembre 2018</span>
+  </div>
+  <div class="cv-entry-sub"><em>Overcoming Issues of 3D Software Visualization through Immersive Augmented Reality</em></div>
+  <div class="cv-entry">
+    <span class="cv-entry-title">Beca Chile Doctorado Extranjero 72140330 — CONICYT</span>
+    <span class="cv-entry-date">Mar 2014 – Feb 2018</span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title">Best Paper Award — VISSOFT 2016</span>
+    <span class="cv-entry-date">Septiembre 2016</span>
+  </div>
+  <div class="cv-entry-sub"><em>Towards Actionable Visualisation in Software Development</em></div>
+
+  <!-- ACTIVIDADES PROFESIONALES -->
+  <h2>Actividades Profesionales</h2>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title"><strong>Presidente</strong> — IEEE Computer Society Chile Centro Chapter</span>
+    <span class="cv-entry-date">2026–2027</span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title"><strong>Comité Directivo</strong> — IEEE Working Conference on Software Visualization (VISSOFT)</span>
+    <span class="cv-entry-date">2020–2030</span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title"><strong>General Chair</strong> — VISSOFT 2024, 2025</span>
+    <span class="cv-entry-date"></span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title"><strong>General Chair</strong> — Shonan Meeting 2023; Special Issue IST 2021; SFB-TRR 161 Status Seminar 2019–2021; NIP 2020</span>
+    <span class="cv-entry-date"></span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title"><strong>Program Chair</strong> — VISSOFT 2022, 2021, 2020 NIER/TD, 2019 AEC</span>
+    <span class="cv-entry-date"></span>
+  </div>
+  <div class="cv-entry">
+    <span class="cv-entry-title"><strong>Proceedings Chair</strong> — VISSOFT 2026</span>
+    <span class="cv-entry-date"></span>
+  </div>
+
+  <p style="margin-top:.6rem; margin-bottom:.2rem; font-size:.9rem; font-weight:600;">Comité de Programa</p>
+  <p>VRST 2026 · ISMAR 2024, 2026 · PX 2024 · SANER 2024 · SCCC 2021–2023 · SEAA 2019–2020 · ASSE 2019 · VISSOFT 2019–2020, 2023–2026 · VISSOFT 2016, 2018 AEC · VISSOFT 2017 NIER/TD · SATToSE 2014</p>
+
+  <p style="margin-bottom:.2rem; font-size:.9rem; font-weight:600;">Revisor</p>
+  <p>ACM Computing Surveys (CSUR), IEEE Transactions on Software Engineering (TSE), IEEE Transactions on Visualization and Computer Graphics (TVCG), Empirical Software Engineering (EMSE), Information and Software Technology (IST), Journal of Systems and Software (JSS), Software: Practice and Experience (SPE), Journal of Software: Evolution and Process (JSPE), Information Visualization (IV), Journal of Visualization (JOVI), Journal of Object Technology (JOT), DGDW, IEEE SoftwareX</p>
+
+  <!-- DOCENCIA -->
+  <h2>Docencia</h2>
+
+  <p style="margin-bottom:.2rem; font-size:.9rem; font-weight:600;">Cursos (UC Chile)</p>
+  <ul>
+    <li>"Realidad Extendida" – IDI3185 (2025, 2026)</li>
+    <li>"Visualización de Datos" – INF3531, MTIG (2023–2025)</li>
+    <li>"Tópicos en Ciencia de la Computación" – IIC3800 (2024)</li>
+    <li>"Diseño en Realidad Extendida" – DNO098 (2024–2025)</li>
+    <li>"Pensamiento Computacional" – DNO1063 (2021–2023)</li>
+    <li>"Pensamiento Visual" – IDI1015 (2021–2023, 2025)</li>
+    <li>"Diseño en VR/AR" – DNO3289, MADA (2021, 2023)</li>
+  </ul>
+
+  <p style="margin-bottom:.2rem; font-size:.9rem; font-weight:600;">Clases Internacionales / Invitado</p>
+  <ul>
+    <li>Escuela Internacional de Verano "Visual Software Analytics — Software Comprehension" (Otoño 2019), Universität Leipzig</li>
+    <li>Clase Invitada: "3D Software Visualization in VR/AR" (Otoño 2019), Software Modeling and Analysis, Universität Bern</li>
+    <li>Clase Invitada: "Software Visualization" (Otoño 2018), Concurrency: State Models and Design Patterns, Universität Bern</li>
+    <li>Clase Invitada: "Java and Concurrency" (Otoño 2017), Software Modeling and Analysis, Universität Bern</li>
+    <li>Clase Invitada: "Software Visualization" (Otoño 2016), Software Design and Evolution, Universität Bern</li>
+    <li>Clase Invitada: "Agile Visualization with Roassal" (Otoño 2014), Universität Bern</li>
+  </ul>
+
+  <p style="margin-bottom:.2rem; font-size:.9rem; font-weight:600;">Ayudante</p>
+  <ul>
+    <li>Seminario sobre Immersive Analytics and Situated Visualization, Universität Stuttgart (Primavera 2020)</li>
+    <li>Introduction to Virtual and Augmented Reality, Universität Stuttgart (Primavera 2019)</li>
+    <li>Concurrency: State Models and Design Patterns, Universität Bern (Otoño 2015, 2017)</li>
+  </ul>
+
+  <p style="margin-bottom:.2rem; font-size:.9rem; font-weight:600;">Tesis Supervisadas</p>
+  <ul>
+    <li>Juan Pablo Palma — Tesis de pregrado, Ingeniería, UC. <em>En curso, 2026.</em></li>
+    <li>Santiago Viana — Tesis de pregrado, Diseño, UC. 2026.</li>
+    <li>Arturo Prieto — Tesis de pregrado, Ingeniería, UC. 2025.</li>
+    <li>Ljubedsa Calderón — Tesis de pregrado, Diseño, UC. 2025.</li>
+    <li>Mauricio Solís — Tesis de pregrado, Ingeniería, UC. 2024.</li>
+    <li>Argianto Rahartomo — Tesis doctoral, TU Clausthal. 2025. <em>(Co-supervisado.)</em></li>
+    <li>Samuel Beck — Tesis de magíster, University of Stuttgart. 2021. <em>Evaluating Human-Computer Interfaces for Specification and Comprehension of Transient Behavior in Microservice-based Systems.</em></li>
+    <li>Sarah Dosdall — Tesis de pregrado, University of Stuttgart. 2021. <em>On-the-go Authoring Visualization through Wearable Keyboards.</em></li>
+    <li>Till Mayer — Tesis de pregrado, University of Stuttgart. 2021. <em>Agile Situated Visualization.</em></li>
+    <li>Niklas Gärtner — Tesis de pregrado, University of Stuttgart. 2020. <em>Interaction Modalities for Immersive Analytics and Situated Visualization.</em></li>
+    <li>Mario Hess — Tesis de pregrado, University of Bern. 2019. <em>Pervasive Visualization in AR for Software Monitoring.</em> Premio Alumni.</li>
+    <li>Silas David Berger — Tesis de pregrado, University of Bern. 2017. <em>Visually Exploring Scientific Communities.</em></li>
+    <li>Dominik Seliner — Tesis de pregrado, University of Bern. 2016. <em>EggShell – A Workbench for Modeling Scientific Communities.</em></li>
+  </ul>
+
+  <!-- PUBLICACIONES -->
+  <h2>Publicaciones</h2>
+
+  <p class="cv-pub-section">Artículos en Revistas Internacionales</p>
+  <ol>
+    <li>Leonel Merino, Begoña Juliá-Nehme, y Santiago Viana. In-situ immersive analytics authoring through ergonomic keyboard support. <em>International Journal of Human–Computer Interaction</em>, páginas 1–27, 2026. <em>WoS Q1</em></li>
+    <li>Tiara Rojas-Stambuk, Juan Pablo Sandoval Alcocer, Leonel Merino, y Andres Neyem. On the use of extended reality to support software development activities: A systematic literature review. <em>Information and Software Technology</em>, página 107999, 2026. <em>WoS Q1</em></li>
+    <li>Paula Wuth, Ricardo J Hernández, Leonel Merino, Sebastian Negrete, e Ignacio Pavez. Collaborative scenario experimentation for strategy formulation to shape desirable futures. <em>Research-Technology Management</em>, 68(6):73–91, 2025. <em>WoS Q2</em></li>
+    <li>Argianto Rahartomo, Leonel Merino, y Mohammad Ghafari. Metaverse security and privacy research: A systematic review. <em>Computers &amp; Security</em>, 157:104602, 2025. <em>WoS Q1</em></li>
+    <li>Paula Wuth, Ricardo J Hernandez, Leonel Merino, y Sebastián Negrete. Speculative labs: Shaping future management practices through collaborative scenario experimentation. <em>Touchpoint</em>, 14(3), 2024.</li>
+    <li>Juan Pablo Sandoval Alcocer, Alejandra Cossio-Chavalier, Tiara Rojas-Stambuk, y Leonel Merino. An eye-tracking study on the use of split/unified code change views for bug detection. <em>IEEE Access</em>, 11:136195–136205, 2023. <em>WoS Q2</em></li>
+    <li>Noptanit Chotisarn, Leonel Merino, Xu Zheng, Supaporn Lonapalawong, Tianye Zhang, Mingliang Xu, y Wei Chen. A systematic literature review of modern software visualization. <em>Journal of Visualization</em>, 23(4):539–558, 2020. <em>WoS Q2</em></li>
+    <li>Leonel Merino, Mohammad Ghafari, Craig Anslow, y Oscar Nierstrasz. A systematic literature review of software visualization evaluation. <em>Journal of Systems and Software</em>, 144:165–180, octubre 2018. <em>WoS Q1</em></li>
+    <li>Leonel Merino, Mohammad Ghafari, y Oscar Nierstrasz. Towards actionable visualization for software developers. <em>Journal of Software: Evolution and Process</em>, páginas e1923–n/a, 2018. <em>WoS Q1</em></li>
+  </ol>
+
+  <p class="cv-pub-section">Artículos en Conferencias Internacionales</p>
+  <ol start="10">
+    <li>Juan Pablo Sandoval Alcocer, D. Freire-Pozo, Tiara Rojas-Stambuk, Alison Fernandez Blanco, y Leonel Merino. Evaluating the use of Augmented Reality for Dependency Graph Analysis: A Controlled Experiment. En <em>Proceedings of the 34th IEEE/ACM International Conference on Program Comprehension (ICPC)</em>, pp. 492–503, 2026.</li>
+    <li>Leonel Merino, Mohammad Ghafari, y Oscar Nierstrasz. Towards Actionable Visualization: Ten Years Later, What Generative AI Changes and What It Cannot. En <em>2026 IEEE Working Conference on Software Visualization (VISSOFT)</em>, 2026. <em>Aceptado.</em></li>
+    <li>Adrian Hoff, Thomas Hoffmann Kilbak, Leonel Merino, y Mircea Lungu. GitTruck@ Duck–Interactive time range selection in hierarchy-oriented polymetric visualization of Git repository evolution. En <em>2024 IEEE International Conference on Software Maintenance and Evolution (ICSME)</em>, páginas 853–857. IEEE, 2024.</li>
+    <li>Dussan Freire-Pozo, Kevin Cespedes-Arancibia, Leonel Merino, Alison Fernandez-Blanco, Andres Neyem, y Juan Pablo Sandoval Alcocer. DGT-AR: Visualizing code dependencies in AR. En <em>Proceedings of the IEEE Working Conference on Software Visualization (VISSOFT)</em>, páginas 95–99. IEEE, 2023.</li>
+    <li>Sarah Dosdall, Katrin Angerbauer, Leonel Merino, Michael Sedlmair, y Daniel Weiskopf. Toward in-situ authoring of situated visualization with chorded keyboards. En <em>Proceedings of the 15th International Symposium on Visual Information Communication and Interaction (VINCI)</em>, páginas 1–5, 2022.</li>
+    <li>K Højelse, T Kilbak, J Røssum, E Jäpelt, L Merino, y M Lungu. Git-truck: Hierarchy-oriented visualization of git repository evolution. En <em>Proceedings of the IEEE Working Conference on Software Visualization (VISSOFT)</em>, páginas 131–140. IEEE, 2022.</li>
+    <li>Víctor Stefano Segura Castillo, Leonel Merino, Geoffrey Hecht, y Alexandre Bergel. VR-based user interactions to exploit infinite space in programming activities. En <em>Proceedings of the IEEE 40th International Conference of the Chilean Computer Science Society (SCCC)</em>, páginas 1–5. IEEE, 2021.</li>
+    <li>Samuel Beck, Sebastian Frank, Alireza Hakamian, Leonel Merino, y André van Hoorn. TransVis: Using visualizations and chatbots for supporting transient behavior in microservice systems. En <em>Proceedings of the IEEE Working Conference on Software Visualization (VISSOFT)</em>, páginas 65–75. IEEE, 2021.</li>
+    <li>Leonel Merino, Magdalena Schwarzl, Matthias Kraus, Michael Sedlmair, Dieter Schmalstieg, y Daniel Weiskopf. Evaluating mixed and augmented reality: A systematic literature review (2009–2018). En <em>Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</em>, páginas 438–451, 2020.</li>
+    <li>Leonel Merino, Mircea Lungu, y Christoph Seidl. Unleashing the potentials of immersive augmented reality for software engineering. En <em>Proceedings of the IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER)</em>, páginas 517–521. IEEE, 2020.</li>
+    <li>Leonel Merino, Boris Sotomayor-Gómez, Xingyao Yu, Ronie Salgado, Alexandre Bergel, Michael Sedlmair, y Daniel Weiskopf. Toward agile situated visualization: An exploratory user study. En <em>Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA '20)</em>, páginas 1–7. ACM, 2020.</li>
+    <li>Nitish Patkar, Leonel Merino, y Oscar Nierstrasz. Toward requirements engineering with immersive augmented reality. En <em>Proceedings of the Conference Companion of the 4th International Conference on Art, Science, and Engineering of Programming (NIP)</em>, páginas 55–60. ACM, 2020.</li>
+    <li>Martin Dias, Diego Orellana, Santiago Vidal, Leonel Merino, y Alexandre Bergel. Evaluating a visual approach for understanding JavaScript source code. En <em>Proceedings of the 28th International Conference on Program Comprehension (ICPC)</em>, páginas 128–138. IEEE, 2020.</li>
+    <li>Dušan Okanović, Samuel Beck, Lasse Merz, Christoph Zorn, Leonel Merino, André van Hoorn, y Fabian Beck. Can a chatbot support software engineers with load testing? En <em>Proceedings of the 11th ACM/SPEC International Conference on Performance Engineering (ICPE)</em>, páginas 120–129. ACM, 2020.</li>
+    <li>Leonel Merino, Ekaterina Kozlova, Oscar Nierstrasz, y Daniel Weiskopf. VISON: An ontology-based approach for software visualization tool discoverability. En <em>Proceedings of the IEEE Working Conference on Software Visualization (VISSOFT)</em>, páginas 45–55. IEEE, 2019.</li>
+    <li>Jack Slater, Craig Anslow, Jens Dietrich, y Leonel Merino. CorpusVis – visualizing software metrics at scale. En <em>Proceedings of the IEEE Working Conference on Software Visualization (VISSOFT)</em>, páginas 99–109. IEEE, 2019.</li>
+    <li>Leonel Merino, Mario Hess, Alexandre Bergel, Oscar Nierstrasz, y Daniel Weiskopf. PerfVis: Pervasive visualization in immersive augmented reality for performance awareness. En <em>Proceedings of the 10th ACM/SPEC International Conference on Performance Engineering (ICPE)</em>, páginas 13–16. ACM, 2019.</li>
+    <li>Leonel Merino, Alexandre Bergel, y Oscar Nierstrasz. Overcoming issues of 3D software visualization through immersive augmented reality. En <em>Proceedings of the Working Conference on Software Visualization (VISSOFT)</em>, páginas 54–64. IEEE, 2018. <strong>Distinguished Paper Award.</strong></li>
+    <li>Leonel Merino, Johannes Fuchs, Michael Blumenschein, Craig Anslow, Mohammad Ghafari, Oscar Nierstrasz, Michael Behrisch, y Daniel Keim. On the impact of the medium in the effectiveness of 3D software visualization. En <em>VISSOFT'17: Proceedings of the 5th IEEE Working Conference on Software Visualization</em>, páginas 11–21. IEEE, 2017.</li>
+    <li>Leonel Merino, Mohammad Ghafari, Craig Anslow, y Oscar Nierstrasz. CityVR: Gameful software visualization. En <em>ICSME'17: Proceedings of the 33rd IEEE International Conference on Software Maintenance and Evolution (TD Track)</em>, páginas 633–637. IEEE, 2017.</li>
+    <li>Leonel Merino, Mohammad Ghafari, y Oscar Nierstrasz. Towards actionable visualisation in software development. En <em>VISSOFT'16: Proceedings of the 4th IEEE Working Conference on Software Visualization</em>. IEEE, 2016. <strong>Best Paper Award.</strong></li>
+    <li>Leonel Merino, Mohammad Ghafari, Oscar Nierstrasz, Alexandre Bergel, y Juraj Kubelka. MetaVis: Exploring actionable visualization. En <em>VISSOFT'16: Proceedings of the 4th IEEE Working Conference on Software Visualization</em>. IEEE, 2016.</li>
+    <li>Yuriy Tymchuk, Leonel Merino, Mohammad Ghafari, y Oscar Nierstrasz. Walls, pillars and beams: A 3D decomposition of quality anomalies. En <em>VISSOFT'16: Proceedings of the 4th IEEE Working Conference on Software Visualization</em>, páginas 126–135. IEEE, 2016.</li>
+  </ol>
+
+  <p class="cv-pub-section">Artículos en Talleres Internacionales</p>
+  <ol start="33">
+    <li>Argianto Rahartomo, Leonel Merino, Yoshiki Ohshima, y Mohammad Ghafari. The dilemma of privacy protection for developers in the metaverse. En <em>2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)</em>, páginas 284–290, 2025.</li>
+    <li>Juan Pablo Sandoval Alcocer, Leonel Merino, Alison Fernandez-Blanco, William Ravelo-Mendez, Camilo Escobar-Velásquez, y Mario Linares-Vásquez. A developer's guide to building and testing accessible mobile apps. En <em>Companion Proceedings of the 32nd ACM International Conference on the Foundations of Software Engineering (FSE 2024)</em>, páginas 713–715. ACM, 2024.</li>
+    <li>Leonel Merino, Dominik Seliner, Mohammad Ghafari, y Oscar Nierstrasz. CommunityExplorer: A framework for visualizing collaboration networks. En <em>IWST'16: Proceedings of International Workshop on Smalltalk Technologies</em>, páginas 2:1–2:9, 2016.</li>
+    <li>Leonel Merino, Mircea Lungu, y Oscar Nierstrasz. Explora: Infrastructure for scaling up software visualisation to corpora. En <em>SATToSE'14: Post-Proceedings of the 7th International Seminar Series on Advanced Techniques &amp; Tools for Software Evolution</em>, volumen 1354. CEUR Workshop Proceedings, 2015.</li>
+    <li>Leonel Merino. Adaptable visualisation based on user needs. En <em>SATToSE'14: Pre-Proceedings of the 7th International Seminar Series on Advanced Techniques &amp; Tools for Software Evolution</em>, páginas 71–74, julio 2014.</li>
+  </ol>
+
+  <p class="cv-pub-section">Capítulos de Libro</p>
+  <ol start="37">
+    <li>Leonel Merino, Craig Anslow, Takashi Ishio, y Alexandre Bergel. <em>Augmented Software Visualization</em>. National Institute of Informatics, 2023.</li>
+    <li>Leonel Merino. Network visualization. En Alexandre Bergel, editor, <em>Agile Visualization</em>, capítulo 17, páginas 201–209. LULU Press, 2016.</li>
+  </ol>
+
+  <!-- RED DE INVESTIGACIÓN -->
+  <h2>Red de Investigación</h2>
+
+  <div class="cv-two-col">
+    <div class="cv-entry"><span class="cv-entry-title">Prof. Dr. Daniel Weiskopf</span><span class="cv-entry-date">Alemania</span></div>
+    <div class="cv-entry-sub">Visualization Research Center, University of Stuttgart</div>
+    <div class="cv-entry"><span class="cv-entry-title">Prof. Dr. Oscar Nierstrasz</span><span class="cv-entry-date">Suiza</span></div>
+    <div class="cv-entry-sub">Software Composition Group, University of Bern</div>
+    <div class="cv-entry"><span class="cv-entry-title">Prof. Dr. Mohammad Ghafari</span><span class="cv-entry-date">Alemania</span></div>
+    <div class="cv-entry-sub">Secure IT Systems, TU Clausthal</div>
+    <div class="cv-entry"><span class="cv-entry-title">Prof. Dr. Craig Anslow</span><span class="cv-entry-date">Nueva Zelanda</span></div>
+    <div class="cv-entry-sub">School of Engineering and CS, Victoria University of Wellington</div>
+    <div class="cv-entry"><span class="cv-entry-title">Prof. Dr. Fabian Beck</span><span class="cv-entry-date">Alemania</span></div>
+    <div class="cv-entry-sub">Information Visualization Group, University of Bamberg</div>
+    <div class="cv-entry"><span class="cv-entry-title">Prof. Dr. Michael Sedlmair</span><span class="cv-entry-date">Alemania</span></div>
+    <div class="cv-entry-sub">Visualization Research Center, University of Stuttgart</div>
+    <div class="cv-entry"><span class="cv-entry-title">Dr. Alexandre Bergel</span><span class="cv-entry-date">EE.UU.</span></div>
+    <div class="cv-entry-sub">RationalAI, Los Ángeles</div>
+    <div class="cv-entry"><span class="cv-entry-title">Prof. Dr. Mircea Lungu</span><span class="cv-entry-date">Dinamarca</span></div>
+    <div class="cv-entry-sub">Computer Science Department, IT University of Copenhagen</div>
+    <div class="cv-entry"><span class="cv-entry-title">Prof. Dr. Wei Chen</span><span class="cv-entry-date">China</span></div>
+    <div class="cv-entry-sub">State Key Lab of CAD&amp;CG, Zhejiang University</div>
+    <div class="cv-entry"><span class="cv-entry-title">Prof. Dr. Daniel Keim</span><span class="cv-entry-date">Alemania</span></div>
+    <div class="cv-entry-sub">Data Analysis and Visualization Group, University of Konstanz</div>
+    <div class="cv-entry"><span class="cv-entry-title">Prof. Dr. Michael Behrisch</span><span class="cv-entry-date">Países Bajos</span></div>
+    <div class="cv-entry-sub">Visual Analytics Group, Utrecht University</div>
+    <div class="cv-entry"><span class="cv-entry-title">Dr. Santiago Vidal</span><span class="cv-entry-date">Argentina</span></div>
+    <div class="cv-entry-sub">Instituto de Sistemas Tandil, UNICEN</div>
+    <div class="cv-entry"><span class="cv-entry-title">Prof. Dr. Eliana Scheihing</span><span class="cv-entry-date">Chile</span></div>
+    <div class="cv-entry-sub">Institute for Informatics, Austral University of Valdivia</div>
+  </div>
+
+</main>
