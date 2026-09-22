@@ -35,6 +35,26 @@
   }
   .course-tag em { font-size: .76rem; color: var(--muted); font-style: normal; display: block; }
 
+  /* News teaser */
+  .news-teaser {
+    display: flex; gap: 1rem; align-items: flex-start;
+    background: #f8f9fa; border-left: 3px solid var(--blue);
+    border-radius: 0 6px 6px 0; padding: .85rem 1.1rem; margin: .5rem 0 .5rem;
+  }
+  .news-teaser-date {
+    font-size: .73rem; font-weight: 700; color: var(--blue);
+    text-transform: uppercase; letter-spacing: .07em; white-space: nowrap;
+    padding-top: .15rem; min-width: 56px;
+  }
+  .news-teaser-body { flex: 1; min-width: 0; }
+  .news-teaser-title {
+    display: block; font-size: .93rem; font-weight: 600; color: var(--dark);
+    margin-bottom: .3rem; text-decoration: none;
+  }
+  .news-teaser-title:hover { color: var(--blue); text-decoration: none; }
+  .news-teaser-body p { font-size: .87rem; color: var(--muted); margin-bottom: .4rem; line-height: 1.55; }
+  .news-teaser-more { font-size: .82rem; font-weight: 600; color: var(--blue); }
+
   /* Graduate students callout */
   .grad-callout {
     background: #f0f7ff; border-left: 3px solid var(--blue);
@@ -103,6 +123,27 @@
   <p>
     A full account of his academic record is available in his <a href="cv/">Curriculum Vitae</a>.
   </p>
+
+  <!-- ── NEWS ── -->
+  <h2>News</h2>
+
+  <div class="news-teaser">
+    <div class="news-teaser-date">Sep 2026</div>
+    <div class="news-teaser-body">
+      <a class="news-teaser-title" href="news/">IEEE Computer Society Distinguished Speaker Tour — Colombia 2026</a>
+      <p>
+        Prof. Merino visited Bogotá, Medellín, and Bucaramanga as an
+        <a href="https://www.computer.org/volunteering/boards-and-committees/distinguished-visitors" target="_blank" rel="noopener">IEEE Computer Society Distinguished Speaker</a>,
+        invited by the
+        <a href="https://r9.ieee.org/colombia-cs/" target="_blank" rel="noopener">IEEE CS Colombia Section</a>.
+        He delivered talks on immersive analytics and the metaverse at three Colombian universities
+        and participated in
+        <a href="https://colcom.computer.org/" target="_blank" rel="noopener">COLCOM 2026</a>
+        at the Universidad Industrial de Santander.
+      </p>
+      <a class="news-teaser-more" href="news/">Read more →</a>
+    </div>
+  </div>
 
   <!-- ── RESEARCH ── -->
   <h2>Research</h2>

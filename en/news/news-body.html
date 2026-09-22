@@ -1,0 +1,219 @@
+<style>
+  main h1 { font-size: 1.15rem; font-weight: 700; padding-bottom: .3rem; border-bottom: 1px solid var(--border); margin-bottom: .4rem; }
+  main h2 { font-size: 1rem; font-weight: 700; margin: 1.8rem 0 .5rem; padding-bottom: .25rem; border-bottom: 1px solid var(--border); }
+  main p  { font-size: .95rem; line-height: 1.75; margin-bottom: .85rem; color: var(--dark); }
+  main a  { color: var(--blue); }
+
+  .article-meta {
+    font-size: .82rem; color: var(--muted); margin-bottom: 1.4rem;
+    display: flex; flex-wrap: wrap; gap: .3rem .8rem; align-items: center;
+  }
+  .article-meta .meta-tag {
+    background: #edf2ff; color: #3b5bdb; font-size: .75rem; font-weight: 600;
+    padding: .15rem .5rem; border-radius: 3px; letter-spacing: .04em; text-transform: uppercase;
+  }
+
+  .news-flyer {
+    float: right; margin: 0 0 1.2rem 1.5rem; width: 200px;
+  }
+  .news-flyer img { width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,.13); display: block; }
+  .news-flyer figcaption { font-size: .75rem; color: var(--muted); text-align: center; margin-top: .35rem; line-height: 1.4; }
+
+  .news-section-label {
+    font-size: .78rem; font-weight: 700; color: #0074a6; text-transform: uppercase;
+    letter-spacing: .06em; background: #e8f4fb; border-radius: 3px;
+    padding: .15rem .5rem; display: inline-block; margin-bottom: .6rem;
+  }
+
+  .news-gallery {
+    display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin: .8rem 0 1.2rem;
+    clear: both;
+  }
+  .news-gallery.cols-1 { grid-template-columns: 1fr; }
+
+  figure.news-fig { margin: 0; }
+  figure.news-fig img { width: 100%; border-radius: 5px; display: block; box-shadow: 0 1px 5px rgba(0,0,0,.10); }
+  figure.news-fig figcaption { font-size: .78rem; color: var(--muted); margin-top: .35rem; line-height: 1.45; }
+
+  .news-people {
+    margin: .5rem 0 1rem; padding-left: 1.2rem; list-style: none;
+  }
+  .news-people li {
+    font-size: .9rem; line-height: 1.65; margin-bottom: .2rem; color: var(--dark);
+    padding-left: .6rem; border-left: 2px solid #e8f4fb;
+  }
+
+  .news-pdf-link {
+    display: inline-flex; align-items: center; gap: .45rem;
+    background: #f1f3f5; border: 1px solid var(--border); border-radius: 6px;
+    padding: .45rem .9rem; font-size: .88rem; font-weight: 600; color: var(--dark);
+    text-decoration: none; transition: background .2s, border-color .2s; margin: .5rem 0 1rem;
+  }
+  .news-pdf-link:hover { background: #e9ecef; border-color: #ced4da; text-decoration: none; }
+  .news-pdf-link .fa { color: #e03131; font-size: .95rem; }
+
+  .clearfix::after { content: ''; display: table; clear: both; }
+
+  @media (max-width: 640px) {
+    .news-flyer { float: none; width: 100%; margin: 0 0 1rem; }
+    .news-gallery { grid-template-columns: 1fr; }
+  }
+</style>
+
+<main>
+  <h1>IEEE Computer Society Distinguished Speaker Tour — Colombia 2026</h1>
+
+  <div class="article-meta">
+    <span>August 27 – September 5, 2026</span>
+    <span class="meta-tag">IEEE CS DSP</span>
+    <span class="meta-tag">Colombia</span>
+    <span class="meta-tag">Invited Talk</span>
+  </div>
+
+  <div class="clearfix">
+    <figure class="news-flyer">
+      <img src="/images/news/colombia-2026/flyer.jpeg"
+           alt="Tour flyer: Del Dato al Metaverso — IEEE Computer Society Colombia 2026" />
+      <figcaption>Official tour flyer — IEEE Computer Society Colombia Chapter</figcaption>
+    </figure>
+
+    <p>
+      In late August and early September 2026, Prof. Merino visited Colombia as part of the
+      <a href="https://www.computer.org/volunteering/boards-and-committees/distinguished-visitors" target="_blank" rel="noopener">IEEE Computer Society Distinguished Visitor Program (DVP)</a>,
+      invited by the
+      <a href="https://r9.ieee.org/colombia-cs/" target="_blank" rel="noopener">IEEE Computer Society Colombia Section</a>.
+      The tour covered three cities — Bogotá, Medellín, and Bucaramanga — and included invited talks,
+      campus visits, and meetings with faculty, students, and academic leaders.
+    </p>
+
+    <p>
+      The talk, titled <em>"Del Dato al Metaverso: Diseñando experiencias inmersivas seguras y centradas en el usuario"</em>
+      (<em>"From Data to the Metaverse: Designing Secure, User-Centered Immersive Experiences"</em>),
+      explored how data visualization and extended reality can be combined to build safer, more effective
+      immersive tools for developers and analysts.
+    </p>
+
+    <a class="news-pdf-link" href="/files/charla-del-dato-al-metaverso-colombia-2026.pdf" target="_blank" rel="noopener">
+      <i class="fas fa-file-pdf"></i> Download slide deck (PDF)
+    </a>
+
+    <p>
+      The entire visit was expertly coordinated by <strong>Fabián Martínez</strong>, treasurer of the
+      <a href="https://r9.ieee.org/colombia-cs/" target="_blank" rel="noopener">IEEE Computer Society Colombia Chapter</a>,
+      whose dedication and attention to detail made each stop productive and memorable.
+    </p>
+  </div>
+
+  <!-- ── BOGOTÁ ── -->
+  <h2>Bogotá — August 28, 2026</h2>
+  <span class="news-section-label">Universidad Distrital Francisco José de Caldas</span>
+
+  <p>
+    The tour opened at the
+    <a href="https://www.udistrital.edu.co/" target="_blank" rel="noopener">Universidad Distrital Francisco José de Caldas</a>
+    (Sede Tecnológica, Auditorio), where Prof. Merino was hosted by
+    <strong>Andrés Malagón</strong> and the
+    <a href="https://r9.ieee.org/colombia-cs/" target="_blank" rel="noopener">IEEE Computer Society Student Branch</a>.
+    Beyond the talk, the visit included a campus tour and conversations about the university's history —
+    deeply intertwined with Bogotá's communities — and its academic programs in engineering and technology.
+  </p>
+
+  <div class="news-gallery cols-1">
+    <figure class="news-fig">
+      <img src="/images/news/colombia-2026/bogota-ieee-cs-group.jpg"
+           alt="Group photo with IEEE Computer Society Colombia Chapter flags at Universidad Distrital Francisco José de Caldas, Bogotá" />
+      <figcaption>
+        With the IEEE Computer Society Student Branch at Universidad Distrital Francisco José de Caldas, Bogotá — August 28, 2026.
+        Hosted by Andrés Malagón and the IEEE CS Colombia Chapter.
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- ── MEDELLÍN ── -->
+  <h2>Medellín — August 31, 2026</h2>
+  <span class="news-section-label">Universidad EIA</span>
+
+  <p>
+    In Medellín, Prof. Merino was hosted by Prof.
+    <a href="https://www.eia.edu.co/" target="_blank" rel="noopener">Duvan Gomez</a>
+    at
+    <a href="https://www.eia.edu.co/" target="_blank" rel="noopener">Universidad EIA</a>
+    (Auditorio del Bloque A). The visit included a tour of the university's departments,
+    followed by lunch with Dean
+    <strong>Lina María Agudelo Gutiérrez, Ph.D.</strong>,
+    Decana de la Escuela de Ingeniería y Ciencias Básicas.
+    Conversations touched on the synergies between the EIA engineering and design programs and those at
+    the UC Chile School of Design and Faculty of Engineering, and opportunities for academic collaboration.
+  </p>
+
+  <div class="news-gallery">
+    <figure class="news-fig">
+      <img src="/images/news/colombia-2026/medellin-eia-talk.jpg"
+           alt="Prof. Merino delivering the talk at the Universidad EIA auditorium, Medellín" />
+      <figcaption>
+        Talk at the Universidad EIA auditorium — Medellín, August 31, 2026.
+      </figcaption>
+    </figure>
+    <figure class="news-fig">
+      <img src="/images/news/colombia-2026/medellin-eia-group.jpg"
+           alt="Group photo at Universidad EIA with Prof. Duvan Gomez and Dean Lina María Agudelo Gutiérrez" />
+      <figcaption>
+        With Prof. Duvan Gomez and Dean Lina María Agudelo Gutiérrez at
+        <a href="https://www.eia.edu.co/" target="_blank" rel="noopener">Universidad EIA</a> — Medellín.
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- ── CATEDRAL DE SAL ── -->
+  <h2>Side Visit — Catedral de Sal, Zipaquirá</h2>
+  <span class="news-section-label">Cultural Highlight</span>
+
+  <p>
+    Between the Bogotá and Medellín legs of the tour, Fabián Martínez organized a visit to the
+    <a href="https://catedraldesal.com.co/" target="_blank" rel="noopener">Catedral de Sal de Zipaquirá</a> —
+    a breathtaking underground cathedral carved entirely inside a salt mine, about 50 km north of Bogotá.
+    The majestic space, known as one of Colombia's most iconic landmarks, provided a memorable setting
+    for conversation and reflection over lunch.
+  </p>
+
+  <div class="news-gallery">
+    <figure class="news-fig">
+      <img src="/images/news/colombia-2026/catedral-sal-interior.jpg"
+           alt="Interior of the Catedral de Sal de Zipaquirá showing the main nave and arches" />
+      <figcaption>
+        Main nave of the
+        <a href="https://catedraldesal.com.co/" target="_blank" rel="noopener">Catedral de Sal de Zipaquirá</a>,
+        carved inside a salt mine in Cundinamarca, Colombia.
+      </figcaption>
+    </figure>
+    <figure class="news-fig">
+      <img src="/images/news/colombia-2026/catedral-sal-cross.jpg"
+           alt="Illuminated salt cross inside the Catedral de Sal de Zipaquirá" />
+      <figcaption>
+        An illuminated cross sculpted from salt — one of the cathedral's most iconic images.
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- ── BUCARAMANGA ── -->
+  <h2>Bucaramanga — September 2–4, 2026</h2>
+  <span class="news-section-label">COLCOM 2026 · Universidad Industrial de Santander</span>
+
+  <p>
+    The tour concluded at
+    <a href="https://colcom.computer.org/" target="_blank" rel="noopener">COLCOM 2026</a>,
+    the IEEE Colombian Conference on Communications and Computing, hosted by the
+    <a href="https://www.uis.edu.co/" target="_blank" rel="noopener">Universidad Industrial de Santander (UIS)</a>
+    in Bucaramanga. The UIS campus is a striking blend of mid-century architecture and lush greenery,
+    deeply integrated with its natural surroundings, in a vibrant and active part of the city.
+  </p>
+
+  <p>Prof. Merino met:</p>
+  <ul class="news-people">
+    <li><strong>Diana Briceño</strong> — Conference Chair, COLCOM 2026</li>
+    <li><strong>Sergio Armando Gutiérrez</strong> — Conference Chair, COLCOM 2026</li>
+    <li><strong>Yuli Álvarez</strong> — Professor, Universidad Industrial de Santander</li>
+    <li><strong>Juan Felipe Botero</strong> — Professor, Universidad de Antioquia</li>
+  </ul>
+
+</main>
