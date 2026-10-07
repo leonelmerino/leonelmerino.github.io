@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Noticias — Leonel Merino</title>
-  <meta name="description" content="Noticias y novedades de Leonel Merino" />
-  <link rel="alternate" hreflang="en" href="/en/news/" />
-  <link rel="alternate" hreflang="es" href="/es/news/" />
-  <link rel="alternate" hreflang="x-default" href="/en/news/" />
+  <title>IEEE CS Distinguished Speaker Tour — Colombia 2026 · Leonel Merino</title>
+  <meta name="description" content="IEEE Computer Society Distinguished Speaker Tour of Colombia 2026: Bogotá, Medellín, and Bucaramanga" />
+  <link rel="alternate" hreflang="en" href="/en/news/colombia-2026/" />
+  <link rel="alternate" hreflang="es" href="/es/news/colombia-2026/" />
+  <link rel="alternate" hreflang="x-default" href="/en/news/colombia-2026/" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css" />
   <style>
@@ -24,7 +24,6 @@
     a { color: var(--blue); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
-    /* NAV */
     nav { position: sticky; top: 0; z-index: 200; background: var(--dark); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; padding: 0 1.5rem; min-height: var(--nav-h); }
     nav .site-title { color: #fff; font-weight: 600; font-size: 1rem; letter-spacing: .02em; line-height: var(--nav-h); text-decoration: none; }
     nav .nav-links { list-style: none; display: flex; gap: 1.5rem; }
@@ -36,10 +35,8 @@
     nav.open .nav-toggle span:nth-child(2) { opacity: 0; }
     nav.open .nav-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-    /* LAYOUT */
     .wrapper { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; display: grid; grid-template-columns: 240px 1fr; gap: 3rem; align-items: start; }
 
-    /* SIDEBAR */
     aside.sidebar { position: sticky; top: calc(var(--nav-h) + 1rem); }
     .author__avatar { text-align: center; margin-bottom: 1.25rem; }
     .author__avatar img { width: 150px; height: auto; border-radius: 4px; display: inline-block; }
@@ -54,16 +51,10 @@
     ul.author__urls li a:hover { color: var(--blue); }
     ul.author__urls .fa, ul.author__urls .fas, ul.author__urls .fab, ul.author__urls .ai { width: 16px; text-align: center; font-size: .9rem; flex-shrink: 0; }
 
-    /* MAIN */
     main { min-width: 0; }
-    main h1 { font-size: 1.15rem; font-weight: 700; margin-bottom: .6rem; padding-bottom: .3rem; border-bottom: 1px solid var(--border); }
-    main p { margin-bottom: 1rem; }
-    main h2 { font-size: 1.15rem; font-weight: 700; margin-top: 2rem; margin-bottom: .75rem; padding-bottom: .3rem; border-bottom: 1px solid var(--border); }
 
-    /* FOOTER */
     footer { margin-top: 4rem; border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; font-size: .8rem; color: var(--muted); }
 
-    /* RESPONSIVE */
     @media (max-width: 860px) { .wrapper { grid-template-columns: 200px 1fr; gap: 2rem; } }
     @media (max-width: 640px) {
       .nav-toggle { display: flex; }
@@ -79,9 +70,6 @@
       .author__urls-wrapper { grid-column: 1 / -1; }
       ul.author__urls { flex-direction: row; flex-wrap: wrap; gap: .1rem .65rem; }
       ul.author__urls li, ul.author__urls li a { min-height: 26px; }
-      main h1 { font-size: 1.05rem; }
-      main h2 { font-size: 1.05rem; }
-      main p { font-size: .95rem; }
     }
   </style>
 </head>
@@ -95,7 +83,7 @@
   </div>
 
   <footer>
-    &copy; 2026 Leonel Merino &mdash; Pontificia Universidad Católica de Chile
+    &copy; 2026 Leonel Merino &mdash; Pontifical Catholic University of Chile
   </footer>
 
   <script>
@@ -106,9 +94,9 @@
     }
 
     Promise.all([
-      loadComponent('../navbar.html',      'navbar-slot'),
-      loadComponent('../sidebar.html',     'sidebar-slot'),
-      loadComponent('news-body.html?v=2',  'body-slot'),
+      loadComponent('../../navbar.html',    'navbar-slot'),
+      loadComponent('../../sidebar.html',   'sidebar-slot'),
+      loadComponent('news-body.html?v=1',   'body-slot'),
     ]).then(() => {
       const nav    = document.querySelector('nav');
       const toggle = document.querySelector('.nav-toggle');

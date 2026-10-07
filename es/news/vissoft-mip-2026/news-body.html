@@ -1,0 +1,143 @@
+<style>
+  main h1 { font-size: 1.15rem; font-weight: 700; padding-bottom: .3rem; border-bottom: 1px solid var(--border); margin-bottom: .4rem; }
+  main h2 { font-size: 1rem; font-weight: 700; margin: 1.8rem 0 .5rem; padding-bottom: .25rem; border-bottom: 1px solid var(--border); }
+  main h3 { font-size: .9rem; font-weight: 700; margin: 1.5rem 0 .4rem; padding-bottom: .2rem; border-bottom: 1px solid var(--border); color: var(--dark); }
+  main p  { font-size: .95rem; line-height: 1.75; margin-bottom: .85rem; color: var(--dark); }
+  main a  { color: var(--blue); }
+
+  .article-meta {
+    font-size: .82rem; color: var(--muted); margin-bottom: 1.4rem;
+    display: flex; flex-wrap: wrap; gap: .3rem .8rem; align-items: center;
+  }
+  .article-meta .meta-tag {
+    background: #edf2ff; color: #3b5bdb; font-size: .75rem; font-weight: 600;
+    padding: .15rem .5rem; border-radius: 3px; letter-spacing: .04em; text-transform: uppercase;
+  }
+
+  .news-gallery {
+    display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin: .8rem 0 1.2rem;
+  }
+  .news-gallery.cols-1 { grid-template-columns: 1fr; }
+
+  figure.news-fig { margin: 0; }
+  figure.news-fig img { width: 100%; border-radius: 5px; display: block; box-shadow: 0 1px 5px rgba(0,0,0,.10); }
+  figure.news-fig figcaption { font-size: .78rem; color: var(--muted); margin-top: .35rem; line-height: 1.45; }
+
+  .news-pdf-link {
+    display: inline-flex; align-items: center; gap: .45rem;
+    background: #f1f3f5; border: 1px solid var(--border); border-radius: 6px;
+    padding: .45rem .9rem; font-size: .88rem; font-weight: 600; color: var(--dark);
+    text-decoration: none; transition: background .2s, border-color .2s; margin: .5rem 0 1rem;
+  }
+  .news-pdf-link:hover { background: #e9ecef; border-color: #ced4da; text-decoration: none; }
+  .news-pdf-link .fa { color: #e03131; font-size: .95rem; }
+
+  .news-back {
+    font-size: .82rem; color: var(--muted); margin-bottom: 1.5rem; display: block;
+  }
+  .news-back a { color: var(--muted); }
+  .news-back a:hover { color: var(--blue); }
+
+  @media (max-width: 640px) {
+    .news-gallery { grid-template-columns: 1fr; }
+  }
+</style>
+
+<main>
+  <p class="news-back"><a href="../">← Todas las noticias</a></p>
+
+  <h1>Premio Most Influential Paper de VISSOFT 2026 — Diez años de visualización accionable</h1>
+
+  <div class="article-meta">
+    <span>15 de septiembre de 2026 — Benevento, Italia</span>
+    <span class="meta-tag">VISSOFT 2026</span>
+    <span class="meta-tag">Premio MIP</span>
+    <span class="meta-tag">Best Paper</span>
+  </div>
+
+  <p>
+    En
+    <a href="https://vissoft.info/2026/" target="_blank" rel="noopener">VISSOFT 2026</a>
+    — la 14.ª Conferencia Internacional IEEE sobre Visualización de Software, celebrada en Benevento, Italia (14–15 de septiembre de 2026) —
+    el artículo <em>"Towards Actionable Visualisation in Software Development"</em> recibió el
+    <strong>Premio al Artículo Más Influyente (Most Influential Paper, MIP)</strong>.
+    El galardón fue entregado a los co-autores Leonel Merino,
+    <a href="https://mghafari.com/" target="_blank" rel="noopener">Mohammad Ghafari</a> y
+    <a href="http://scg.unibe.ch/staff/oscar" target="_blank" rel="noopener">Oscar Nierstrasz</a>
+    por los co-presidentes del comité MIP, Johan Fabry y Wilhelm Hasselbring.
+  </p>
+
+  <div class="news-gallery cols-1">
+    <figure class="news-fig">
+      <img src="/images/news/vissoft-mip-2026/mip-ceremony.jpg"
+           alt="Ceremonia del premio MIP en VISSOFT 2026: de izquierda a derecha, Takashi Ishio, Oscar Nierstrasz y David Moreno" />
+      <figcaption>
+        Ceremonia del Premio MIP en VISSOFT 2026, Benevento, Italia, 15 de septiembre de 2026.
+        De izquierda a derecha: Takashi Ishio (Co-Chair General), Oscar Nierstrasz (co-autor, con el diploma),
+        David Moreno (Co-Chair General). El diploma del premio puede verse en la pantalla de proyección.
+      </figcaption>
+    </figure>
+  </div>
+
+  <h3>El artículo original (VISSOFT 2016)</h3>
+
+  <p>
+    El artículo original fue publicado en
+    <a href="https://vissoft.info/2016/" target="_blank" rel="noopener">VISSOFT 2016</a>
+    (4.ª Conferencia Internacional IEEE sobre Visualización de Software, Raleigh, NC, EE.UU., 3–4 de octubre de 2016),
+    donde también obtuvo el <strong>Best Paper Award</strong>.
+    El trabajo revisó 346 artículos publicados en las conferencias SOFTVIS/VISSOFT e identificó 65 estudios de diseño que
+    describen cómo se aplica la visualización para resolver dificultades en el desarrollo de software.
+    Los clasificó en dominios de problema, expuso brechas entre las necesidades de los profesionales y el foco de la investigación,
+    y llamó a adoptar un enfoque más accionable en la visualización de software.
+  </p>
+
+  <div class="news-gallery">
+    <figure class="news-fig">
+      <img src="/images/news/vissoft-mip-2026/diploma-2016.jpg"
+           alt="Diploma del Best Paper Award de VISSOFT 2016, entregado a Leonel Merino, Mohammad Ghafari y Oscar Nierstrasz" />
+      <figcaption>
+        Diploma del Best Paper Award de VISSOFT 2016, entregado en la 4.ª Conferencia Internacional IEEE sobre
+        Visualización de Software, Raleigh, NC, EE.UU. — 3–4 de octubre de 2016.
+      </figcaption>
+    </figure>
+    <div style="display:flex; flex-direction:column; justify-content:center;">
+      <a class="news-pdf-link" href="/files/meri2016-actionable-visualisation-vissoft.pdf" target="_blank" rel="noopener">
+        <i class="fas fa-file-pdf"></i> Artículo original — VISSOFT 2016 (PDF)
+      </a>
+    </div>
+  </div>
+
+  <h3>Versión extendida (artículo de revista)</h3>
+
+  <p>
+    Tras el Best Paper Award, los autores fueron invitados a someter una versión extendida al número especial del
+    <em>Journal of Software: Evolution and Process</em> dedicado a VISSOFT 2016.
+    El artículo ampliado, <em>"Towards Actionable Visualization for Software Developers"</em>,
+    extendió el análisis a 86 estudios de diseño identificados entre 368 artículos de SOFTVIS/VISSOFT,
+    incorporando requisitos de recursos y evidencia de utilidad al marco de clasificación.
+  </p>
+
+  <a class="news-pdf-link" href="/files/meri2017-actionable-visualization-journal.pdf" target="_blank" rel="noopener">
+    <i class="fas fa-file-pdf"></i> Versión extendida de revista — postprint (PDF)
+  </a>
+
+  <h3>Diez años después — VISSOFT 2026</h3>
+
+  <p>
+    En VISSOFT 2026, además de recibir el Premio MIP, los autores presentaron un artículo de seguimiento que
+    revisita los hallazgos de 2016 a la luz de una década de cambios:
+    <em>"Towards Actionable Visualization: Ten Years Later, What Generative AI Changes and What It Cannot"</em>.
+    El trabajo reexamina los supuestos y la taxonomía original, y concluye que la IA generativa ha transformado
+    radicalmente la economía de la producción de visualizaciones — haciendo obsoleto el cuello de botella de emparejamiento
+    que motivó el trabajo de 2016 — al tiempo que argumenta que el trabajo humano de percibir, juzgar y dirigir
+    visualizaciones se vuelve <em>más</em> importante, no menos.
+    El artículo propone una agenda de investigación centrada en la capacidad perceptual y evaluativa humana,
+    y confronta los riesgos que surgen cuando las visualizaciones generadas por IA compiten con la interpretación humana.
+  </p>
+
+  <a class="news-pdf-link" href="/files/meri2026-ten-years-later-vissoft.pdf" target="_blank" rel="noopener">
+    <i class="fas fa-file-pdf"></i> Diez años después — VISSOFT 2026 (PDF)
+  </a>
+
+</main>
