@@ -1,0 +1,161 @@
+<style>
+  main h1 { font-size: 1.15rem; font-weight: 700; padding-bottom: .3rem; border-bottom: 1px solid var(--border); margin-bottom: .4rem; }
+  main h2 { font-size: 1rem; font-weight: 700; margin: 1.8rem 0 .5rem; padding-bottom: .25rem; border-bottom: 1px solid var(--border); }
+  main p  { font-size: .95rem; line-height: 1.75; margin-bottom: .85rem; color: var(--dark); }
+  main a  { color: var(--blue); }
+
+  .article-meta {
+    font-size: .82rem; color: var(--muted); margin-bottom: 1.4rem;
+    display: flex; flex-wrap: wrap; gap: .3rem .8rem; align-items: center;
+  }
+  .article-meta .meta-tag {
+    background: #edf2ff; color: #3b5bdb; font-size: .75rem; font-weight: 600;
+    padding: .15rem .5rem; border-radius: 3px; letter-spacing: .04em; text-transform: uppercase;
+  }
+
+  .news-gallery {
+    display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin: .8rem 0 1.2rem;
+  }
+  .news-gallery.cols-1 { grid-template-columns: 1fr; }
+  .news-gallery.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+
+  figure.news-fig { margin: 0; }
+  figure.news-fig img { width: 100%; border-radius: 5px; display: block; box-shadow: 0 1px 5px rgba(0,0,0,.10); }
+  figure.news-fig figcaption { font-size: .78rem; color: var(--muted); margin-top: .35rem; line-height: 1.45; }
+
+  .news-back {
+    font-size: .82rem; color: var(--muted); margin-bottom: 1.5rem; display: block;
+  }
+  .news-back a { color: var(--muted); }
+  .news-back a:hover { color: var(--blue); }
+
+  .funding-note {
+    font-size: .83rem; color: var(--muted); background: #f8f9fa;
+    border-left: 3px solid var(--border); border-radius: 0 4px 4px 0;
+    padding: .6rem .9rem; margin: 1.2rem 0;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 640px) {
+    .news-gallery { grid-template-columns: 1fr; }
+    .news-gallery.cols-3 { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+
+<main>
+  <p class="news-back"><a href="../">← Todas las noticias</a></p>
+
+  <h1>NII Shonan Meeting No. 228 — Visionando el futuro de la ingeniería de software en XR</h1>
+
+  <div class="article-meta">
+    <span>5–8 de octubre de 2026 — Shonan, Japón</span>
+    <span class="meta-tag">NII Shonan</span>
+    <span class="meta-tag">XR</span>
+    <span class="meta-tag">Ingeniería de Software</span>
+    <span class="meta-tag">Invitado</span>
+  </div>
+
+  <p>
+    El Prof. Merino participó en el
+    <a href="https://shonan.nii.ac.jp/seminars/228/" target="_blank" rel="noopener">NII Shonan Meeting No. 228</a>
+    — <em>"Envisioning the Future of (eXtended Reality) Software Engineering"</em> —
+    celebrado en el
+    <a href="https://xr.shonan.si.usi.ch/" target="_blank" rel="noopener">Shonan Village Center</a>,
+    Hayama, Kanagawa, Japón, entre el 5 y el 8 de octubre de 2026.
+    El encuentro fue organizado por Michele Lanza
+    (<a href="https://www.si.usi.ch/" target="_blank" rel="noopener">Software Institute, USI Lugano</a>),
+    Raula Gaikovina Kula (Universidad de Osaka),
+    Jesús González-Barahona (Universidad Rey Juan Carlos) y
+    Nicole Novielli (Universidad de Bari), y fue acogido por el
+    <a href="https://www.nii.ac.jp/en/" target="_blank" rel="noopener">National Institute of Informatics (NII)</a>
+    como parte de la reconocida serie de seminarios NII Shonan.
+  </p>
+
+  <p>
+    El formato Shonan — modelado a imagen de los célebres seminarios Dagstuhl — reúne a un grupo
+    selecto de investigadores durante una semana de discusión intensiva, al margen de las presiones
+    habituales de las conferencias. El seminario exploró cómo la Realidad Extendida (XR), que abarca
+    Realidad Virtual (VR) y Realidad Aumentada (AR), está llamada a transformar todas las áreas de la
+    ingeniería de software: desde la comprensión de programas y el mantenimiento de software hasta la
+    minería de repositorios y la ciencia de datos. Los participantes trabajaron en keynotes de visión,
+    demostraciones con dispositivos XR y grupos de trabajo orientados a identificar grandes retos
+    y trazar hojas de ruta para el emergente campo de la Ingeniería de Software en XR (XRSE).
+  </p>
+
+  <div class="news-gallery">
+    <figure class="news-fig">
+      <img src="/images/news/shonan-2026/shonan-seminar-talk.jpg"
+           alt="Participantes asistiendo a una presentación en el NII Shonan Meeting No. 228" />
+      <figcaption>
+        Una sesión de seminario en el Shonan Village Center — participantes atentos a una de las
+        presentaciones de visión que abrieron las discusiones temáticas del encuentro.
+      </figcaption>
+    </figure>
+    <figure class="news-fig">
+      <img src="/images/news/shonan-2026/shonan-workshop.jpg"
+           alt="Sesión de taller con pizarras y visores XR en el NII Shonan Meeting 228" />
+      <figcaption>
+        Sesión de trabajo práctico: participantes explorando demostraciones con visores VR
+        y discutiendo en grupos frente a las pizarras.
+      </figcaption>
+    </figure>
+  </div>
+
+  <h2>Presentación: Estímulos en XR para estudios de colaboración</h2>
+
+  <p>
+    El Prof. Merino presentó los avances de su grupo de investigación en el uso de técnicas de
+    realidad extendida para construir estímulos en el estudio de la colaboración en ingeniería de software.
+    El trabajo explora cómo los entornos inmersivos de XR pueden servir como escenarios experimentales
+    controlados y reproducibles para la investigación empírica, permitiendo estudiar cómo los
+    desarrolladores colaboran en tareas complejas dentro de espacios virtuales compartidos.
+  </p>
+
+  <p class="funding-note">
+    Esta investigación está financiada por <strong>ANID Exploración 13250116</strong>
+    (Agencia Nacional de Investigación y Desarrollo, Chile), que apoya el desarrollo de infraestructura
+    experimental basada en XR para el estudio de la colaboración en contextos de ingeniería de software.
+  </p>
+
+  <h2>El entorno: Shonan Village y las excursiones</h2>
+
+  <p>
+    El Shonan Village Center se alza sobre una pintoresca colina en Hayama, Kanagawa, con vistas
+    espectaculares al Monte Fuji y a la costa de Shonan. La combinación de excelentes instalaciones
+    para la investigación y el entorno natural crea una atmósfera ideal para el intercambio intelectual
+    profundo. Los participantes disfrutaron de una memorable excursión a la costa local, donde la
+    silueta del Monte Fuji se alzaba sobre el Pacífico en una clara jornada de otoño.
+  </p>
+
+  <div class="news-gallery cols-3">
+    <figure class="news-fig">
+      <img src="/images/news/shonan-2026/shonan-group-stairs.jpg"
+           alt="Foto grupal de los participantes del NII Shonan Meeting 228 en las escaleras exteriores del Shonan Village Center" />
+      <figcaption>
+        Participantes reunidos en las escaleras del jardín del Shonan Village Center.
+      </figcaption>
+    </figure>
+    <figure class="news-fig">
+      <img src="/images/news/shonan-2026/shonan-group-hilltop.jpg"
+           alt="Foto grupal en la colina del Shonan Village Center con cielo azul" />
+      <figcaption>
+        Foto grupal en la cima de la colina del Shonan Village Center bajo un cielo de otoño despejado.
+      </figcaption>
+    </figure>
+    <figure class="news-fig">
+      <img src="/images/news/shonan-2026/shonan-group-fujisan.jpg"
+           alt="Foto grupal junto a la costa de Shonan con el Monte Fuji visible al fondo" />
+      <figcaption>
+        Junto a la costa de Shonan, con el Monte Fuji recortándose sobre la bahía — el punto culminante de la excursión.
+      </figcaption>
+    </figure>
+  </div>
+
+  <p>
+    Fue un privilegio reencontrarme con tantas personas que realizan excelente investigación en temas
+    tan variados, y compartir lo que estamos haciendo en la Pontificia Universidad Católica de Chile.
+    El formato Shonan tiene la capacidad singular de generar ideas que ninguna comunidad podría alcanzar
+    por sí sola — y esta edición no fue la excepción.
+  </p>
+
+</main>
